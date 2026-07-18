@@ -16,6 +16,7 @@ const errors = [];
 const CATEGORIES = new Set([
   "soirees", "reseaux", "ex", "amis", "argent", "quotidien",
   "travail", "famille", "vacances", "seduction", "telephone", "jalousie",
+  "sexe", "projets",
 ]);
 
 for (const c of cards) {

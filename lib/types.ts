@@ -10,7 +10,9 @@ export type Category =
   | "vacances"
   | "seduction"
   | "telephone"
-  | "jalousie";
+  | "jalousie"
+  | "sexe"
+  | "projets";
 
 export interface Card {
   id: number;
@@ -53,4 +55,6 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   seduction: "Séduction",
   telephone: "Téléphone",
   jalousie: "Jalousie",
+  sexe: "Sexe",
+  projets: "Projets",
 };
