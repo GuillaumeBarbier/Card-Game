@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "soirees",
+    "scenario": "Une fille t'embrasse en soirée.",
+    "optionA": "Tromperie",
+    "optionB": "Ça va, c'est une soirée",
+    "spice": 2
+  },
+  {
+    "id": 2,
+    "category": "reseaux",
+    "scenario": "Il like toutes les photos de son ex depuis 2019.",
+    "optionA": "Red flag",
+    "optionB": "Simple politesse",
+    "spice": 2
+  },
+  {
+    "id": 3,
+    "category": "telephone",
+    "scenario": "Elle retourne son téléphone dès que tu t'approches.",
+    "optionA": "Elle cache un truc",
+    "optionB": "Chacun son jardin secret",
+    "spice": 3
+  },
+  {
+    "id": 4,
+    "category": "argent",
+    "scenario": "Il a un compte épargne secret « au cas où ».",
+    "optionA": "Trahison",
+    "optionB": "Prévoyant, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 5,
+    "category": "ex",
+    "scenario": "Son ex lui souhaite son anniversaire à minuit pile.",
+    "optionA": "C'est chaud",
+    "optionB": "C'est mignon",
+    "spice": 2
+  },
+  {
+    "id": 6,
+    "category": "quotidien",
+    "scenario": "Elle mange les frites de ton assiette après avoir dit « je n'ai pas faim ».",
+    "optionA": "Crime impardonnable",
+    "optionB": "C'est l'amour",
+    "spice": 1
+  }
+]
