@@ -1,4 +1,4 @@
-# Déploiement — entrenous.mooving-brands.com
+# Déploiement — entrenous.guillaume-barbier.com
 
 Stack VPS Hostinger habituel : Docker + GHCR + Traefik + Watchtower.
 Le repo contient déjà `Dockerfile`, `.dockerignore` et le workflow GitHub
@@ -17,20 +17,20 @@ Après le premier run vert de GitHub Actions :
 
 ### 2. DNS
 
-Ajouter dans la zone `mooving-brands.com` :
+Ajouter dans la zone `guillaume-barbier.com` :
 
 | Type | Name | Value | TTL |
 |---|---|---|---|
 | A | `entrenous` | `69.62.109.49` | 300 |
 
-Vérifier : `dig +short entrenous.mooving-brands.com` → `69.62.109.49`
+Vérifier : `dig +short entrenous.guillaume-barbier.com` → `69.62.109.49`
 
 ### 3. Premier déploiement sur le VPS
 
 En SSH sur `root@69.62.109.49`, copier-coller le bloc :
 
 ```bash
-dig +short entrenous.mooving-brands.com
+dig +short entrenous.guillaume-barbier.com
 docker pull ghcr.io/guillaumebarbier/card-game:latest
 
 mkdir -p /root/card-game && cd /root/card-game
@@ -48,10 +48,10 @@ services:
       - traefik.enable=true
       - traefik.docker.network=root_default
       - traefik.http.routers.card-game-http.entrypoints=web
-      - traefik.http.routers.card-game-http.rule=Host(`entrenous.mooving-brands.com`)
+      - traefik.http.routers.card-game-http.rule=Host(`entrenous.guillaume-barbier.com`)
       - traefik.http.routers.card-game-http.middlewares=redirect-to-https@docker
       - traefik.http.routers.card-game.entrypoints=websecure
-      - traefik.http.routers.card-game.rule=Host(`entrenous.mooving-brands.com`)
+      - traefik.http.routers.card-game.rule=Host(`entrenous.guillaume-barbier.com`)
       - traefik.http.routers.card-game.tls=true
       - traefik.http.routers.card-game.tls.certresolver=mytlschallenge
       - traefik.http.routers.card-game.middlewares=card-game-security-headers
@@ -78,7 +78,7 @@ docker logs card-game --tail 20
 
 ## Test sur iPhone
 
-1. Ouvrir https://entrenous.mooving-brands.com dans Safari
+1. Ouvrir https://entrenous.guillaume-barbier.com dans Safari
    (le **premier hit prend 10-15 s** — négociation du certificat Let's Encrypt, c'est normal).
 2. Partager → **« Sur l'écran d'accueil »** : l'app s'installe comme une vraie
    app plein écran (PWA, barre de statut sombre, icône dédiée).
