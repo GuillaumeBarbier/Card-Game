@@ -173,12 +173,17 @@ export default function Home({ decks }: { decks: Deck[] }) {
                   Jouer sur ce téléphone
                 </button>
                 <button
-                  disabled
-                  className="w-full rounded-full border border-line py-4 text-mist"
+                  onClick={() => {
+                    if (!sheet) return;
+                    saveProfile({ p1: p1.trim(), p2: p2.trim() });
+                    vibrate(15);
+                    router.push(`/room?deck=${sheet.slug}`);
+                  }}
+                  className="w-full rounded-full border border-cream/30 py-4 font-medium text-cream active:scale-[0.98] transition-transform"
                 >
                   Jouer à distance
                   <span className="ml-2 rounded-full bg-white/10 px-2 py-0.5 text-[0.6rem] uppercase tracking-widest">
-                    Bientôt
+                    2 téléphones
                   </span>
                 </button>
               </div>
