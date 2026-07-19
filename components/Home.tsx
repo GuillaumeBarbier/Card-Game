@@ -58,7 +58,7 @@ function DeckTile({ deck, onOpen }: { deck: Deck; onOpen: () => void }) {
   );
 }
 
-export default function Home({ decks }: { decks: Deck[] }) {
+export default function Home({ decks, version }: { decks: Deck[]; version: string }) {
   const router = useRouter();
   const [sheet, setSheet] = useState<Deck | null>(null);
   const [p1, setP1] = useState("");
@@ -125,6 +125,13 @@ export default function Home({ decks }: { decks: Deck[] }) {
           ))}
         </motion.section>
       </div>
+
+      <p
+        className="pb-safe pointer-events-none fixed bottom-1 left-3 text-[0.55rem] tracking-wider text-cream/25"
+        aria-hidden
+      >
+        {version}
+      </p>
 
       {/* start sheet */}
       <AnimatePresence>
