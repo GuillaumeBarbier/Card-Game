@@ -77,7 +77,7 @@ export default function CardStack({
               animate={{
                 scale: 1 - depth * 0.045,
                 y: depth * 14,
-                opacity: 1 - depth * 0.18,
+                filter: `brightness(${1 - depth * 0.14})`,
               }}
               transition={{ type: "spring", stiffness: 300, damping: 30 }}
             >
@@ -96,8 +96,8 @@ export default function CardStack({
           dragElastic={canSwipe ? 0.9 : 0.15}
           dragMomentum={false}
           onDragEnd={handleDragEnd}
-          initial={{ scale: 0.955, y: 14, opacity: 0.85 }}
-          animate={{ scale: 1, y: 0, opacity: 1 }}
+          initial={{ scale: 0.955, y: 14, filter: "brightness(0.86)" }}
+          animate={{ scale: 1, y: 0, filter: "brightness(1)" }}
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
         >
           <GameCard card={front} index={position} total={total} />
