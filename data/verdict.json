@@ -9,42 +9,2914 @@
   },
   {
     "id": 2,
-    "category": "reseaux",
-    "scenario": "Il like toutes les photos de son ex depuis 2019.",
-    "optionA": "Red flag",
-    "optionB": "Simple politesse",
+    "category": "soirees",
+    "scenario": "Ton copain rentre à 6h du mat sans prévenir, téléphone éteint.",
+    "optionA": "Nuit d'interrogatoire",
+    "optionB": "Il a vécu sa vie",
     "spice": 2
   },
   {
     "id": 3,
-    "category": "telephone",
-    "scenario": "Elle retourne son téléphone dès que tu t'approches.",
-    "optionA": "Elle cache un truc",
-    "optionB": "Chacun son jardin secret",
-    "spice": 3
+    "category": "soirees",
+    "scenario": "Ta copine danse un slow très collé avec un inconnu.",
+    "optionA": "Red flag géant",
+    "optionB": "C'est juste un slow",
+    "spice": 2
   },
   {
     "id": 4,
-    "category": "argent",
-    "scenario": "Il a un compte épargne secret « au cas où ».",
-    "optionA": "Trahison",
-    "optionB": "Prévoyant, c'est tout",
+    "category": "soirees",
+    "scenario": "Un inconnu paie des verres à ta copine toute la soirée et elle accepte.",
+    "optionA": "Elle valide la drague",
+    "optionB": "Verres gratuits, elle gère",
     "spice": 2
   },
   {
     "id": 5,
-    "category": "ex",
-    "scenario": "Son ex lui souhaite son anniversaire à minuit pile.",
-    "optionA": "C'est chaud",
-    "optionB": "C'est mignon",
-    "spice": 2
+    "category": "soirees",
+    "scenario": "Ton mec va à une soirée où son ex sera présente, sans te le dire.",
+    "optionA": "Mensonge par omission",
+    "optionB": "Il y a pas pensé, c'est tout",
+    "spice": 3
   },
   {
     "id": 6,
-    "category": "quotidien",
-    "scenario": "Elle mange les frites de ton assiette après avoir dit « je n'ai pas faim ».",
-    "optionA": "Crime impardonnable",
-    "optionB": "C'est l'amour",
+    "category": "soirees",
+    "scenario": "Ta moitié sort en boîte pendant que tu es malade au lit.",
+    "optionA": "Abandon caractérisé",
+    "optionB": "Un rhume, pas un deuil",
     "spice": 1
+  },
+  {
+    "id": 7,
+    "category": "reseaux",
+    "scenario": "Ton mec like toutes les photos en bikini d'une influenceuse.",
+    "optionA": "Micro-tromperie",
+    "optionB": "Il like, il touche pas",
+    "spice": 2
+  },
+  {
+    "id": 8,
+    "category": "reseaux",
+    "scenario": "Ta copine a un deuxième compte Insta que tu ne connais pas.",
+    "optionA": "Double vie numérique",
+    "optionB": "Jardin secret 2.0",
+    "spice": 3
+  },
+  {
+    "id": 9,
+    "category": "reseaux",
+    "scenario": "Votre couple a deux ans et il n'y a zéro photo de vous sur ses réseaux.",
+    "optionA": "Il te cache",
+    "optionB": "L'amour discret existe",
+    "spice": 2
+  },
+  {
+    "id": 10,
+    "category": "reseaux",
+    "scenario": "Ta moitié répond « haha » aux DM d'un inconnu qui la drague.",
+    "optionA": "Elle entretient la flamme",
+    "optionB": "Elle est juste polie",
+    "spice": 2
+  },
+  {
+    "id": 11,
+    "category": "reseaux",
+    "scenario": "Ton copain regarde toujours la story de la même fille en premier.",
+    "optionA": "L'algorithme dit tout",
+    "optionB": "Coïncidence, détends-toi",
+    "spice": 1
+  },
+  {
+    "id": 12,
+    "category": "reseaux",
+    "scenario": "Ta copine masque certaines stories… à toi uniquement.",
+    "optionA": "Aveu de culpabilité",
+    "optionB": "Elle a ses raisons",
+    "spice": 3
+  },
+  {
+    "id": 13,
+    "category": "ex",
+    "scenario": "Ton mec répond « merci, ça me touche » au message d'anniversaire de son ex.",
+    "optionA": "Porte entrouverte",
+    "optionB": "Politesse basique",
+    "spice": 1
+  },
+  {
+    "id": 14,
+    "category": "ex",
+    "scenario": "Ta copine a gardé le hoodie de son ex et le porte pour dormir.",
+    "optionA": "Elle dort avec son passé",
+    "optionB": "C'est juste du coton",
+    "spice": 2
+  },
+  {
+    "id": 15,
+    "category": "ex",
+    "scenario": "Ton copain prend un café « entre amis » avec son ex sans te prévenir.",
+    "optionA": "Rencard déguisé",
+    "optionB": "Un café, pas un motel",
+    "spice": 3
+  },
+  {
+    "id": 16,
+    "category": "ex",
+    "scenario": "Ta moitié est restée amie avec absolument tous ses ex.",
+    "optionA": "Collection suspecte",
+    "optionB": "Signe de maturité",
+    "spice": 2
+  },
+  {
+    "id": 17,
+    "category": "ex",
+    "scenario": "Ton ex t'écrit « tu me manques » à 2h du matin. Tu ne réponds pas, mais tu ne supprimes pas.",
+    "optionA": "Tu gardes un plan B",
+    "optionB": "Ignorer suffit largement",
+    "spice": 3
+  },
+  {
+    "id": 18,
+    "category": "ex",
+    "scenario": "Ton copain compare ta lasagne à celle de son ex. Elle gagne.",
+    "optionA": "Crime impardonnable",
+    "optionB": "C'est peut-être vrai",
+    "spice": 1
+  },
+  {
+    "id": 19,
+    "category": "amis",
+    "scenario": "Ta copine dort chez son meilleur ami après une soirée, « c'était plus simple ».",
+    "optionA": "Rien n'est plus simple",
+    "optionB": "Canapé = innocence",
+    "spice": 3
+  },
+  {
+    "id": 20,
+    "category": "amis",
+    "scenario": "Ton mec raconte toutes vos disputes à sa bande de potes.",
+    "optionA": "Trahison de vestiaire",
+    "optionB": "Il a besoin de débriefer",
+    "spice": 2
+  },
+  {
+    "id": 21,
+    "category": "amis",
+    "scenario": "Le meilleur ami de ta copine lui écrit « bonne nuit 😘 » tous les soirs.",
+    "optionA": "C'est pas un ami",
+    "optionB": "Ils sont tactiles, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 22,
+    "category": "amis",
+    "scenario": "Ta meilleure amie déteste ton copain et te le rappelle à chaque brunch.",
+    "optionA": "Elle voit un truc",
+    "optionB": "Elle est juste jalouse",
+    "spice": 2
+  },
+  {
+    "id": 23,
+    "category": "amis",
+    "scenario": "Ton copain annule votre resto pour la « crise existentielle » de son pote. Troisième fois ce mois-ci.",
+    "optionA": "Tu passes après",
+    "optionB": "C'est beau l'amitié",
+    "spice": 1
+  },
+  {
+    "id": 24,
+    "category": "amis",
+    "scenario": "Un ami de ta copine lui avoue ses sentiments. Elle décide de rester amie avec lui.",
+    "optionA": "Bombe à retardement",
+    "optionB": "Elle gère, aie confiance",
+    "spice": 3
+  },
+  {
+    "id": 25,
+    "category": "argent",
+    "scenario": "Ton mec a un compte épargne secret « au cas où ».",
+    "optionA": "Il prépare sa sortie",
+    "optionB": "Prudence de bon père",
+    "spice": 3
+  },
+  {
+    "id": 26,
+    "category": "argent",
+    "scenario": "Ta copine dit que son sac a coûté 40 €. Tu découvres l'étiquette : 400 €.",
+    "optionA": "Mensonge, c'est mensonge",
+    "optionB": "C'était soldé dans son cœur",
+    "spice": 2
+  },
+  {
+    "id": 27,
+    "category": "argent",
+    "scenario": "Après 5 ans de couple, il veut encore diviser chaque addition à 50/50, au centime près.",
+    "optionA": "Comptable, pas amoureux",
+    "optionB": "L'équité, c'est sexy",
+    "spice": 1
+  },
+  {
+    "id": 28,
+    "category": "argent",
+    "scenario": "Ta moitié refuse de te dire son salaire.",
+    "optionA": "Zéro confiance",
+    "optionB": "Ça ne te regarde pas",
+    "spice": 2
+  },
+  {
+    "id": 29,
+    "category": "argent",
+    "scenario": "Ton copain prête 2 000 € à son frère sans t'en parler.",
+    "optionA": "Décision de couple ignorée",
+    "optionB": "Son argent, son frère",
+    "spice": 3
+  },
+  {
+    "id": 30,
+    "category": "argent",
+    "scenario": "Ta copine offre un cadeau plus cher à son meilleur ami qu'à toi à Noël.",
+    "optionA": "Hiérarchie révélée",
+    "optionB": "Un cadeau, pas un classement",
+    "spice": 1
+  },
+  {
+    "id": 31,
+    "category": "quotidien",
+    "scenario": "Ton mec regarde en cachette la suite de VOTRE série.",
+    "optionA": "Haute trahison",
+    "optionB": "C'est qu'une série",
+    "spice": 1
+  },
+  {
+    "id": 32,
+    "category": "quotidien",
+    "scenario": "Ta copine répond « ok » à ton pavé de 12 lignes.",
+    "optionA": "Elle s'en fiche de toi",
+    "optionB": "Elle a résumé, c'est efficace",
+    "spice": 1
+  },
+  {
+    "id": 33,
+    "category": "quotidien",
+    "scenario": "Ton copain est sur son téléphone pendant tout le dîner en tête-à-tête.",
+    "optionA": "Tu dînes seule",
+    "optionB": "Il t'écoute, promis",
+    "spice": 2
+  },
+  {
+    "id": 34,
+    "category": "quotidien",
+    "scenario": "Ta moitié mange le dessert que tu gardais précieusement depuis trois jours.",
+    "optionA": "Motif de rupture valable",
+    "optionB": "Fallait le manger avant",
+    "spice": 1
+  },
+  {
+    "id": 35,
+    "category": "quotidien",
+    "scenario": "Il oublie votre anniversaire de couple mais connaît la date de sortie des sneakers.",
+    "optionA": "Priorités éclatées",
+    "optionB": "Il rattrapera, ça arrive",
+    "spice": 2
+  },
+  {
+    "id": 36,
+    "category": "quotidien",
+    "scenario": "Ta copine veut faire chambre à part parce que tu ronfles.",
+    "optionA": "Début de la fin",
+    "optionB": "Dormir, c'est la santé",
+    "spice": 3
+  },
+  {
+    "id": 37,
+    "category": "travail",
+    "scenario": "Ton mec déjeune en tête-à-tête avec la même collègue tous les midis.",
+    "optionA": "C'est sa work wife",
+    "optionB": "C'est juste la cantine",
+    "spice": 2
+  },
+  {
+    "id": 38,
+    "category": "travail",
+    "scenario": "Ta copine part en séminaire trois jours avec son collègue « super drôle ».",
+    "optionA": "Surveillance rapprochée requise",
+    "optionB": "C'est le travail",
+    "spice": 2
+  },
+  {
+    "id": 39,
+    "category": "travail",
+    "scenario": "Ton copain reste tard au bureau… toujours les soirs où SA collègue reste aussi.",
+    "optionA": "Heures sup' douteuses",
+    "optionB": "Ils bossent, c'est tout",
+    "spice": 3
+  },
+  {
+    "id": 40,
+    "category": "travail",
+    "scenario": "Sa collègue lui envoie des memes à 23h et il rigole tout seul.",
+    "optionA": "23h, c'est plus du travail",
+    "optionB": "Un meme reste un meme",
+    "spice": 2
+  },
+  {
+    "id": 41,
+    "category": "travail",
+    "scenario": "Ta moitié ne t'a jamais invité à un seul événement de sa boîte.",
+    "optionA": "Tu es un secret d'entreprise",
+    "optionB": "Ces soirées sont nulles, vraiment",
+    "spice": 2
+  },
+  {
+    "id": 42,
+    "category": "travail",
+    "scenario": "Ton mec accepte un covoiturage quotidien avec sa collègue plutôt que le bus.",
+    "optionA": "40 minutes seuls par jour",
+    "optionB": "C'est écolo et gratuit",
+    "spice": 1
+  },
+  {
+    "id": 43,
+    "category": "famille",
+    "scenario": "Ta belle-mère a les clés de votre appart et « passe quand elle veut ».",
+    "optionA": "Intrusion organisée",
+    "optionB": "C'est sa façon d'aimer",
+    "spice": 2
+  },
+  {
+    "id": 44,
+    "category": "famille",
+    "scenario": "Ton copain raconte vos disputes à sa mère dans la foulée.",
+    "optionA": "Tu es jugée en direct",
+    "optionB": "Il est proche de sa maman",
+    "spice": 2
+  },
+  {
+    "id": 45,
+    "category": "famille",
+    "scenario": "Ta copine appelle sa mère tous les jours, parfois deux fois.",
+    "optionA": "Cordon non coupé",
+    "optionB": "C'est mignon en vrai",
+    "spice": 1
+  },
+  {
+    "id": 46,
+    "category": "famille",
+    "scenario": "Sa mère critique ta cuisine à table et ta moitié ne dit rien.",
+    "optionA": "Il devait te défendre",
+    "optionB": "Éviter la guerre, c'est sage",
+    "spice": 3
+  },
+  {
+    "id": 47,
+    "category": "famille",
+    "scenario": "Noël, c'est chez SA famille. Depuis 4 ans. Sans négociation.",
+    "optionA": "Dictature familiale",
+    "optionB": "Ils sont plus fun, avoue",
+    "spice": 2
+  },
+  {
+    "id": 48,
+    "category": "famille",
+    "scenario": "Ton mec a 32 ans et sa mère fait encore ses lessives.",
+    "optionA": "Tu sors avec un enfant",
+    "optionB": "Profite, c'est du temps gagné",
+    "spice": 1
+  },
+  {
+    "id": 49,
+    "category": "vacances",
+    "scenario": "Ta copine part une semaine à Ibiza avec ses copines célibataires.",
+    "optionA": "Semaine à haut risque",
+    "optionB": "Bonnes vacances chérie",
+    "spice": 3
+  },
+  {
+    "id": 50,
+    "category": "vacances",
+    "scenario": "Ton mec veut des vacances séparées « pour mieux se retrouver ensuite ».",
+    "optionA": "Il veut des vacances de toi",
+    "optionB": "L'absence nourrit l'amour",
+    "spice": 3
+  },
+  {
+    "id": 51,
+    "category": "vacances",
+    "scenario": "En festival, ta moitié ne donne aucune nouvelle pendant 48h.",
+    "optionA": "Inquiétude légitime maximale",
+    "optionB": "Y a pas de réseau, c'est connu",
+    "spice": 2
+  },
+  {
+    "id": 52,
+    "category": "vacances",
+    "scenario": "Ton copain reste en contact avec une fille « super sympa » rencontrée en vacances.",
+    "optionA": "Souvenir qui doit rester souvenir",
+    "optionB": "On peut se faire des amis",
+    "spice": 2
+  },
+  {
+    "id": 53,
+    "category": "vacances",
+    "scenario": "Ta copine réserve vos vacances sans te consulter. Surprise : randonnée.",
+    "optionA": "Ton avis compte pour rien",
+    "optionB": "Une surprise reste une surprise",
+    "spice": 1
+  },
+  {
+    "id": 54,
+    "category": "vacances",
+    "scenario": "À l'hôtel, l'animateur drague ta copine et elle trouve ça « flatteur ».",
+    "optionA": "Elle kiffe un peu trop",
+    "optionB": "C'est son métier de flatter",
+    "spice": 1
+  },
+  {
+    "id": 55,
+    "category": "seduction",
+    "scenario": "Ton mec dit « si j'étais célibataire… » en rigolant devant la serveuse.",
+    "optionA": "Le fond de sa pensée",
+    "optionB": "Humour de boomer, ça passe",
+    "spice": 2
+  },
+  {
+    "id": 56,
+    "category": "seduction",
+    "scenario": "Ta copine flirte « juste pour avoir des verres gratuits ».",
+    "optionA": "Le flirt, c'est le début",
+    "optionB": "C'est de l'économie circulaire",
+    "spice": 2
+  },
+  {
+    "id": 57,
+    "category": "seduction",
+    "scenario": "Ta moitié donne son Insta à quelqu'un « pour le réseau ».",
+    "optionA": "Le réseau a bon dos",
+    "optionB": "Le networking, ça existe",
+    "spice": 2
+  },
+  {
+    "id": 58,
+    "category": "seduction",
+    "scenario": "Ton copain dit que ta meilleure amie est « objectivement canon ».",
+    "optionA": "Il n'aurait jamais dû",
+    "optionB": "Il est juste honnête",
+    "spice": 3
+  },
+  {
+    "id": 59,
+    "category": "seduction",
+    "scenario": "Ta copine a une liste de célébrités « autorisées » et la met à jour régulièrement.",
+    "optionA": "Elle y croit trop",
+    "optionB": "Jeu inoffensif et drôle",
+    "spice": 1
+  },
+  {
+    "id": 60,
+    "category": "seduction",
+    "scenario": "On drague ton mec au bar. Il ne précise pas qu'il est en couple.",
+    "optionA": "Omission stratégique",
+    "optionB": "Il gère la situation",
+    "spice": 3
+  },
+  {
+    "id": 61,
+    "category": "telephone",
+    "scenario": "Ton copain change son code de téléphone du jour au lendemain.",
+    "optionA": "Il a un truc à cacher",
+    "optionB": "Sécurité de base",
+    "spice": 3
+  },
+  {
+    "id": 62,
+    "category": "telephone",
+    "scenario": "Ta copine pose toujours son téléphone écran contre la table.",
+    "optionA": "Réflexe de coupable",
+    "optionB": "Habitude sans malice",
+    "spice": 2
+  },
+  {
+    "id": 63,
+    "category": "telephone",
+    "scenario": "Ton mec supprime ses conversations « pour faire de la place ».",
+    "optionA": "Le stockage a bon dos",
+    "optionB": "Il est juste organisé",
+    "spice": 3
+  },
+  {
+    "id": 64,
+    "category": "telephone",
+    "scenario": "Ta moitié emmène son téléphone même pour une douche de 4 minutes.",
+    "optionA": "Le téléphone sait tout",
+    "optionB": "Playlist sous la douche",
+    "spice": 1
+  },
+  {
+    "id": 65,
+    "category": "telephone",
+    "scenario": "Tu proposes d'échanger vos codes. Ta copine refuse net.",
+    "optionA": "Refus très parlant",
+    "optionB": "L'intimité, c'est sacré",
+    "spice": 3
+  },
+  {
+    "id": 66,
+    "category": "telephone",
+    "scenario": "Ton copain répond à ses potes en 30 secondes, à toi en 4 heures.",
+    "optionA": "Tu n'es pas la priorité",
+    "optionB": "Il vit sa vie, respire",
+    "spice": 2
+  },
+  {
+    "id": 67,
+    "category": "jalousie",
+    "scenario": "Ta copine veut checker ton téléphone chaque dimanche « pour la transparence ».",
+    "optionA": "Douane hebdomadaire, non merci",
+    "optionB": "Rien à cacher, rien à craindre",
+    "spice": 3
+  },
+  {
+    "id": 68,
+    "category": "jalousie",
+    "scenario": "Ton mec t'appelle 9 fois pendant ta soirée entre copines.",
+    "optionA": "Étouffement caractérisé",
+    "optionB": "Il s'inquiète, c'est mignon",
+    "spice": 2
+  },
+  {
+    "id": 69,
+    "category": "jalousie",
+    "scenario": "Ta moitié boude parce que tu as trouvé un acteur « très beau ».",
+    "optionA": "Jalousie hors sol",
+    "optionB": "Ça pique, c'est humain",
+    "spice": 1
+  },
+  {
+    "id": 70,
+    "category": "jalousie",
+    "scenario": "Ton copain veut que tu supprimes tous tes amis hommes de tes réseaux.",
+    "optionA": "Ultimatum toxique",
+    "optionB": "Preuve d'amour un peu brute",
+    "spice": 3
+  },
+  {
+    "id": 71,
+    "category": "jalousie",
+    "scenario": "Ta copine « passe par hasard » devant le bar où tu es avec tes potes.",
+    "optionA": "Filature amateur",
+    "optionB": "Le quartier est à tout le monde",
+    "spice": 2
+  },
+  {
+    "id": 72,
+    "category": "jalousie",
+    "scenario": "Ton mec est jaloux… du chien qui dort entre vous.",
+    "optionA": "Il est sérieux, là ?",
+    "optionB": "Le chien prend trop de place",
+    "spice": 1
+  },
+  {
+    "id": 73,
+    "category": "soirees",
+    "scenario": "Ta copine rentre de soirée avec le pull d'un inconnu sur le dos.",
+    "optionA": "Explication immédiate exigée",
+    "optionB": "Elle avait froid, point",
+    "spice": 2
+  },
+  {
+    "id": 74,
+    "category": "soirees",
+    "scenario": "Ta copine instaure une règle : « soirées filles = interdit aux copains ». Zéro exception.",
+    "optionA": "Qu'est-ce qu'elles cachent ?",
+    "optionB": "Sacré, comme le brunch",
+    "spice": 2
+  },
+  {
+    "id": 75,
+    "category": "soirees",
+    "scenario": "Ton mec fait un karaoké en duo ultra complice sur une chanson d'amour avec une inconnue.",
+    "optionA": "Duo trop habité",
+    "optionB": "C'est du spectacle",
+    "spice": 1
+  },
+  {
+    "id": 76,
+    "category": "soirees",
+    "scenario": "Ta moitié part en after chez des inconnus jusqu'à 9h du matin.",
+    "optionA": "L'after de trop",
+    "optionB": "La nuit appartient aux vivants",
+    "spice": 2
+  },
+  {
+    "id": 77,
+    "category": "soirees",
+    "scenario": "Ton copain revient de soirée avec un bleu suspect dans le cou. « Je me suis cogné. »",
+    "optionA": "Cogné contre une bouche",
+    "optionB": "Ça arrive, les portes",
+    "spice": 3
+  },
+  {
+    "id": 78,
+    "category": "soirees",
+    "scenario": "Ta copine refuse de te dire qui était à la soirée d'hier.",
+    "optionA": "Liste d'invités classifiée",
+    "optionB": "Tu n'es pas la police",
+    "spice": 3
+  },
+  {
+    "id": 79,
+    "category": "reseaux",
+    "scenario": "Ton mec a toujours Tinder « désinstallé mais pas supprimé ».",
+    "optionA": "Compte dormant = compte",
+    "optionB": "La flemme, c'est tout",
+    "spice": 3
+  },
+  {
+    "id": 80,
+    "category": "reseaux",
+    "scenario": "Ta copine répond « 😍 » à la story d'un autre mec.",
+    "optionA": "Un emoji qui dit tout",
+    "optionB": "Elle réagissait à la pizza",
+    "spice": 2
+  },
+  {
+    "id": 81,
+    "category": "reseaux",
+    "scenario": "Ton copain a une flamme Snap de 400 jours avec une fille que tu n'as jamais vue.",
+    "optionA": "400 jours de quoi, exactement ?",
+    "optionB": "C'est juste un jeu de streak",
+    "spice": 3
+  },
+  {
+    "id": 82,
+    "category": "reseaux",
+    "scenario": "Ta copine fait un sondage Insta « je le quitte ? 😂 » pour rigoler.",
+    "optionA": "On ne rigole pas avec ça",
+    "optionB": "C'est du contenu, chill",
+    "spice": 1
+  },
+  {
+    "id": 83,
+    "category": "reseaux",
+    "scenario": "Ton mec supprime les commentaires de filles sous ses photos avant que tu les voies.",
+    "optionA": "Nettoyage de scène de crime",
+    "optionB": "Il t'évite du tracas",
+    "spice": 3
+  },
+  {
+    "id": 84,
+    "category": "ex",
+    "scenario": "Ta copine a gardé son ex dans ses contacts avec un cœur à côté du prénom.",
+    "optionA": "Le cœur doit sauter",
+    "optionB": "Vieux contact, vieille vie",
+    "spice": 2
+  },
+  {
+    "id": 85,
+    "category": "ex",
+    "scenario": "Ton mec est invité au mariage de son ex. Il veut y aller.",
+    "optionA": "Il n'a rien à y faire",
+    "optionB": "C'est beau de rester amis",
+    "spice": 3
+  },
+  {
+    "id": 86,
+    "category": "ex",
+    "scenario": "Ta moitié console son ex au téléphone après sa rupture, jusqu'à 1h du mat.",
+    "optionA": "Service après-vente abusif",
+    "optionB": "On ne jette pas les gens",
+    "spice": 3
+  },
+  {
+    "id": 87,
+    "category": "ex",
+    "scenario": "Ton copain t'appelle par le prénom de son ex. Une fois. Une seule.",
+    "optionA": "Une fois de trop",
+    "optionB": "Le cerveau bugue parfois",
+    "spice": 2
+  },
+  {
+    "id": 88,
+    "category": "ex",
+    "scenario": "L'ex de ton mec lui demande de l'aide pour monter un meuble.",
+    "optionA": "IKEA n'excuse rien",
+    "optionB": "Un meuble, pas un rencard",
+    "spice": 1
+  },
+  {
+    "id": 89,
+    "category": "amis",
+    "scenario": "Ta copine raconte vos problèmes de couple à son meilleur ami avant même de t'en parler.",
+    "optionA": "Tu es le dernier informé",
+    "optionB": "Elle a besoin d'un avis",
+    "spice": 2
+  },
+  {
+    "id": 90,
+    "category": "amis",
+    "scenario": "Ton mec part en week-end entre potes avec, dans le groupe, une fille qui le drague ouvertement.",
+    "optionA": "Week-end sous surveillance",
+    "optionB": "Il sait dire non",
+    "spice": 3
+  },
+  {
+    "id": 91,
+    "category": "amis",
+    "scenario": "Les potes de ta copine ont un surnom moqueur pour toi dans leur groupe WhatsApp.",
+    "optionA": "Elle aurait dû te défendre",
+    "optionB": "Un surnom, c'est de l'affection",
+    "spice": 1
+  },
+  {
+    "id": 92,
+    "category": "amis",
+    "scenario": "Ta moitié refuse de te présenter à ses amis après 8 mois.",
+    "optionA": "Tu es un secret",
+    "optionB": "Elle protège sa bulle",
+    "spice": 3
+  },
+  {
+    "id": 93,
+    "category": "amis",
+    "scenario": "Le pote de ton mec squatte votre canapé depuis un mois, « le temps de rebondir ».",
+    "optionA": "Colocation non consentie",
+    "optionB": "On n'abandonne pas un frère",
+    "spice": 1
+  },
+  {
+    "id": 94,
+    "category": "argent",
+    "scenario": "Ta copine cache ses achats dans le coffre de la voiture et les sort « petit à petit ».",
+    "optionA": "Contrebande textile",
+    "optionB": "Technique ancestrale, respect",
+    "spice": 1
+  },
+  {
+    "id": 95,
+    "category": "argent",
+    "scenario": "Ton mec joue au poker en ligne, « juste 20 € par-ci par-là ».",
+    "optionA": "Pente très glissante",
+    "optionB": "Son argent, son loisir",
+    "spice": 2
+  },
+  {
+    "id": 96,
+    "category": "argent",
+    "scenario": "Ta moitié utilise ta carte bleue « parce que c'était plus simple ».",
+    "optionA": "Emprunt non autorisé",
+    "optionB": "Ce qui est à toi est à nous",
+    "spice": 2
+  },
+  {
+    "id": 97,
+    "category": "argent",
+    "scenario": "Ton mec veut un contrat de mariage « pour protéger tout le monde ».",
+    "optionA": "Il doute déjà",
+    "optionB": "C'est juste pragmatique",
+    "spice": 3
+  },
+  {
+    "id": 98,
+    "category": "argent",
+    "scenario": "Ta copine rapporte ton cadeau au magasin et récupère l'argent.",
+    "optionA": "Le geste est piétiné",
+    "optionB": "Au moins, c'est utile",
+    "spice": 2
+  },
+  {
+    "id": 99,
+    "category": "quotidien",
+    "scenario": "Ton copain dit « j'arrive dans 5 minutes » et joue encore 1h30.",
+    "optionA": "Mensonge quotidien organisé",
+    "optionB": "5 minutes gamer, c'est connu",
+    "spice": 1
+  },
+  {
+    "id": 100,
+    "category": "quotidien",
+    "scenario": "Ta copine jette ton vieux t-shirt fétiche « par accident ».",
+    "optionA": "Acte prémédité",
+    "optionB": "Il était temps, avoue",
+    "spice": 1
+  },
+  {
+    "id": 101,
+    "category": "quotidien",
+    "scenario": "Ton mec ne dit jamais pardon en premier. Jamais.",
+    "optionA": "Ego plus fort que vous",
+    "optionB": "Toi non plus, soyons honnêtes",
+    "spice": 2
+  },
+  {
+    "id": 102,
+    "category": "quotidien",
+    "scenario": "Ta copine spoile la fin du film parce que « tu l'aurais deviné ».",
+    "optionA": "Sabotage pur",
+    "optionB": "C'était évident, en vrai",
+    "spice": 1
+  },
+  {
+    "id": 103,
+    "category": "quotidien",
+    "scenario": "Ton copain redécore le salon pendant ton week-end chez tes parents.",
+    "optionA": "Coup d'État déco",
+    "optionB": "Il a pris des initiatives",
+    "spice": 2
+  },
+  {
+    "id": 104,
+    "category": "travail",
+    "scenario": "Ta copine a un « mari de bureau » et l'appelle comme ça devant toi.",
+    "optionA": "Divorce du bureau exigé",
+    "optionB": "Expression à la mode",
+    "spice": 2
+  },
+  {
+    "id": 105,
+    "category": "travail",
+    "scenario": "Ton mec enlève son alliance quand il part en conférence.",
+    "optionA": "Célibataire en déplacement",
+    "optionB": "C'est pour ne pas la rayer",
+    "spice": 3
+  },
+  {
+    "id": 106,
+    "category": "travail",
+    "scenario": "Ta moitié passe un entretien dans une autre ville sans t'en parler.",
+    "optionA": "Elle planifie sans toi",
+    "optionB": "Rien n'était encore concret",
+    "spice": 3
+  },
+  {
+    "id": 107,
+    "category": "travail",
+    "scenario": "Le boss de ta copine complimente ses tenues. Elle adore.",
+    "optionA": "Terrain très glissant",
+    "optionB": "Un compliment fait du bien",
+    "spice": 2
+  },
+  {
+    "id": 108,
+    "category": "travail",
+    "scenario": "Ton copain confie vos problèmes de couple à sa collègue « de confiance ».",
+    "optionA": "Thérapeute non agréée",
+    "optionB": "Il faut bien parler à quelqu'un",
+    "spice": 3
+  },
+  {
+    "id": 109,
+    "category": "famille",
+    "scenario": "Ton mec te cache à sa famille depuis un an, « en attendant le bon moment ».",
+    "optionA": "Le bon moment n'existera jamais",
+    "optionB": "Sa famille est compliquée",
+    "spice": 3
+  },
+  {
+    "id": 110,
+    "category": "famille",
+    "scenario": "Ta copine compare ton salaire à celui du mari de sa sœur.",
+    "optionA": "Concours dégradant",
+    "optionB": "Simple observation factuelle",
+    "spice": 2
+  },
+  {
+    "id": 111,
+    "category": "famille",
+    "scenario": "Le père de ta copine t'appelle « le nouveau » après trois ans.",
+    "optionA": "Manque de respect assumé",
+    "optionB": "Humour de beau-père",
+    "spice": 1
+  },
+  {
+    "id": 112,
+    "category": "famille",
+    "scenario": "Ton copain veut habiter dans la même rue que ses parents.",
+    "optionA": "Trop proche pour être sain",
+    "optionB": "Malin pour la logistique",
+    "spice": 2
+  },
+  {
+    "id": 113,
+    "category": "famille",
+    "scenario": "Dimanche = repas chez ses parents. Toutes les semaines. À vie.",
+    "optionA": "Ton week-end est confisqué",
+    "optionB": "La famille, c'est sacré",
+    "spice": 1
+  },
+  {
+    "id": 114,
+    "category": "vacances",
+    "scenario": "Ton copain prolonge son voyage solo de « quelques jours », sans date de retour.",
+    "optionA": "Il fuit quelque chose",
+    "optionB": "Il se trouve, laisse-le",
+    "spice": 3
+  },
+  {
+    "id": 115,
+    "category": "vacances",
+    "scenario": "Ta moitié planifie chaque minute des vacances dans un tableur partagé.",
+    "optionA": "Vacances militaires, non merci",
+    "optionB": "Grâce à elle, zéro imprévu",
+    "spice": 1
+  },
+  {
+    "id": 116,
+    "category": "vacances",
+    "scenario": "Ton mec veut retourner chaque année au camping de son adolescence. Chaque. Année.",
+    "optionA": "Otage du passé",
+    "optionB": "Les traditions, ça se respecte",
+    "spice": 1
+  },
+  {
+    "id": 117,
+    "category": "vacances",
+    "scenario": "Ta copine claque le budget vacances en shopping dès le deuxième jour.",
+    "optionA": "Sabotage financier",
+    "optionB": "Les vacances servent à ça",
+    "spice": 2
+  },
+  {
+    "id": 118,
+    "category": "vacances",
+    "scenario": "À la soirée mousse du club, ton mec danse avec une inconnue, « ambiance oblige ».",
+    "optionA": "L'ambiance a bon dos",
+    "optionB": "C'est ça, les vacances",
+    "spice": 2
+  },
+  {
+    "id": 119,
+    "category": "seduction",
+    "scenario": "Ta copine dit qu'elle « teste encore son charme » de temps en temps, pour voir.",
+    "optionA": "Test grandeur nature interdit",
+    "optionB": "Entretien de l'estime de soi",
+    "spice": 3
+  },
+  {
+    "id": 120,
+    "category": "seduction",
+    "scenario": "Ton mec complimente les yeux de la boulangère tous les matins.",
+    "optionA": "Croissants et arrière-pensées",
+    "optionB": "Il est comme ça avec tout le monde",
+    "spice": 1
+  },
+  {
+    "id": 121,
+    "category": "seduction",
+    "scenario": "Ton copain s'habille visiblement mieux les jours où il voit une certaine personne.",
+    "optionA": "Effort très ciblé",
+    "optionB": "Coïncidence vestimentaire",
+    "spice": 2
+  },
+  {
+    "id": 122,
+    "category": "seduction",
+    "scenario": "Ta copine te dit fièrement : « je flirte, mais je ne touche jamais ».",
+    "optionA": "La ligne est déjà franchie",
+    "optionB": "Philosophie honnête, au moins",
+    "spice": 3
+  },
+  {
+    "id": 123,
+    "category": "seduction",
+    "scenario": "Ton mec échange des regards avec la même personne à la salle, tous les jours.",
+    "optionA": "Une romance sans paroles",
+    "optionB": "Ils se croisent, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 124,
+    "category": "telephone",
+    "scenario": "Ta copine enregistre un contact sous « Kevin Plombier ». Kevin n'est pas plombier.",
+    "optionA": "Identité maquillée = danger",
+    "optionB": "Il a réparé un truc, une fois",
+    "spice": 3
+  },
+  {
+    "id": 125,
+    "category": "telephone",
+    "scenario": "Ton mec active le mode « ne pas déranger »… uniquement pour tes messages.",
+    "optionA": "Filtrage très personnel",
+    "optionB": "Tu écris beaucoup, avoue",
+    "spice": 2
+  },
+  {
+    "id": 126,
+    "category": "telephone",
+    "scenario": "Ton copain écrit à une « vieille copine » tous les jours, mais « c'est rien ».",
+    "optionA": "Rien, tous les jours ?",
+    "optionB": "Une amitié, ça s'entretient",
+    "spice": 3
+  },
+  {
+    "id": 127,
+    "category": "telephone",
+    "scenario": "Ta copine met son téléphone en mode avion tous les soirs à 21h.",
+    "optionA": "Injoignable = suspect",
+    "optionB": "Détox digitale, bravo",
+    "spice": 1
+  },
+  {
+    "id": 128,
+    "category": "telephone",
+    "scenario": "Ton mec met le film sur pause pour répondre à un message « urgent ». Troisième fois ce soir.",
+    "optionA": "Urgent, trois fois ?",
+    "optionB": "Il gère juste un truc",
+    "spice": 2
+  },
+  {
+    "id": 129,
+    "category": "jalousie",
+    "scenario": "Ta copine crée un faux profil pour tester ta fidélité.",
+    "optionA": "Piège = rupture directe",
+    "optionB": "Au moins, t'as réussi le test",
+    "spice": 3
+  },
+  {
+    "id": 130,
+    "category": "jalousie",
+    "scenario": "Ton mec demande à son pote de te surveiller en soirée.",
+    "optionA": "Espionnage entre amis",
+    "optionB": "Il veille sur toi, c'est tout",
+    "spice": 3
+  },
+  {
+    "id": 131,
+    "category": "jalousie",
+    "scenario": "Ta moitié te demande de ne plus voir ton ami d'enfance parce qu'il est « trop beau ».",
+    "optionA": "L'amitié ne se négocie pas",
+    "optionB": "Elle a peut-être flairé un truc",
+    "spice": 2
+  },
+  {
+    "id": 132,
+    "category": "jalousie",
+    "scenario": "Ta copine ressort un like de 2019 en pleine dispute.",
+    "optionA": "Jalousie rétroactive absurde",
+    "optionB": "Un like, ça reste écrit",
+    "spice": 1
+  },
+  {
+    "id": 133,
+    "category": "jalousie",
+    "scenario": "Ton mec lit les notifications sur ta montre connectée pendant que tu te douches.",
+    "optionA": "Espionnage de poignet",
+    "optionB": "C'était affiché, il a lu",
+    "spice": 2
+  },
+  {
+    "id": 134,
+    "category": "sexe",
+    "scenario": "Ta copine avoue que son ex était « objectivement son meilleur coup ».",
+    "optionA": "Info à garder pour soi",
+    "optionB": "Le passé est le passé",
+    "spice": 3
+  },
+  {
+    "id": 135,
+    "category": "sexe",
+    "scenario": "Ton mec répond « pas ce soir » pour la dixième fois ce mois-ci.",
+    "optionA": "Il faut qu'on parle",
+    "optionB": "La fatigue existe, vraiment",
+    "spice": 3
+  },
+  {
+    "id": 136,
+    "category": "sexe",
+    "scenario": "Ta moitié propose de programmer vos câlins dans l'agenda partagé.",
+    "optionA": "La spontanéité est morte",
+    "optionB": "Organisé = assuré",
+    "spice": 2
+  },
+  {
+    "id": 137,
+    "category": "sexe",
+    "scenario": "Ta copine refuse de révéler son nombre de partenaires avant toi.",
+    "optionA": "La transparence, c'est tout",
+    "optionB": "Ce chiffre ne te regarde pas",
+    "spice": 2
+  },
+  {
+    "id": 138,
+    "category": "sexe",
+    "scenario": "Pendant une scène torride au ciné, ton mec lâche « elle est pas mal, elle ».",
+    "optionA": "Commentaire de trop",
+    "optionB": "Il pense tout haut, c'est tout",
+    "spice": 1
+  },
+  {
+    "id": 139,
+    "category": "sexe",
+    "scenario": "Ta copine débriefe vos moments intimes avec ses copines. Avec des notes.",
+    "optionA": "Jury non autorisé",
+    "optionB": "Toutes les copines font ça",
+    "spice": 3
+  },
+  {
+    "id": 140,
+    "category": "sexe",
+    "scenario": "Ton mec avoue un fantasme qui te surprend beaucoup.",
+    "optionA": "On ne peut plus se regarder",
+    "optionB": "Au moins, il ose en parler",
+    "spice": 2
+  },
+  {
+    "id": 141,
+    "category": "projets",
+    "scenario": "Dix ans ensemble, toujours pas de demande en mariage. « Ça viendra. »",
+    "optionA": "Ça ne viendra jamais",
+    "optionB": "Le papier ne prouve rien",
+    "spice": 3
+  },
+  {
+    "id": 142,
+    "category": "projets",
+    "scenario": "Ton mec répond « plus tard » à la question des enfants. Depuis huit ans.",
+    "optionA": "Plus tard = jamais",
+    "optionB": "Il n'est juste pas prêt",
+    "spice": 3
+  },
+  {
+    "id": 143,
+    "category": "projets",
+    "scenario": "Ta copine refuse d'emménager ensemble après quatre ans de couple.",
+    "optionA": "Elle garde la sortie de secours",
+    "optionB": "Chacun chez soi, ça marche",
+    "spice": 3
+  },
+  {
+    "id": 144,
+    "category": "projets",
+    "scenario": "Ton copain adopte un chiot sans t'en parler. « Surprise ! »",
+    "optionA": "Un engagement, pas un cadeau",
+    "optionB": "Regarde sa petite bouille",
+    "spice": 2
+  },
+  {
+    "id": 145,
+    "category": "projets",
+    "scenario": "Ta moitié raconte « ses » projets dans 5 ans. Tu n'apparais nulle part.",
+    "optionA": "Le futur est sans toi",
+    "optionB": "C'est un oubli de langage",
+    "spice": 3
+  },
+  {
+    "id": 146,
+    "category": "projets",
+    "scenario": "Ton mec veut acheter un appart seul, « c'est un investissement ».",
+    "optionA": "Il construit sans toi",
+    "optionB": "C'est malin financièrement",
+    "spice": 2
+  },
+  {
+    "id": 147,
+    "category": "soirees",
+    "scenario": "À l'enterrement de vie de garçon, ton mec finit dans un club de striptease.",
+    "optionA": "Il aurait dû refuser",
+    "optionB": "Tradition d'EVG classique",
+    "spice": 3
+  },
+  {
+    "id": 148,
+    "category": "soirees",
+    "scenario": "Ta moitié sort tous les week-ends avec ses potes, sans toi, depuis deux mois.",
+    "optionA": "Célibataire le samedi",
+    "optionB": "Chacun son équilibre",
+    "spice": 2
+  },
+  {
+    "id": 149,
+    "category": "soirees",
+    "scenario": "Ton copain donne son numéro à une fille « pour le groupe de l'anniversaire ».",
+    "optionA": "Le groupe a bon dos",
+    "optionB": "Pure logistique, détends-toi",
+    "spice": 2
+  },
+  {
+    "id": 150,
+    "category": "soirees",
+    "scenario": "Ta copine choisit la soirée de sa pote plutôt que votre anniversaire de rencontre.",
+    "optionA": "Le symbole est piétiné",
+    "optionB": "Vous fêterez demain, zéro drame",
+    "spice": 2
+  },
+  {
+    "id": 151,
+    "category": "soirees",
+    "scenario": "Ta moitié apparaît dans la story d'un inconnu, très souriante, très proche.",
+    "optionA": "La story parle d'elle-même",
+    "optionB": "Une photo de groupe, ça arrive",
+    "spice": 2
+  },
+  {
+    "id": 152,
+    "category": "reseaux",
+    "scenario": "Ton copain like la photo de son ex postée il y a 3 ans. À 1h du matin.",
+    "optionA": "Fouille archéologique nocturne",
+    "optionB": "Son pouce a glissé",
+    "spice": 2
+  },
+  {
+    "id": 153,
+    "category": "reseaux",
+    "scenario": "Ta copine a une liste « amis proches » dont tu ne fais pas partie.",
+    "optionA": "Exclu du premier cercle",
+    "optionB": "C'est pour ses copines",
+    "spice": 2
+  },
+  {
+    "id": 154,
+    "category": "reseaux",
+    "scenario": "Ta moitié te bloque pendant vos disputes, puis te débloque après.",
+    "optionA": "Chantage numérique",
+    "optionB": "Elle protège sa paix",
+    "spice": 2
+  },
+  {
+    "id": 155,
+    "category": "reseaux",
+    "scenario": "Le fil TikTok de ton copain, c'est 90 % de danseuses.",
+    "optionA": "L'algorithme a parlé",
+    "optionB": "Il ne choisit pas son feed",
+    "spice": 1
+  },
+  {
+    "id": 156,
+    "category": "reseaux",
+    "scenario": "Ta copine enlève « en couple » de son profil après une dispute.",
+    "optionA": "Rupture unilatérale express",
+    "optionB": "Coup de sang sans conséquence",
+    "spice": 3
+  },
+  {
+    "id": 157,
+    "category": "ex",
+    "scenario": "Ta copine garde le tatouage assorti fait avec son ex.",
+    "optionA": "Marquage à effacer",
+    "optionB": "C'est de l'encre, pas de l'amour",
+    "spice": 2
+  },
+  {
+    "id": 158,
+    "category": "ex",
+    "scenario": "Ton copain t'avoue avoir revu son ex « par hasard »… il y a trois semaines.",
+    "optionA": "Trois semaines de silence",
+    "optionB": "Il a fini par le dire",
+    "spice": 3
+  },
+  {
+    "id": 159,
+    "category": "ex",
+    "scenario": "Ta copine défend son ex quand tu le critiques.",
+    "optionA": "Elle choisit son camp",
+    "optionB": "L'objectivité existe",
+    "spice": 2
+  },
+  {
+    "id": 160,
+    "category": "ex",
+    "scenario": "Ton mec dit « on a failli se remettre ensemble juste avant toi ».",
+    "optionA": "Info que personne ne demandait",
+    "optionB": "Transparence totale, respect",
+    "spice": 2
+  },
+  {
+    "id": 161,
+    "category": "ex",
+    "scenario": "Ta moitié consulte le profil de son ex toutes les semaines, « juste pour voir ».",
+    "optionA": "Abonnement au passé",
+    "optionB": "Tout le monde stalke un peu",
+    "spice": 2
+  },
+  {
+    "id": 162,
+    "category": "amis",
+    "scenario": "Ta copine a donné son mot de passe de téléphone à sa meilleure amie. Pas à toi.",
+    "optionA": "Plus intime qu'avec toi",
+    "optionB": "Les meilleures amies, c'est fusionnel",
+    "spice": 1
+  },
+  {
+    "id": 163,
+    "category": "amis",
+    "scenario": "Ta moitié raconte à sa bande un secret intime que tu lui avais confié.",
+    "optionA": "Confiance brisée net",
+    "optionB": "C'est sorti tout seul",
+    "spice": 3
+  },
+  {
+    "id": 164,
+    "category": "amis",
+    "scenario": "L'amie de ton copain l'appelle « mon chéri » depuis 10 ans.",
+    "optionA": "10 ans de trop",
+    "optionB": "C'est leur langage, c'est tout",
+    "spice": 1
+  },
+  {
+    "id": 165,
+    "category": "amis",
+    "scenario": "Ta copine part en vacances en duo avec son meilleur ami.",
+    "optionA": "Duo qui fait débat",
+    "optionB": "L'amitié n'a pas de genre",
+    "spice": 3
+  },
+  {
+    "id": 166,
+    "category": "amis",
+    "scenario": "Ton mec prend systématiquement le parti de ses potes quand vous débattez en groupe.",
+    "optionA": "Il doit être ton équipe",
+    "optionB": "Il évite le favoritisme",
+    "spice": 2
+  },
+  {
+    "id": 167,
+    "category": "argent",
+    "scenario": "Tu découvres après un an que ton mec a 15 000 € de dettes.",
+    "optionA": "Mensonge par omission XXL",
+    "optionB": "Pas facile à avouer",
+    "spice": 3
+  },
+  {
+    "id": 168,
+    "category": "argent",
+    "scenario": "Ta copine paie certains achats uniquement en cash, « sans raison ».",
+    "optionA": "Traçabilité soigneusement évitée",
+    "optionB": "Le cash, c'est la liberté",
+    "spice": 2
+  },
+  {
+    "id": 169,
+    "category": "argent",
+    "scenario": "Ton mec laisse un pourboire énorme à la serveuse souriante.",
+    "optionA": "Générosité très ciblée",
+    "optionB": "Il partage le bonheur",
+    "spice": 1
+  },
+  {
+    "id": 170,
+    "category": "argent",
+    "scenario": "Ta moitié refuse le compte commun, même pour le loyer.",
+    "optionA": "Aucun projet avec toi",
+    "optionB": "L'indépendance, c'est sain",
+    "spice": 3
+  },
+  {
+    "id": 171,
+    "category": "argent",
+    "scenario": "Ta copine veut répartir le loyer au prorata des salaires.",
+    "optionA": "L'amour n'est pas un tableur",
+    "optionB": "C'est la vraie équité",
+    "spice": 2
+  },
+  {
+    "id": 172,
+    "category": "quotidien",
+    "scenario": "Ton mec parle plus tendrement à la plante verte qu'à toi.",
+    "optionA": "La plante doit partir",
+    "optionB": "Il a un grand cœur",
+    "spice": 1
+  },
+  {
+    "id": 173,
+    "category": "quotidien",
+    "scenario": "Ta copine laisse le chat dormir entre vous deux toutes les nuits.",
+    "optionA": "Le lit, c'est pour deux",
+    "optionB": "Le chat était là avant",
+    "spice": 1
+  },
+  {
+    "id": 174,
+    "category": "quotidien",
+    "scenario": "Ta moitié règle le chauffage à 17°C « pour la planète » pendant que tu gèles.",
+    "optionA": "La planète a bon dos",
+    "optionB": "Mets un pull, champion",
+    "spice": 1
+  },
+  {
+    "id": 175,
+    "category": "quotidien",
+    "scenario": "Ton copain n'a jamais cuisiné un seul repas en deux ans.",
+    "optionA": "Colocataire, pas partenaire",
+    "optionB": "Chacun ses talents",
+    "spice": 2
+  },
+  {
+    "id": 176,
+    "category": "quotidien",
+    "scenario": "Ton mec laisse ses chaussettes sales partout, tous les jours, malgré 400 rappels.",
+    "optionA": "Manque de respect quotidien",
+    "optionB": "Un défaut, pas un crime",
+    "spice": 1
+  },
+  {
+    "id": 177,
+    "category": "travail",
+    "scenario": "Ta copine accepte une promotion à 600 km sans t'en parler d'abord.",
+    "optionA": "Elle a décidé seule",
+    "optionB": "Une carrière, ça ne s'attend pas",
+    "spice": 3
+  },
+  {
+    "id": 178,
+    "category": "travail",
+    "scenario": "Ton mec cache son augmentation pendant six mois.",
+    "optionA": "Six mois de mensonge",
+    "optionB": "Il préparait une surprise",
+    "spice": 2
+  },
+  {
+    "id": 179,
+    "category": "travail",
+    "scenario": "L'ex de ta copine débarque dans son open space. Elle trouve ça « plutôt drôle ».",
+    "optionA": "Rien de drôle là-dedans",
+    "optionB": "Le hasard fait des blagues",
+    "spice": 2
+  },
+  {
+    "id": 180,
+    "category": "travail",
+    "scenario": "Ta moitié fait des visios « boulot » tard le soir, porte fermée.",
+    "optionA": "Réunions de minuit douteuses",
+    "optionB": "Le télétravail, c'est ça",
+    "spice": 2
+  },
+  {
+    "id": 181,
+    "category": "travail",
+    "scenario": "Ta copine prépare un tupperware pour son collègue « qui mange mal ».",
+    "optionA": "On ne nourrit pas les collègues",
+    "optionB": "C'est de la bienveillance",
+    "spice": 1
+  },
+  {
+    "id": 182,
+    "category": "famille",
+    "scenario": "Ta belle-mère appelle ton copain « mon bébé » et le sert comme un prince à chaque repas.",
+    "optionA": "Rivale officielle détectée",
+    "optionB": "L'amour d'une mère, c'est tout",
+    "spice": 1
+  },
+  {
+    "id": 183,
+    "category": "famille",
+    "scenario": "Ton mec annule vos vacances pour aider son cousin à déménager.",
+    "optionA": "Le cousin passe avant toi",
+    "optionB": "La famille d'abord, toujours",
+    "spice": 2
+  },
+  {
+    "id": 184,
+    "category": "famille",
+    "scenario": "Ta copine dit « il faut demander à maman » pour chaque décision.",
+    "optionA": "Tu sors avec sa mère aussi",
+    "optionB": "Elle consulte, c'est malin",
+    "spice": 2
+  },
+  {
+    "id": 185,
+    "category": "famille",
+    "scenario": "Le frère de ta copine te bat à FIFA et le raconte à toute la famille pendant un an.",
+    "optionA": "Famille sans pitié",
+    "optionB": "Fallait t'entraîner",
+    "spice": 1
+  },
+  {
+    "id": 186,
+    "category": "famille",
+    "scenario": "Ton copain emprunte encore de l'argent à ses parents à 30 ans.",
+    "optionA": "Adulte non fini",
+    "optionB": "Faut être malin dans la vie",
+    "spice": 1
+  },
+  {
+    "id": 187,
+    "category": "vacances",
+    "scenario": "Ton mec part au ski avec ses potes pendant vos seules vacances communes de l'année.",
+    "optionA": "Le ski avant le couple",
+    "optionB": "Il en rêvait depuis longtemps",
+    "spice": 2
+  },
+  {
+    "id": 188,
+    "category": "vacances",
+    "scenario": "En auberge de jeunesse, ta copine choisit le dortoir mixte, « moins cher ».",
+    "optionA": "Économie très discutable",
+    "optionB": "Dix euros, c'est dix euros",
+    "spice": 2
+  },
+  {
+    "id": 189,
+    "category": "vacances",
+    "scenario": "Ton copain envoie une carte postale à son ex : « c'était notre endroit ».",
+    "optionA": "Le timbre de trop",
+    "optionB": "Un geste nostalgique innocent",
+    "spice": 3
+  },
+  {
+    "id": 190,
+    "category": "vacances",
+    "scenario": "Ta copine reste au bar de la plage jusqu'à 5h avec des locaux « adorables ».",
+    "optionA": "Adorables, à 5h du matin ?",
+    "optionB": "C'est ça, voyager vraiment",
+    "spice": 2
+  },
+  {
+    "id": 191,
+    "category": "vacances",
+    "scenario": "Chaque été, ta moitié choisit la destination. Seule. Depuis toujours.",
+    "optionA": "Dictature du planning",
+    "optionB": "Elle choisit bien, avoue",
+    "spice": 1
+  },
+  {
+    "id": 192,
+    "category": "seduction",
+    "scenario": "Ton mec répond « merci, toi aussi t'es charmante » à celle qui le complimente.",
+    "optionA": "Retour de flamme interdit",
+    "optionB": "Rendre un compliment, c'est poli",
+    "spice": 1
+  },
+  {
+    "id": 193,
+    "category": "seduction",
+    "scenario": "Ton mec garde sa photo de profil « mode célibataire » : torse nu à la plage.",
+    "optionA": "Vitrine encore ouverte",
+    "optionB": "La photo est juste réussie",
+    "spice": 2
+  },
+  {
+    "id": 194,
+    "category": "seduction",
+    "scenario": "Ta moitié se parfume et se remaquille juste avant de sortir « acheter du pain ».",
+    "optionA": "Le pain n'exige pas ça",
+    "optionB": "Elle aime être belle, point",
+    "spice": 2
+  },
+  {
+    "id": 195,
+    "category": "seduction",
+    "scenario": "Ton mec raconte en détail comment il draguait « à l'époque », avec nostalgie.",
+    "optionA": "Nostalgie de trop",
+    "optionB": "Le passé, c'est le passé",
+    "spice": 1
+  },
+  {
+    "id": 196,
+    "category": "seduction",
+    "scenario": "Ta copine laisse un client la draguer « pour les pourboires ».",
+    "optionA": "Le pourboire ne justifie rien",
+    "optionB": "C'est du commerce, chéri",
+    "spice": 3
+  },
+  {
+    "id": 197,
+    "category": "telephone",
+    "scenario": "Ton copain reçoit un appel, regarde l'écran, et sort de la pièce pour répondre.",
+    "optionA": "Sortie très suspecte",
+    "optionB": "Il évite juste le bruit",
+    "spice": 2
+  },
+  {
+    "id": 198,
+    "category": "telephone",
+    "scenario": "Ta copine supprime son historique d'appels tous les soirs.",
+    "optionA": "Nettoyage trop méthodique",
+    "optionB": "TOC numérique, ça existe",
+    "spice": 3
+  },
+  {
+    "id": 199,
+    "category": "telephone",
+    "scenario": "Ta moitié active les messages éphémères avec certains contacts seulement.",
+    "optionA": "Mode fantôme = mode douteux",
+    "optionB": "C'est la config par défaut",
+    "spice": 3
+  },
+  {
+    "id": 200,
+    "category": "telephone",
+    "scenario": "Ton mec refuse d'ajouter ton empreinte à son téléphone, alors que toi tu l'as fait.",
+    "optionA": "Confiance à sens unique",
+    "optionB": "Chacun ses limites",
+    "spice": 2
+  },
+  {
+    "id": 201,
+    "category": "telephone",
+    "scenario": "Ta copine te répond « batterie morte », mais poste une story une heure après.",
+    "optionA": "Batterie miraculeusement ressuscitée",
+    "optionB": "Ça s'est rallumé, ça arrive",
+    "spice": 2
+  },
+  {
+    "id": 202,
+    "category": "jalousie",
+    "scenario": "Ta copine chronomètre ton temps de réponse quand tu sors sans elle.",
+    "optionA": "Compteur de la paranoïa",
+    "optionB": "Elle aime avoir des nouvelles",
+    "spice": 2
+  },
+  {
+    "id": 203,
+    "category": "jalousie",
+    "scenario": "Ton mec veut ta localisation en temps réel, 24h/24.",
+    "optionA": "GPS = laisse électronique",
+    "optionB": "C'est rassurant pour tous les deux",
+    "spice": 3
+  },
+  {
+    "id": 204,
+    "category": "jalousie",
+    "scenario": "Ton copain refuse que tu ailles seule au mariage de ta pote.",
+    "optionA": "Interdiction inacceptable",
+    "optionB": "Les mariages, ça fait des dégâts",
+    "spice": 3
+  },
+  {
+    "id": 205,
+    "category": "jalousie",
+    "scenario": "Ta copine interroge ton pote pour vérifier ton alibi de samedi.",
+    "optionA": "Contre-enquête humiliante",
+    "optionB": "Elle recoupe, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 206,
+    "category": "jalousie",
+    "scenario": "Ton mec est jaloux du temps que tu passes sur ta console.",
+    "optionA": "La console reste",
+    "optionB": "Il veut juste de l'attention",
+    "spice": 1
+  },
+  {
+    "id": 207,
+    "category": "sexe",
+    "scenario": "Ta moitié éteint systématiquement la lumière avant les câlins. Depuis trois ans.",
+    "optionA": "Il y a un malaise",
+    "optionB": "Chacun son ambiance",
+    "spice": 2
+  },
+  {
+    "id": 208,
+    "category": "sexe",
+    "scenario": "Ton copain s'endort à 21h30 tous les soirs. Même le samedi.",
+    "optionA": "La flamme est en veille",
+    "optionB": "Il dort, il trompe pas",
+    "spice": 2
+  },
+  {
+    "id": 209,
+    "category": "sexe",
+    "scenario": "Ta copine lit en cachette un livre « Raviver la flamme dans son couple ».",
+    "optionA": "Elle tire la sonnette d'alarme",
+    "optionB": "Elle investit dans le couple",
+    "spice": 2
+  },
+  {
+    "id": 210,
+    "category": "sexe",
+    "scenario": "Ton mec cite un article : « les couples normaux, c'est trois fois par semaine ».",
+    "optionA": "On ne compare pas l'amour",
+    "optionB": "Les stats, ça aide à parler",
+    "spice": 3
+  },
+  {
+    "id": 211,
+    "category": "sexe",
+    "scenario": "Ta moitié garde ses vieux sextos avec son ex « dans les archives ».",
+    "optionA": "Les archives, ça se brûle",
+    "optionB": "Elle n'y pense même plus",
+    "spice": 3
+  },
+  {
+    "id": 212,
+    "category": "sexe",
+    "scenario": "Ta copine dort en pyjama polaire intégral, été comme hiver.",
+    "optionA": "Message reçu cinq sur cinq",
+    "optionB": "Elle est frileuse, c'est tout",
+    "spice": 1
+  },
+  {
+    "id": 213,
+    "category": "projets",
+    "scenario": "Ta copine veut se marier au bout de six mois de relation.",
+    "optionA": "Trop vite, trop fort",
+    "optionB": "Quand on sait, on sait",
+    "spice": 2
+  },
+  {
+    "id": 214,
+    "category": "projets",
+    "scenario": "Ton mec garde son ancien appart « au cas où », alors que vous vivez ensemble.",
+    "optionA": "Plan de repli permanent",
+    "optionB": "C'est juste pragmatique",
+    "spice": 3
+  },
+  {
+    "id": 215,
+    "category": "projets",
+    "scenario": "Ta moitié accepte un poste à l'étranger et te demande de tout quitter pour la suivre.",
+    "optionA": "Sa carrière, tes sacrifices",
+    "optionB": "C'est une aventure à deux",
+    "spice": 3
+  },
+  {
+    "id": 216,
+    "category": "projets",
+    "scenario": "Ta copine te propose de te faire tatouer son prénom. Elle, elle « verra plus tard ».",
+    "optionA": "Engagement à sens unique",
+    "optionB": "Elle a peur des aiguilles",
+    "spice": 2
+  },
+  {
+    "id": 217,
+    "category": "projets",
+    "scenario": "Ton copain dit « on est bien comme ça, pourquoi tout changer ? » à chaque discussion d'avenir.",
+    "optionA": "Croissance en panne",
+    "optionB": "Le bonheur présent compte",
+    "spice": 2
+  },
+  {
+    "id": 218,
+    "category": "projets",
+    "scenario": "Ta moitié a un tableau Pinterest secret avec tout votre mariage déjà planifié.",
+    "optionA": "Le scénario est écrit sans toi",
+    "optionB": "C'est mignon de rêver",
+    "spice": 1
+  },
+  {
+    "id": 219,
+    "category": "projets",
+    "scenario": "Ton mec veut tout plaquer pour vivre en van. « La liberté, bébé. »",
+    "optionA": "Projet de célibataire",
+    "optionB": "L'aventure vous attend",
+    "spice": 2
+  },
+  {
+    "id": 220,
+    "category": "soirees",
+    "scenario": "Ta copine dit « je rentre pas tard » et rentre quand le boulanger ouvre.",
+    "optionA": "Parole non tenue, encore",
+    "optionB": "Tard, c'est subjectif",
+    "spice": 1
+  },
+  {
+    "id": 221,
+    "category": "soirees",
+    "scenario": "Ton mec enchaîne les shots avec la bande d'inconnues rencontrée au bar.",
+    "optionA": "Nouvelle bande très féminine",
+    "optionB": "Il socialise, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 222,
+    "category": "soirees",
+    "scenario": "Ta moitié éteint son téléphone « pour profiter » dès qu'elle sort sans toi.",
+    "optionA": "Injoignable = inquiétant",
+    "optionB": "Vivre l'instant, ça se respecte",
+    "spice": 2
+  },
+  {
+    "id": 223,
+    "category": "soirees",
+    "scenario": "On drague ton mec devant toi et il laisse gentiment durer la conversation.",
+    "optionA": "Couper court était obligatoire",
+    "optionB": "Il gérait en douceur",
+    "spice": 2
+  },
+  {
+    "id": 224,
+    "category": "soirees",
+    "scenario": "Ta copine passe ses soirées dans le bar préféré de son ex, « meilleure playlist de la ville ».",
+    "optionA": "La playlist a bon dos",
+    "optionB": "Un bar reste un bar",
+    "spice": 1
+  },
+  {
+    "id": 225,
+    "category": "reseaux",
+    "scenario": "Ton mec commente « 🔥🔥 » sous la photo d'une inconnue.",
+    "optionA": "Commentaire = petite tromperie",
+    "optionB": "Deux emojis, zéro histoire",
+    "spice": 2
+  },
+  {
+    "id": 226,
+    "category": "reseaux",
+    "scenario": "Ta copine poste des stories uniquement les soirs où elle sort sans toi.",
+    "optionA": "Vitrine de célibataire",
+    "optionB": "Elle poste quand c'est fun",
+    "spice": 2
+  },
+  {
+    "id": 227,
+    "category": "reseaux",
+    "scenario": "L'ex de ton mec commente encore toutes ses publications.",
+    "optionA": "Blocage obligatoire",
+    "optionB": "Il ne contrôle pas les autres",
+    "spice": 2
+  },
+  {
+    "id": 228,
+    "category": "reseaux",
+    "scenario": "Ton copain refuse une photo de profil en couple, « ça fait trop ».",
+    "optionA": "Trop pour qui, exactement ?",
+    "optionB": "Le cringe, c'est réel",
+    "spice": 1
+  },
+  {
+    "id": 229,
+    "category": "reseaux",
+    "scenario": "Ta copine screenshotte tes messages pour les analyser avec ses copines.",
+    "optionA": "Tribunal WhatsApp illégal",
+    "optionB": "Toutes les copines font ça",
+    "spice": 2
+  },
+  {
+    "id": 230,
+    "category": "ex",
+    "scenario": "Ton mec partage encore son abonnement Netflix avec son ex.",
+    "optionA": "Résiliation immédiate exigée",
+    "optionB": "C'est que du streaming",
+    "spice": 1
+  },
+  {
+    "id": 231,
+    "category": "ex",
+    "scenario": "Ta copine rêve de son ex et te le raconte au réveil, tout sourire.",
+    "optionA": "Elle aurait pu garder ça",
+    "optionB": "Un rêve ne se choisit pas",
+    "spice": 1
+  },
+  {
+    "id": 232,
+    "category": "ex",
+    "scenario": "Ton copain garde la bague de fiançailles de son ancienne relation, « ça vaut cher ».",
+    "optionA": "Vends-la, ou c'est louche",
+    "optionB": "C'est un placement, en vrai",
+    "spice": 2
+  },
+  {
+    "id": 233,
+    "category": "ex",
+    "scenario": "Ton mec et son ex ont encore un bail commun, « le temps que ça se vende ».",
+    "optionA": "Situation à régler d'urgence",
+    "optionB": "L'immobilier, c'est lent",
+    "spice": 3
+  },
+  {
+    "id": 234,
+    "category": "ex",
+    "scenario": "Ta copine like « par politesse » chaque post de son ex.",
+    "optionA": "La politesse n'exige rien",
+    "optionB": "Un like poli, ça existe",
+    "spice": 2
+  },
+  {
+    "id": 235,
+    "category": "amis",
+    "scenario": "Le meilleur ami de ta copine, c'est un mec. Et il est célibataire. Et beau.",
+    "optionA": "Configuration à risque",
+    "optionB": "L'amitié homme-femme existe",
+    "spice": 3
+  },
+  {
+    "id": 236,
+    "category": "amis",
+    "scenario": "Ton mec porte un bracelet assorti avec sa meilleure amie.",
+    "optionA": "Les bijoux, c'est pour nous",
+    "optionB": "Souvenir d'ados, c'est mignon",
+    "spice": 1
+  },
+  {
+    "id": 237,
+    "category": "amis",
+    "scenario": "Une nouvelle « super pote » de salle de sport écrit à ton mec tous les jours.",
+    "optionA": "Pote, vraiment ?",
+    "optionB": "Le sport rapproche, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 238,
+    "category": "amis",
+    "scenario": "La meilleure amie de ta copine a un droit de veto reconnu sur ses copains.",
+    "optionA": "Ton couple a une actionnaire",
+    "optionB": "Elle a évité des catastrophes",
+    "spice": 2
+  },
+  {
+    "id": 239,
+    "category": "amis",
+    "scenario": "Ton mec fait ses soirées jeux vidéo avec sa pote, en vocal, jusqu'à 3h.",
+    "optionA": "3h du mat, en vocal ?",
+    "optionB": "C'est sa coéquipière, littéralement",
+    "spice": 2
+  },
+  {
+    "id": 240,
+    "category": "argent",
+    "scenario": "Ta copine s'achète des fleurs avec le compte commun, « pour la maison ».",
+    "optionA": "Détournement de fonds floral",
+    "optionB": "Ça profite à tout le monde",
+    "spice": 1
+  },
+  {
+    "id": 241,
+    "category": "argent",
+    "scenario": "Ton mec investit vos économies en crypto sans te consulter.",
+    "optionA": "Casino avec ton argent",
+    "optionB": "Il faut oser pour gagner",
+    "spice": 3
+  },
+  {
+    "id": 242,
+    "category": "argent",
+    "scenario": "Ta moitié « oublie » son portefeuille à chaque resto.",
+    "optionA": "Technique bien rodée",
+    "optionB": "Tête en l'air, ça existe",
+    "spice": 1
+  },
+  {
+    "id": 243,
+    "category": "argent",
+    "scenario": "Ton copain touche un héritage et ne t'en parle que six mois après.",
+    "optionA": "Six mois de secret",
+    "optionB": "Le deuil, c'est intime",
+    "spice": 2
+  },
+  {
+    "id": 244,
+    "category": "argent",
+    "scenario": "Ta copine a une carte de crédit dont tu ignorais l'existence.",
+    "optionA": "Vie financière parallèle",
+    "optionB": "Une carte, pas un amant",
+    "spice": 2
+  },
+  {
+    "id": 245,
+    "category": "quotidien",
+    "scenario": "Ta copine met trois réveils espacés de 10 minutes chaque matin.",
+    "optionA": "Torture sonore quotidienne",
+    "optionB": "Chacun son rituel de réveil",
+    "spice": 1
+  },
+  {
+    "id": 246,
+    "category": "quotidien",
+    "scenario": "Ta moitié te corrige en public quand tu racontes une histoire. À chaque fois.",
+    "optionA": "Humiliation à répétition",
+    "optionB": "Elle aime l'exactitude",
+    "spice": 2
+  },
+  {
+    "id": 247,
+    "category": "quotidien",
+    "scenario": "Ton mec pète devant toi sans même dire pardon, dès le premier mois.",
+    "optionA": "Le mystère est mort",
+    "optionB": "Le vrai amour, c'est ça",
+    "spice": 1
+  },
+  {
+    "id": 248,
+    "category": "quotidien",
+    "scenario": "Ta copine mange DANS le lit. Des chips. Sous la couette.",
+    "optionA": "Zone interdite profanée",
+    "optionB": "Le lit, c'est la liberté",
+    "spice": 1
+  },
+  {
+    "id": 249,
+    "category": "quotidien",
+    "scenario": "Ta moitié ne dit plus jamais « je t'aime » en premier depuis des mois.",
+    "optionA": "Signal d'alarme silencieux",
+    "optionB": "Elle le montre autrement",
+    "spice": 3
+  },
+  {
+    "id": 250,
+    "category": "travail",
+    "scenario": "Ta copine a un surnom au bureau : « la chouchoute du boss ». Elle assume.",
+    "optionA": "Situation à clarifier",
+    "optionB": "C'est bon pour la carrière",
+    "spice": 2
+  },
+  {
+    "id": 251,
+    "category": "travail",
+    "scenario": "Ton mec s'inscrit à l'afterwork chaque jeudi, mais « déteste sortir » avec toi.",
+    "optionA": "L'énergie est ailleurs",
+    "optionB": "C'est du réseautage obligatoire",
+    "spice": 2
+  },
+  {
+    "id": 252,
+    "category": "travail",
+    "scenario": "Ton copain refuse de t'ajouter sur LinkedIn, « pour rester pro ».",
+    "optionA": "Tu n'existes pas au bureau",
+    "optionB": "Il sépare, c'est propre",
+    "spice": 1
+  },
+  {
+    "id": 253,
+    "category": "travail",
+    "scenario": "Ta moitié répète les avis de sa collègue : « Sophie pense que », « Sophie dit que »…",
+    "optionA": "Sophie prend trop de place",
+    "optionB": "Sophie doit être maligne",
+    "spice": 2
+  },
+  {
+    "id": 254,
+    "category": "travail",
+    "scenario": "Ta moitié prolonge son déplacement pro d'un week-end, « pour visiter ».",
+    "optionA": "Extension très personnelle",
+    "optionB": "Autant profiter du billet",
+    "spice": 2
+  },
+  {
+    "id": 255,
+    "category": "famille",
+    "scenario": "Ta belle-sœur poste une photo de famille… en te recadrant hors du cadre.",
+    "optionA": "Ta moitié doit réagir",
+    "optionB": "C'est juste un cadrage",
+    "spice": 2
+  },
+  {
+    "id": 256,
+    "category": "famille",
+    "scenario": "Ton mec veut passer toutes les fêtes, tous les étés, dans la maison familiale.",
+    "optionA": "Couple sous tutelle",
+    "optionB": "La maison est gratuite, chérie",
+    "spice": 1
+  },
+  {
+    "id": 257,
+    "category": "famille",
+    "scenario": "Ton copain retourne vivre chez ses parents « quelques mois, pour économiser ».",
+    "optionA": "Retour case départ",
+    "optionB": "Malin pour l'apport",
+    "spice": 2
+  },
+  {
+    "id": 258,
+    "category": "famille",
+    "scenario": "Le groupe WhatsApp familial de ta moitié commente vos choix de couple en direct.",
+    "optionA": "Jury non sollicité",
+    "optionB": "Ils s'intéressent, c'est touchant",
+    "spice": 2
+  },
+  {
+    "id": 259,
+    "category": "famille",
+    "scenario": "Ta copine raconte vos soucis d'argent à son père.",
+    "optionA": "Dossier privé divulgué",
+    "optionB": "Papa donne de bons conseils",
+    "spice": 3
+  },
+  {
+    "id": 260,
+    "category": "vacances",
+    "scenario": "Ton mec veut inviter sa mère à votre premier grand voyage en amoureux.",
+    "optionA": "Lune de miel à trois",
+    "optionB": "Elle rêvait de voir Rome",
+    "spice": 2
+  },
+  {
+    "id": 261,
+    "category": "vacances",
+    "scenario": "Ta copine télécharge une appli de rencontre en voyage, « pour rencontrer des gens du coin ».",
+    "optionA": "L'appli dit ce qu'elle est",
+    "optionB": "C'est le Airbnb de l'amitié",
+    "spice": 3
+  },
+  {
+    "id": 262,
+    "category": "vacances",
+    "scenario": "Ta moitié veut des chambres séparées en vacances, « pour bien dormir enfin ».",
+    "optionA": "Vacances de colocs",
+    "optionB": "Le sommeil avant tout",
+    "spice": 2
+  },
+  {
+    "id": 263,
+    "category": "vacances",
+    "scenario": "En vacances avec ta meilleure amie, ton mec propose de lui étaler la crème solaire dans le dos.",
+    "optionA": "La crème, c'est intime",
+    "optionB": "Personne n'atteint son dos",
+    "spice": 2
+  },
+  {
+    "id": 264,
+    "category": "vacances",
+    "scenario": "Ta copine veut retourner seule voir « les amis du voyage » rencontrés l'an dernier.",
+    "optionA": "Voyage à mystères",
+    "optionB": "Les amitiés de voyage, c'est fort",
+    "spice": 2
+  },
+  {
+    "id": 265,
+    "category": "seduction",
+    "scenario": "Ton mec sourit et fait la bise à TOUTES les femmes, « c'est son éducation ».",
+    "optionA": "L'éducation a des limites",
+    "optionB": "Il est juste bien élevé",
+    "spice": 1
+  },
+  {
+    "id": 266,
+    "category": "seduction",
+    "scenario": "Ta copine dit « je te choisis tous les jours » au lieu de « je suis fidèle par nature ».",
+    "optionA": "Donc elle hésite chaque jour",
+    "optionB": "C'est la plus belle preuve",
+    "spice": 3
+  },
+  {
+    "id": 267,
+    "category": "seduction",
+    "scenario": "Ton copain complimente une inconnue sur son parfum dans l'ascenseur.",
+    "optionA": "On ne renifle pas les gens",
+    "optionB": "Un compliment gratuit, c'est beau",
+    "spice": 1
+  },
+  {
+    "id": 268,
+    "category": "seduction",
+    "scenario": "Ta moitié « forme » son pote célibataire à la drague en montrant l'exemple en vrai.",
+    "optionA": "Coach trop impliqué",
+    "optionB": "C'est du service entre potes",
+    "spice": 2
+  },
+  {
+    "id": 269,
+    "category": "seduction",
+    "scenario": "Ta copine dit que son type d'homme, « objectivement », c'est tout l'inverse de toi.",
+    "optionA": "Info profondément inquiétante",
+    "optionB": "Elle t'a choisi, c'est mieux",
+    "spice": 3
+  },
+  {
+    "id": 270,
+    "category": "telephone",
+    "scenario": "Ta copine a un deuxième téléphone « pour le boulot ». Elle est fleuriste.",
+    "optionA": "Deuxième vie détectée",
+    "optionB": "Les fleurs, c'est prenant",
+    "spice": 3
+  },
+  {
+    "id": 271,
+    "category": "telephone",
+    "scenario": "Ton mec te tend son téléphone déverrouillé sans hésiter. Trop vite, même.",
+    "optionA": "Il a nettoyé avant",
+    "optionB": "C'est juste la confiance",
+    "spice": 1
+  },
+  {
+    "id": 272,
+    "category": "telephone",
+    "scenario": "Ta copine a désactivé le « en ligne » de WhatsApp du jour au lendemain.",
+    "optionA": "Invisibilité programmée",
+    "optionB": "Marre d'être fliquée",
+    "spice": 2
+  },
+  {
+    "id": 273,
+    "category": "telephone",
+    "scenario": "Le téléphone de ton mec vibre toute la nuit, et il le met en silencieux sans regarder.",
+    "optionA": "Il sait déjà qui c'est",
+    "optionB": "Il veut juste dormir",
+    "spice": 2
+  },
+  {
+    "id": 274,
+    "category": "telephone",
+    "scenario": "Ton copain a une conversation nommée « Ne pas ouvrir » dans son téléphone.",
+    "optionA": "Ouvre. Immédiatement.",
+    "optionB": "C'est sûrement une surprise",
+    "spice": 2
+  },
+  {
+    "id": 275,
+    "category": "jalousie",
+    "scenario": "Ta copine te demande de rentrer avant minuit quand tu sors sans elle.",
+    "optionA": "Couvre-feu conjugal",
+    "optionB": "Rien de bon après minuit",
+    "spice": 2
+  },
+  {
+    "id": 276,
+    "category": "jalousie",
+    "scenario": "Ton mec scrute ta liste d'abonnés et demande « c'est qui, lui ? » un par un.",
+    "optionA": "Audit des abonnés, non",
+    "optionB": "Il fait connaissance, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 277,
+    "category": "jalousie",
+    "scenario": "Ton copain fait la tête tout le trajet retour parce qu'un serveur t'a offert un dessert.",
+    "optionA": "Boudeur professionnel",
+    "optionB": "Le dessert était louche",
+    "spice": 1
+  },
+  {
+    "id": 278,
+    "category": "jalousie",
+    "scenario": "Ta copine exige que tu racontes ta soirée minute par minute.",
+    "optionA": "Interrogatoire de garde à vue",
+    "optionB": "Elle veut juste partager",
+    "spice": 2
+  },
+  {
+    "id": 279,
+    "category": "jalousie",
+    "scenario": "Ton mec compte tes ex et trouve que « ça fait beaucoup ».",
+    "optionA": "Jalousie rétroactive stérile",
+    "optionB": "Il digère, laisse-lui du temps",
+    "spice": 2
+  },
+  {
+    "id": 280,
+    "category": "sexe",
+    "scenario": "Ton mec ne t'embrasse jamais en public, « c'est pas son truc ».",
+    "optionA": "Il te cache ou quoi ?",
+    "optionB": "La pudeur, ça se respecte",
+    "spice": 2
+  },
+  {
+    "id": 281,
+    "category": "sexe",
+    "scenario": "Ta copine te demande une « note sur 10 » après. Et elle attend une vraie réponse.",
+    "optionA": "Piège mortel, ne réponds pas",
+    "optionB": "Le feedback fait progresser",
+    "spice": 2
+  },
+  {
+    "id": 282,
+    "category": "sexe",
+    "scenario": "Ta moitié dit que la routine sous la couette, « c'est normal après deux ans ».",
+    "optionA": "Drapeau blanc trop tôt",
+    "optionB": "C'est juste réaliste",
+    "spice": 3
+  },
+  {
+    "id": 283,
+    "category": "sexe",
+    "scenario": "Ta copine met une serrure à son tiroir de table de nuit.",
+    "optionA": "Un tiroir, des secrets",
+    "optionB": "Chacun son petit mystère",
+    "spice": 2
+  },
+  {
+    "id": 284,
+    "category": "sexe",
+    "scenario": "Ta copine avoue avoir parfois « exagéré son enthousiasme » pour te faire plaisir.",
+    "optionA": "Des années de mensonge",
+    "optionB": "C'est de la bienveillance",
+    "spice": 3
+  },
+  {
+    "id": 285,
+    "category": "sexe",
+    "scenario": "Ton mec a un « mot code » pour te dire discrètement qu'il a hâte d'être à ce soir.",
+    "optionA": "On n'est pas des espions",
+    "optionB": "Complicité maximale, mignon",
+    "spice": 1
+  },
+  {
+    "id": 286,
+    "category": "sexe",
+    "scenario": "Ta moitié préfère finir sa série plutôt que de se coucher en même temps que toi.",
+    "optionA": "La série a gagné",
+    "optionB": "Un épisode, c'est vite fini",
+    "spice": 2
+  },
+  {
+    "id": 287,
+    "category": "projets",
+    "scenario": "Ta copine veut cinq enfants. Tu en veux zéro. Vous êtes ensemble depuis trois ans.",
+    "optionA": "Incompatibilité de fond",
+    "optionB": "L'amour trouvera un chemin",
+    "spice": 3
+  },
+  {
+    "id": 288,
+    "category": "projets",
+    "scenario": "Ton mec te dit après cinq ans qu'il ne veut « finalement plus » d'enfants.",
+    "optionA": "Changement de contrat",
+    "optionB": "On a le droit d'évoluer",
+    "spice": 3
+  },
+  {
+    "id": 289,
+    "category": "projets",
+    "scenario": "Ta moitié refuse de mettre ton nom sur le bail, « pour simplifier ».",
+    "optionA": "Simplifier sa fuite, oui",
+    "optionB": "C'est administratif, relax",
+    "spice": 2
+  },
+  {
+    "id": 290,
+    "category": "projets",
+    "scenario": "Ton copain propose d'acheter une maison à deux sans être mariés ni pacsés.",
+    "optionA": "Château de cartes juridique",
+    "optionB": "L'amour avant les papiers",
+    "spice": 2
+  },
+  {
+    "id": 291,
+    "category": "projets",
+    "scenario": "Ta moitié dit oui à tous vos projets d'avenir… mais ne fixe jamais aucune date.",
+    "optionA": "Oui qui veut dire non",
+    "optionB": "Elle avance à son rythme",
+    "spice": 2
+  },
+  {
+    "id": 292,
+    "category": "projets",
+    "scenario": "Ton mec veut quitter son CDI pour devenir influenceur voyage.",
+    "optionA": "Crise de la trentaine",
+    "optionB": "Soutiens ses rêves",
+    "spice": 1
+  },
+  {
+    "id": 293,
+    "category": "soirees",
+    "scenario": "Ta copine tient la main d'un pote « pour traverser la foule » en festival.",
+    "optionA": "Les mains, c'est réservé",
+    "optionB": "C'est de la logistique",
+    "spice": 2
+  },
+  {
+    "id": 294,
+    "category": "soirees",
+    "scenario": "Ton mec organise une soirée chez vous… le soir où tu n'es pas là.",
+    "optionA": "Timing très choisi",
+    "optionB": "Il voulait pas te déranger",
+    "spice": 2
+  },
+  {
+    "id": 295,
+    "category": "soirees",
+    "scenario": "Ta moitié rentre de soirée et file direct à la douche, à 4h du matin.",
+    "optionA": "Douche très suspecte",
+    "optionB": "Elle sent la clope, logique",
+    "spice": 3
+  },
+  {
+    "id": 296,
+    "category": "soirees",
+    "scenario": "Ton copain descend « acheter des clopes » au bar d'en bas et y reste trois heures.",
+    "optionA": "Trois heures, sérieux ?",
+    "optionB": "Il a croisé du monde",
+    "spice": 1
+  },
+  {
+    "id": 297,
+    "category": "soirees",
+    "scenario": "Ton mec refuse systématiquement que tu viennes à ses soirées : « tu t'ennuierais ».",
+    "optionA": "Il te tient à distance",
+    "optionB": "Il te connaît, c'est vrai",
+    "spice": 3
+  },
+  {
+    "id": 298,
+    "category": "reseaux",
+    "scenario": "Ta copine passe plus de temps à filmer votre rencard qu'à te parler.",
+    "optionA": "Rencard avec sa caméra",
+    "optionB": "C'est sa passion, le contenu",
+    "spice": 1
+  },
+  {
+    "id": 299,
+    "category": "reseaux",
+    "scenario": "Ton mec a activé les notifications de posts d'UNE seule personne. Pas toi.",
+    "optionA": "Alerte très dédiée",
+    "optionB": "Il aime ses memes, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 300,
+    "category": "reseaux",
+    "scenario": "Ta copine répond aux DM de son « crush Insta » d'avant votre rencontre, « en amis ».",
+    "optionA": "Le crush ne meurt jamais",
+    "optionB": "L'histoire est ancienne, relax",
+    "spice": 3
+  },
+  {
+    "id": 301,
+    "category": "reseaux",
+    "scenario": "Ton copain refuse de te dire pourquoi il a bloqué cette fille.",
+    "optionA": "L'histoire mérite d'être contée",
+    "optionB": "Bloquer, c'est déjà bien",
+    "spice": 2
+  },
+  {
+    "id": 302,
+    "category": "reseaux",
+    "scenario": "Ta moitié like tes photos en dernier, des heures après tout le monde.",
+    "optionA": "Même en ligne, tu attends",
+    "optionB": "Elle te voit en vrai, elle",
+    "spice": 1
+  },
+  {
+    "id": 303,
+    "category": "ex",
+    "scenario": "Ton copain a toujours ses photos de couple avec son ex dans son téléphone.",
+    "optionA": "Corbeille, maintenant",
+    "optionB": "On n'efface pas sa vie",
+    "spice": 2
+  },
+  {
+    "id": 304,
+    "category": "ex",
+    "scenario": "Ta copine croise son ex au supermarché et discute 45 minutes au rayon surgelés.",
+    "optionA": "45 minutes, congelée sur place",
+    "optionB": "La politesse prend du temps",
+    "spice": 1
+  },
+  {
+    "id": 305,
+    "category": "ex",
+    "scenario": "Ton mec envoie des memes à son ex « parce qu'elle seule comprend cet humour ».",
+    "optionA": "Complicité à rediriger",
+    "optionB": "L'humour, c'est sacré",
+    "spice": 2
+  },
+  {
+    "id": 306,
+    "category": "ex",
+    "scenario": "Ta moitié refuse de te dire pourquoi elle a quitté son ex.",
+    "optionA": "Le mystère t'inquiète à raison",
+    "optionB": "Son passé lui appartient",
+    "spice": 2
+  },
+  {
+    "id": 307,
+    "category": "ex",
+    "scenario": "Ta copine dit que son ex reste « la personne qui la connaît le mieux ».",
+    "optionA": "Phrase interdite en couple",
+    "optionB": "C'est factuel, ils ont duré",
+    "spice": 3
+  },
+  {
+    "id": 308,
+    "category": "amis",
+    "scenario": "Ton mec dit « les potes avant tout, toujours », en te regardant.",
+    "optionA": "Hiérarchie annoncée",
+    "optionB": "C'est du folklore de bande",
+    "spice": 2
+  },
+  {
+    "id": 309,
+    "category": "amis",
+    "scenario": "Ta copine organise l'anniversaire de son meilleur ami… mais oublie le tien.",
+    "optionA": "L'oubli qui dit tout",
+    "optionB": "Ça arrive, un trou de mémoire",
+    "spice": 2
+  },
+  {
+    "id": 310,
+    "category": "amis",
+    "scenario": "L'amie de ton copain teste ses nouvelles recettes sur lui chaque semaine.",
+    "optionA": "La cuisine, c'est intime",
+    "optionB": "Il sert de cobaye, c'est tout",
+    "spice": 1
+  },
+  {
+    "id": 311,
+    "category": "amis",
+    "scenario": "Ta moitié a un « langage secret » avec son meilleur ami, incompréhensible pour toi.",
+    "optionA": "Complicité qui exclut",
+    "optionB": "Vingt ans d'amitié, normal",
+    "spice": 1
+  },
+  {
+    "id": 312,
+    "category": "amis",
+    "scenario": "Ta copine dit à sa bande que tu es « en période d'essai ».",
+    "optionA": "CDD sentimental, non merci",
+    "optionB": "Humour de groupe, ça passe",
+    "spice": 2
+  },
+  {
+    "id": 313,
+    "category": "argent",
+    "scenario": "Ton mec offre une montre de luxe à sa mère et un mug à toi.",
+    "optionA": "Le budget parle",
+    "optionB": "Le mug était personnalisé",
+    "spice": 2
+  },
+  {
+    "id": 314,
+    "category": "argent",
+    "scenario": "Ta copine veut que tu signes une reconnaissance de dette pour 50 €.",
+    "optionA": "Notaire de l'amour, non",
+    "optionB": "Les comptes clairs, l'amour long",
+    "spice": 1
+  },
+  {
+    "id": 315,
+    "category": "argent",
+    "scenario": "Ta moitié annule le week-end en amoureux « trop cher », puis s'achète une console.",
+    "optionA": "Les priorités sont claires",
+    "optionB": "La console dure plus longtemps",
+    "spice": 2
+  },
+  {
+    "id": 316,
+    "category": "argent",
+    "scenario": "Un abonnement mensuel mystère apparaît sur le relevé de ton mec. « C'est du coaching. »",
+    "optionA": "Un abonnement à quoi, exactement ?",
+    "optionB": "Chacun ses petites dépenses",
+    "spice": 2
+  },
+  {
+    "id": 317,
+    "category": "argent",
+    "scenario": "Ta moitié vend tes affaires sur Vinted sans te demander.",
+    "optionA": "Vol avec sourire",
+    "optionB": "Ça dormait dans le placard",
+    "spice": 2
+  },
+  {
+    "id": 318,
+    "category": "quotidien",
+    "scenario": "Ton copain fait semblant de dormir quand il faut sortir le chien sous la pluie.",
+    "optionA": "Comédien démasqué",
+    "optionB": "Stratégie de survie classique",
+    "spice": 1
+  },
+  {
+    "id": 319,
+    "category": "quotidien",
+    "scenario": "Ta copine réorganise TES affaires « pour optimiser », sans te demander.",
+    "optionA": "Contrôle déguisé en rangement",
+    "optionB": "Elle t'a rendu service",
+    "spice": 2
+  },
+  {
+    "id": 320,
+    "category": "quotidien",
+    "scenario": "Ta moitié finit ton assiette sans demander, à chaque resto.",
+    "optionA": "Ton assiette, ta propriété",
+    "optionB": "Le couple, c'est le partage",
+    "spice": 1
+  },
+  {
+    "id": 321,
+    "category": "quotidien",
+    "scenario": "Ta copine te réveille en pleine nuit pour te raconter son cauchemar.",
+    "optionA": "Le sommeil est sacré",
+    "optionB": "C'est ça, être un binôme",
+    "spice": 1
+  },
+  {
+    "id": 322,
+    "category": "quotidien",
+    "scenario": "Ton mec porte le même jogging « d'intérieur » depuis 2019. Troué.",
+    "optionA": "Le jogging doit mourir",
+    "optionB": "C'est son doudou, respecte",
+    "spice": 1
+  },
+  {
+    "id": 323,
+    "category": "travail",
+    "scenario": "Ta copine dit que son collègue est « son seul rayon de soleil au bureau ».",
+    "optionA": "Le soleil, c'est toi, normalement",
+    "optionB": "Le bureau est déprimant, voilà",
+    "spice": 2
+  },
+  {
+    "id": 324,
+    "category": "travail",
+    "scenario": "La stagiaire de ton mec le suit partout et il trouve ça « touchant ».",
+    "optionA": "Fan club à dissoudre",
+    "optionB": "C'est du mentorat",
+    "spice": 2
+  },
+  {
+    "id": 325,
+    "category": "travail",
+    "scenario": "Ta moitié a une photo de son chien sur son bureau. Pas de toi.",
+    "optionA": "Le chien a gagné, encore",
+    "optionB": "Le chien fait moins jaser",
+    "spice": 1
+  },
+  {
+    "id": 326,
+    "category": "travail",
+    "scenario": "Ta copine se fait passer pour célibataire aux afterworks, « pour éviter les questions ».",
+    "optionA": "Mensonge très arrangeant",
+    "optionB": "Paix sociale au bureau",
+    "spice": 3
+  },
+  {
+    "id": 327,
+    "category": "travail",
+    "scenario": "Le collègue de ta copine lui a trouvé un surnom mignon. Et elle répond au surnom.",
+    "optionA": "Les surnoms, c'est réservé",
+    "optionB": "C'est de la cohésion d'équipe",
+    "spice": 2
+  },
+  {
+    "id": 328,
+    "category": "famille",
+    "scenario": "Ta belle-mère t'offre un livre de cuisine « pour progresser ».",
+    "optionA": "Attaque à peine voilée",
+    "optionB": "C'est un cadeau utile",
+    "spice": 1
+  },
+  {
+    "id": 329,
+    "category": "famille",
+    "scenario": "Ton mec défend sa sœur qui t'a clashé au repas de famille.",
+    "optionA": "Il devait choisir ton camp",
+    "optionB": "Le sang, c'est compliqué",
+    "spice": 3
+  },
+  {
+    "id": 330,
+    "category": "famille",
+    "scenario": "Ta copine prévoit d'héberger sa mère « quelques mois » chez vous.",
+    "optionA": "Quelques mois = pour toujours",
+    "optionB": "On n'abandonne pas sa mère",
+    "spice": 3
+  },
+  {
+    "id": 331,
+    "category": "famille",
+    "scenario": "La famille de ta moitié organise des vacances « famille only », conjoints exclus.",
+    "optionA": "Clause anti-toi",
+    "optionB": "Chaque tribu a ses rites",
+    "spice": 2
+  },
+  {
+    "id": 332,
+    "category": "famille",
+    "scenario": "Ta copine montre tes photos dossiers à toute sa famille au dîner.",
+    "optionA": "Trahison au dessert",
+    "optionB": "C'est qu'ils t'adorent déjà",
+    "spice": 1
+  },
+  {
+    "id": 333,
+    "category": "vacances",
+    "scenario": "Ton mec passe les vacances à répondre « juste à deux-trois messages »… par heure.",
+    "optionA": "Présent de corps uniquement",
+    "optionB": "Il décompresse à sa façon",
+    "spice": 1
+  },
+  {
+    "id": 334,
+    "category": "vacances",
+    "scenario": "Ta copine veut refaire exactement le voyage qu'elle avait fait avec son ex. Même hôtel.",
+    "optionA": "Circuit de la nostalgie, non",
+    "optionB": "L'hôtel était top, c'est tout",
+    "spice": 3
+  },
+  {
+    "id": 335,
+    "category": "vacances",
+    "scenario": "Ton copain prend un cours de surf avec la monitrice « très pédagogue » tous les matins du séjour.",
+    "optionA": "Cours particuliers très privés",
+    "optionB": "Il progresse, c'est l'objectif",
+    "spice": 2
+  },
+  {
+    "id": 336,
+    "category": "vacances",
+    "scenario": "Ta moitié a son « voyage solo annuel », gravé dans le marbre, non négociable.",
+    "optionA": "Rituel qui t'exclut",
+    "optionB": "Tout le monde a besoin d'air",
+    "spice": 2
+  },
+  {
+    "id": 337,
+    "category": "vacances",
+    "scenario": "Ton mec veut camper une semaine sans réseau, « coupé du monde »… sans toi.",
+    "optionA": "Coupé du monde, ou de toi ?",
+    "optionB": "Un homme et la forêt, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 338,
+    "category": "seduction",
+    "scenario": "Ton copain bombe le torse et change de voix dès qu'une jolie femme entre dans la pièce.",
+    "optionA": "Mode paon activé",
+    "optionB": "C'est de la biologie",
+    "spice": 1
+  },
+  {
+    "id": 339,
+    "category": "seduction",
+    "scenario": "Ta copine teste ses punchlines de drague « pour rire » sur le livreur.",
+    "optionA": "Le livreur n'a rien demandé",
+    "optionB": "Elle répand la joie",
+    "spice": 1
+  },
+  {
+    "id": 340,
+    "category": "seduction",
+    "scenario": "Ton mec te dit qu'une inconnue l'a dragué… trois jours après les faits.",
+    "optionA": "Trois jours de réflexion ?",
+    "optionB": "Il l'a dit, c'est l'essentiel",
+    "spice": 2
+  },
+  {
+    "id": 341,
+    "category": "seduction",
+    "scenario": "Ta moitié répond « on est ensemble, mais je regarde le menu » en rigolant.",
+    "optionA": "Le menu reste fermé",
+    "optionB": "Regarder n'est pas commander",
+    "spice": 3
+  },
+  {
+    "id": 342,
+    "category": "seduction",
+    "scenario": "Ton copain a un sourire spécial « serveuse » que tu ne vois plus à la maison.",
+    "optionA": "Ce sourire t'appartenait",
+    "optionB": "C'est son visage commercial",
+    "spice": 2
+  },
+  {
+    "id": 343,
+    "category": "telephone",
+    "scenario": "Ton mec pose son téléphone dans une autre pièce dès que tu rentres.",
+    "optionA": "Distance de sécurité suspecte",
+    "optionB": "Il te consacre son attention",
+    "spice": 2
+  },
+  {
+    "id": 344,
+    "category": "telephone",
+    "scenario": "Ta copine tape son code en cachant l'écran de l'autre main, comme au distributeur.",
+    "optionA": "Code défense activé",
+    "optionB": "Réflexe de sécurité, c'est tout",
+    "spice": 2
+  },
+  {
+    "id": 345,
+    "category": "telephone",
+    "scenario": "Ton copain répond à un message pendant que tu pleures.",
+    "optionA": "Priorités catastrophiques",
+    "optionB": "Il prévenait qu'il serait en retard",
+    "spice": 2
+  },
+  {
+    "id": 346,
+    "category": "telephone",
+    "scenario": "Ta moitié a un dossier d'applications caché sur la dernière page de son écran.",
+    "optionA": "Le dossier de l'ombre",
+    "optionB": "C'est là que meurent les applis",
+    "spice": 1
+  },
+  {
+    "id": 347,
+    "category": "telephone",
+    "scenario": "Ta copine te demande de supprimer le numéro de ton ex. Devant elle. Maintenant.",
+    "optionA": "Test de confiance raté d'avance",
+    "optionB": "Facile, si t'as rien à cacher",
+    "spice": 3
+  },
+  {
+    "id": 348,
+    "category": "jalousie",
+    "scenario": "Ton copain « n'aime pas trop » ta robe préférée pour les soirées sans lui.",
+    "optionA": "Ta garde-robe, tes règles",
+    "optionB": "Il dit ça avec amour",
+    "spice": 2
+  },
+  {
+    "id": 349,
+    "category": "jalousie",
+    "scenario": "Ta copine vérifie tes kilomètres parcourus sur ton appli de course à pied.",
+    "optionA": "Même ton jogging est fliqué",
+    "optionB": "Elle suit tes progrès sportifs",
+    "spice": 1
+  },
+  {
+    "id": 350,
+    "category": "jalousie",
+    "scenario": "Ton mec devient distant à chaque fois que tu réussis quelque chose.",
+    "optionA": "Jalousie de carrière toxique",
+    "optionB": "Il digère, ça lui passera",
+    "spice": 3
+  },
+  {
+    "id": 351,
+    "category": "jalousie",
+    "scenario": "Ta moitié lit ton journal intime « tombé ouvert » sur la table.",
+    "optionA": "Sanctuaire violé",
+    "optionB": "Fallait pas le laisser traîner",
+    "spice": 3
+  },
+  {
+    "id": 352,
+    "category": "jalousie",
+    "scenario": "Ta copine « déteste » ta nouvelle coupe que tout le monde complimente.",
+    "optionA": "Elle veut te garder terne",
+    "optionB": "Elle a juste ses goûts",
+    "spice": 2
+  },
+  {
+    "id": 353,
+    "category": "sexe",
+    "scenario": "Ta copine dit que l'intimité, « c'est 10 % d'un couple, pas plus ».",
+    "optionA": "Pourcentage très inquiétant",
+    "optionB": "Elle n'a pas tort, en vrai",
+    "spice": 3
+  },
+  {
+    "id": 354,
+    "category": "sexe",
+    "scenario": "Ton mec a mis une photo de toi à la plage en fond d'écran, visible par tous ses collègues.",
+    "optionA": "Cette photo est privée",
+    "optionB": "Il est juste fier de toi",
+    "spice": 2
+  },
+  {
+    "id": 355,
+    "category": "sexe",
+    "scenario": "Ta moitié esquive tout bisou tant qu'elle ne s'est pas brossé les dents.",
+    "optionA": "La passion attend le dentifrice",
+    "optionB": "L'hygiène avant tout",
+    "spice": 1
+  },
+  {
+    "id": 356,
+    "category": "sexe",
+    "scenario": "Ton copain lance la même playlist « spéciale » depuis quatre ans.",
+    "optionA": "Même la playlist s'ennuie",
+    "optionB": "Elle a fait ses preuves",
+    "spice": 1
+  },
+  {
+    "id": 357,
+    "category": "sexe",
+    "scenario": "Ta copine avoue qu'il lui arrive de penser à quelqu'un d'autre. « Une célébrité, hein. »",
+    "optionA": "Trahison mentale",
+    "optionB": "L'imaginaire est libre",
+    "spice": 3
+  },
+  {
+    "id": 358,
+    "category": "sexe",
+    "scenario": "Ton mec t'envoie des sextos pendant ton repas de famille.",
+    "optionA": "Timing catastrophique",
+    "optionB": "La flamme n'attend pas",
+    "spice": 2
+  },
+  {
+    "id": 359,
+    "category": "projets",
+    "scenario": "Ton copain promet un tour du monde à deux… « dans cinq ou six ans, promis ».",
+    "optionA": "Le voyage fantôme",
+    "optionB": "Il faut économiser d'abord",
+    "spice": 1
+  },
+  {
+    "id": 360,
+    "category": "projets",
+    "scenario": "Quand on lui demande si c'est sérieux entre vous, ton copain répond « on verra ».",
+    "optionA": "« On verra » = red flag",
+    "optionB": "Il déteste étaler sa vie",
+    "spice": 3
+  },
+  {
+    "id": 361,
+    "category": "projets",
+    "scenario": "Après deux ans, ta copine hésite encore à te donner un double des clés.",
+    "optionA": "La porte reste fermée",
+    "optionB": "Les clés, c'est symbolique",
+    "spice": 2
+  },
+  {
+    "id": 362,
+    "category": "projets",
+    "scenario": "Ton mec veut rédiger un « contrat de couple » écrit, avec des règles et des clauses.",
+    "optionA": "L'amour n'est pas un CDI",
+    "optionB": "Les règles claires protègent",
+    "spice": 2
+  },
+  {
+    "id": 363,
+    "category": "projets",
+    "scenario": "Ta copine veut déménager à la campagne. Tu es une personne de ville, à 100 %.",
+    "optionA": "Choc des mondes annoncé",
+    "optionB": "Le compromis rend heureux",
+    "spice": 2
+  },
+  {
+    "id": 364,
+    "category": "projets",
+    "scenario": "Ton copain propose un mariage en secret, juste vous deux, sans prévenir personne.",
+    "optionA": "Ta famille ne pardonnera pas",
+    "optionB": "C'est ultra romantique",
+    "spice": 2
+  },
+  {
+    "id": 365,
+    "category": "projets",
+    "scenario": "Ta moitié veut « une année sabbatique de couple » pour voyager seule avant de s'engager.",
+    "optionA": "Une pause, c'est une fin",
+    "optionB": "Mieux vaut ça qu'un regret",
+    "spice": 3
   }
 ]
