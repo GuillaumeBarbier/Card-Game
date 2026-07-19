@@ -53,7 +53,8 @@ export default function CountdownOverlay({
         )}
       </AnimatePresence>
       <p className="mt-8 text-sm text-mist px-10 text-center">
-        Annoncez votre réponse à voix haute, en même temps.
+        Fige ton verdict dans ta tête — vous allez répondre chacun votre tour,
+        en secret.
       </p>
     </motion.div>
   );
