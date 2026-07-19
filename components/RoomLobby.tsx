@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "motion/react";
-import { loadProfile, saveProfile, vibrate } from "@/lib/store";
+import { loadProfile, loadSeen, saveProfile, vibrate } from "@/lib/store";
 
 type Mode = "create" | "join";
 
@@ -30,7 +30,11 @@ export default function RoomLobby() {
       const res = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: name.trim(), deckSlug }),
+        body: JSON.stringify({
+          name: name.trim(),
+          deckSlug,
+          seenIds: mode === "create" ? [...loadSeen(deckSlug)] : undefined,
+        }),
       });
       const data = await res.json();
       if (!res.ok) {

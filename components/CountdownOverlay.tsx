@@ -6,9 +6,13 @@ import { vibrate } from "@/lib/store";
 
 export default function CountdownOverlay({
   seconds = 3,
+  eyebrow = "Révélation dans",
+  subtitle = "Les deux verdicts sont verrouillés.",
   onDone,
 }: {
   seconds?: number;
+  eyebrow?: string;
+  subtitle?: string;
   onDone: () => void;
 }) {
   const [count, setCount] = useState(seconds);
@@ -30,7 +34,7 @@ export default function CountdownOverlay({
       exit={{ opacity: 0 }}
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-ink/85 backdrop-blur-xl"
     >
-      <p className="eyebrow text-mist mb-6">Verdict dans</p>
+      <p className="eyebrow text-mist mb-6">{eyebrow}</p>
       <AnimatePresence mode="popLayout">
         {count > 0 ? (
           <motion.span
@@ -52,10 +56,7 @@ export default function CountdownOverlay({
           </motion.span>
         )}
       </AnimatePresence>
-      <p className="mt-8 text-sm text-mist px-10 text-center">
-        Fige ton verdict dans ta tête — vous allez répondre chacun votre tour,
-        en secret.
-      </p>
+      <p className="mt-8 text-sm text-mist px-10 text-center">{subtitle}</p>
     </motion.div>
   );
 }

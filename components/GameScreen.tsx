@@ -9,7 +9,9 @@ import {
   saveGame,
   clearGame,
   loadProfile,
-  shuffledOrder,
+  loadSeen,
+  markSeen,
+  unseenFirstOrder,
   type GameState,
 } from "@/lib/store";
 import CardStack from "./CardStack";
@@ -34,7 +36,11 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
     } else {
       const fresh: GameState = {
         deckSlug: deck.slug,
-        order: shuffledOrder(cards.length, Date.now()),
+        order: unseenFirstOrder(
+          cards.map((c) => c.id),
+          loadSeen(deck.slug),
+          Date.now(),
+        ),
         position: 0,
         results: [],
         startedAt: Date.now(),
@@ -42,7 +48,7 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
       saveGame(fresh);
       setGame(fresh);
     }
-  }, [deck.slug, cards.length]);
+  }, [deck.slug, cards]);
 
   const queue = useMemo(() => {
     if (!game) return [];
@@ -55,6 +61,7 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
   const finished = game !== null && game.position >= cards.length;
 
   const advance = useCallback(() => {
+    if (current) markSeen(deck.slug, current.id);
     setGame((g) => {
       if (!g) return g;
       const next = { ...g, position: g.position + 1 };
@@ -63,7 +70,7 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
     });
     setPhase("idle");
     setLastChoices(null);
-  }, []);
+  }, [current, deck.slug]);
 
   const recordAnswers = useCallback(
     (c1: Choice, c2: Choice) => {
@@ -81,7 +88,7 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
         saveGame(next);
         return next;
       });
-      setPhase("result");
+      setPhase("countdown");
     },
     [current],
   );
@@ -90,7 +97,11 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
     clearGame(deck.slug);
     const fresh: GameState = {
       deckSlug: deck.slug,
-      order: shuffledOrder(cards.length, Date.now()),
+      order: unseenFirstOrder(
+        cards.map((c) => c.id),
+        loadSeen(deck.slug),
+        Date.now(),
+      ),
       position: 0,
       results: [],
       startedAt: Date.now(),
@@ -99,7 +110,7 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
     setGame(fresh);
     setPhase("idle");
     setLastChoices(null);
-  }, [deck.slug, cards.length]);
+  }, [deck.slug, cards]);
 
   if (!game) return <div className="fixed inset-0" />;
 
@@ -192,7 +203,7 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
                     className="w-full"
                   >
                     <button
-                      onClick={() => setPhase("countdown")}
+                      onClick={() => setPhase("answer")}
                       className="w-full rounded-full bg-flame py-4.5 text-base font-semibold text-ink shadow-[0_10px_40px_-10px_rgba(255,77,46,0.6)] active:scale-[0.98] transition-transform"
                     >
                       Lancer le verdict
@@ -231,7 +242,7 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
 
       <AnimatePresence>
         {phase === "countdown" && (
-          <CountdownOverlay onDone={() => setPhase("answer")} />
+          <CountdownOverlay onDone={() => setPhase("result")} />
         )}
       </AnimatePresence>
     </div>

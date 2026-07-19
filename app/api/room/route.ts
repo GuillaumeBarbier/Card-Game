@@ -10,7 +10,10 @@ export async function POST(req: Request) {
   if (!name) {
     return NextResponse.json({ error: "Prénom requis" }, { status: 400 });
   }
-  const created = createRoom(deckSlug, name);
+  const seenIds = Array.isArray(body?.seenIds)
+    ? (body.seenIds as unknown[]).filter((n): n is number => typeof n === "number")
+    : [];
+  const created = createRoom(deckSlug, name, seenIds);
   if (!created) {
     return NextResponse.json({ error: "Deck inconnu" }, { status: 404 });
   }

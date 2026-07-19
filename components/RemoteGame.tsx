@@ -5,7 +5,7 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import type { Choice } from "@/lib/types";
 import { useRoom } from "@/lib/useRoom";
-import { vibrate } from "@/lib/store";
+import { markSeen, vibrate } from "@/lib/store";
 import GameCard from "./GameCard";
 import CountdownRing from "./CountdownRing";
 
@@ -32,8 +32,11 @@ export default function RemoteGame({ code }: { code: string }) {
 
   useEffect(() => {
     if (state?.phase === "countdown") vibrate(30);
-    if (state?.phase === "reveal") vibrate([40, 60, 40]);
-  }, [state?.phase]);
+    if (state?.phase === "reveal") {
+      vibrate([40, 60, 40]);
+      if (state.card) markSeen(state.deckSlug, state.card.id);
+    }
+  }, [state?.phase, state?.card, state?.deckSlug]);
 
   if (!playerId) {
     return (

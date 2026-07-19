@@ -67,6 +67,40 @@ export function shuffledOrder(count: number, seed: number): number[] {
   return order;
 }
 
+const SEEN_KEY = (slug: string) => `entrenous.seen.${slug}`;
+
+/** Ids des cartes déjà jouées (tous modes confondus), persistés en local. */
+export function loadSeen(slug: string): Set<number> {
+  if (typeof window === "undefined") return new Set();
+  return new Set(safeParse<number[]>(localStorage.getItem(SEEN_KEY(slug))) ?? []);
+}
+
+export function markSeen(slug: string, cardId: number) {
+  const seen = loadSeen(slug);
+  seen.add(cardId);
+  localStorage.setItem(SEEN_KEY(slug), JSON.stringify([...seen]));
+}
+
+export function clearSeen(slug: string) {
+  localStorage.removeItem(SEEN_KEY(slug));
+}
+
+/**
+ * Ordre de jeu : toutes les cartes jamais vues d'abord (mélangées), puis les
+ * déjà-vues (mélangées). Une carte ne revient donc pas avant l'épuisement du
+ * paquet.
+ */
+export function unseenFirstOrder(
+  cardIds: number[],
+  seen: Set<number>,
+  seed: number,
+): number[] {
+  const order = shuffledOrder(cardIds.length, seed);
+  const unseen = order.filter((i) => !seen.has(cardIds[i]));
+  const alreadySeen = order.filter((i) => seen.has(cardIds[i]));
+  return [...unseen, ...alreadySeen];
+}
+
 export function vibrate(pattern: number | number[]) {
   if (typeof navigator !== "undefined" && "vibrate" in navigator) {
     try {

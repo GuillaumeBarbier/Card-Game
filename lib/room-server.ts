@@ -69,14 +69,20 @@ function sweep() {
   }
 }
 
-export function createRoom(deckSlug: string, hostName: string) {
+export function createRoom(deckSlug: string, hostName: string, seenIds: number[] = []) {
   sweep();
   const cards = getCards(deckSlug);
   if (cards.length === 0) return null;
+  const seen = new Set(seenIds);
+  const base = shuffle(cards.length);
+  const order = [
+    ...base.filter((i) => !seen.has(cards[i].id)),
+    ...base.filter((i) => seen.has(cards[i].id)),
+  ];
   const room: Room = {
     code: makeCode(),
     deckSlug,
-    order: shuffle(cards.length),
+    order,
     position: 0,
     players: [{ id: crypto.randomUUID(), name: hostName }],
     phase: "lobby",
