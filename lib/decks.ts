@@ -1,5 +1,6 @@
 import type { Card, Deck } from "./types";
 import verdictCards from "@/data/verdict.json";
+import ouinonCards from "@/data/ouinon.json";
 
 export const DECKS: Deck[] = [
   {
@@ -13,13 +14,16 @@ export const DECKS: Deck[] = [
     cardCount: (verdictCards as Card[]).length,
   },
   {
-    slug: "verites",
-    name: "Vérités",
-    tagline: "Les questions qu'on n'ose pas poser",
-    description: "Bientôt disponible.",
+    slug: "oui-non",
+    name: "Oui ou Non",
+    tagline: "500 questions, zéro nuance permise",
+    description:
+      "Une question de fond, deux réponses possibles seulement. Chacun tranche en secret — puis on compare, et on débat.",
     accent: "#d8b56a",
-    available: false,
-    cardCount: 0,
+    // Ne devient jouable qu'une fois le vrai contenu fusionné (le fichier
+    // placeholder de dev ne contient que quelques cartes).
+    available: (ouinonCards as Card[]).length >= 100,
+    cardCount: (ouinonCards as Card[]).length,
   },
   {
     slug: "premiere-fois",
@@ -38,5 +42,6 @@ export function getDeck(slug: string): Deck | undefined {
 
 export function getCards(slug: string): Card[] {
   if (slug === "verdict") return verdictCards as Card[];
+  if (slug === "oui-non") return ouinonCards as Card[];
   return [];
 }

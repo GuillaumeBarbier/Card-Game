@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "category": "ex",
+    "scenario": "Peut-on rester en contact avec son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 2,
+    "category": "projets",
+    "scenario": "Peut-on vivre en van en couple avec un chat et un chien, à vie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  }
+]
