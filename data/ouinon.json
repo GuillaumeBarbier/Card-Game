@@ -10,7 +10,3991 @@
   {
     "id": 2,
     "category": "projets",
-    "scenario": "Peut-on vivre en van en couple avec un chat et un chien, à vie ?",
+    "scenario": "Peut-on vivre en van en couple avec un chat et un chien à vie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 3,
+    "category": "quotidien",
+    "scenario": "Peut-on manger le dernier carré de chocolat sans demander ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 4,
+    "category": "telephone",
+    "scenario": "Peut-on regarder le téléphone de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 5,
+    "category": "famille",
+    "scenario": "Faut-il passer tous les Noëls avec la belle-famille ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 6,
+    "category": "sexe",
+    "scenario": "Est-ce que les câlins comptent autant que le reste ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 7,
+    "category": "soirees",
+    "scenario": "Peut-on sortir en boîte chacun de son côté ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 8,
+    "category": "argent",
+    "scenario": "Faut-il un compte commun quand on vit ensemble ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 9,
+    "category": "jalousie",
+    "scenario": "Est-ce qu'un peu de jalousie, c'est une preuve d'amour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 10,
+    "category": "reseaux",
+    "scenario": "Peut-on liker les photos d'un(e) inconnu(e) très charmant(e) ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 11,
+    "category": "vacances",
+    "scenario": "Peut-on partir en vacances chacun de son côté ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 12,
+    "category": "seduction",
+    "scenario": "Est-ce que complimenter un(e) inconnu(e), c'est déjà de la drague ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 13,
+    "category": "amis",
+    "scenario": "Peut-on avoir un(e) meilleur(e) ami(e) du sexe opposé ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 14,
+    "category": "travail",
+    "scenario": "Peut-on accepter un poste qui oblige à déménager sans consulter l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 15,
+    "category": "ex",
+    "scenario": "Faut-il tout raconter sur ses ex à son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 16,
+    "category": "projets",
+    "scenario": "Tu dirais oui à tout plaquer pour partir vivre sur une île ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 17,
+    "category": "quotidien",
+    "scenario": "Faut-il faire le lit tous les matins ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 18,
+    "category": "telephone",
+    "scenario": "Faut-il connaître le code de déverrouillage de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 19,
+    "category": "famille",
+    "scenario": "Peut-on dire à sa belle-mère qu'elle exagère ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 20,
+    "category": "sexe",
+    "scenario": "Peut-on parler de nos envies sans aucun tabou ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 21,
+    "category": "soirees",
+    "scenario": "C'est acceptable de rentrer à 5h du matin sans prévenir ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 22,
+    "category": "argent",
+    "scenario": "Peut-on cacher un achat à son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 23,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux d'un personnage de série ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 24,
+    "category": "reseaux",
+    "scenario": "Faut-il afficher son couple sur les réseaux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 25,
+    "category": "vacances",
+    "scenario": "Peut-on partir en voyage sans rien réserver du tout ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 26,
+    "category": "seduction",
+    "scenario": "Peut-on trouver quelqu'un d'autre séduisant sans culpabiliser ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 27,
+    "category": "amis",
+    "scenario": "Faut-il aimer les amis de son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 28,
+    "category": "travail",
+    "scenario": "Faut-il se raconter sa journée de travail chaque soir ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 29,
+    "category": "ex",
+    "scenario": "Peut-on garder des photos de son ex sur son téléphone ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 30,
+    "category": "projets",
+    "scenario": "Faut-il être marié avant d'acheter une maison ensemble ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 31,
+    "category": "quotidien",
+    "scenario": "Peut-on laisser la porte ouverte quand on va aux toilettes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 32,
+    "category": "telephone",
+    "scenario": "Peut-on décrocher le téléphone de l'autre s'il sonne ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 33,
+    "category": "famille",
+    "scenario": "Est-ce que ta mère peut avoir un double de nos clés ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 34,
+    "category": "sexe",
+    "scenario": "Faut-il programmer des moments intimes dans l'agenda ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 35,
+    "category": "soirees",
+    "scenario": "Faut-il toujours inviter son partenaire aux soirées entre collègues ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 36,
+    "category": "argent",
+    "scenario": "Est-ce que celui qui gagne plus doit payer plus ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 37,
+    "category": "jalousie",
+    "scenario": "Faut-il toujours avouer quand on est jaloux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 38,
+    "category": "reseaux",
+    "scenario": "C'est acceptable d'avoir un compte privé que l'autre ne suit pas ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 39,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à un tour du monde d'un an, sac au dos ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 40,
+    "category": "seduction",
+    "scenario": "Faut-il continuer à séduire son partenaire après des années ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 41,
+    "category": "amis",
+    "scenario": "Peut-on partir en week-end entre amis sans l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 42,
+    "category": "travail",
+    "scenario": "Peut-on travailler dans la même entreprise que son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 43,
+    "category": "ex",
+    "scenario": "C'est acceptable d'aller au mariage de son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 44,
+    "category": "projets",
+    "scenario": "Peut-on se pacser « juste pour les impôts » ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 45,
+    "category": "quotidien",
+    "scenario": "Est-ce que dormir dans des chambres séparées peut sauver un couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 46,
+    "category": "telephone",
+    "scenario": "C'est acceptable de laisser son téléphone en mode avion toute la soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 47,
+    "category": "famille",
+    "scenario": "Peut-on refuser un dimanche sur deux chez les beaux-parents ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 48,
+    "category": "sexe",
+    "scenario": "Est-ce que la routine sous la couette est inévitable ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 49,
+    "category": "soirees",
+    "scenario": "Peut-on refuser une soirée juste pour rester en pyjama devant une série ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 50,
+    "category": "argent",
+    "scenario": "Peut-on se dire nos salaires dès les premiers mois ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 51,
+    "category": "jalousie",
+    "scenario": "Peut-on demander à l'autre de ne plus voir quelqu'un qui nous rend jaloux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 52,
+    "category": "reseaux",
+    "scenario": "Peut-on poster une photo de l'autre sans son accord ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 53,
+    "category": "vacances",
+    "scenario": "Est-ce que le camping, ça compte comme des vraies vacances ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 54,
+    "category": "seduction",
+    "scenario": "Peut-on avouer un crush sur une célébrité ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 55,
+    "category": "amis",
+    "scenario": "C'est acceptable de raconter notre vie intime à ses amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 56,
+    "category": "travail",
+    "scenario": "Est-ce que répondre à des mails pro le week-end, ça devrait être interdit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 57,
+    "category": "ex",
+    "scenario": "Peut-on rester ami avec la famille de son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 58,
+    "category": "projets",
+    "scenario": "Est-ce que le mariage est encore utile aujourd'hui ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 59,
+    "category": "quotidien",
+    "scenario": "Peut-on manger devant la télé tous les soirs ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 60,
+    "category": "telephone",
+    "scenario": "Est-ce que lire par-dessus l'épaule, ça compte comme fouiller ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 61,
+    "category": "famille",
+    "scenario": "Faut-il demander la bénédiction des parents avant de se marier ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 62,
+    "category": "sexe",
+    "scenario": "Peut-on dire non sans avoir à se justifier ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 63,
+    "category": "soirees",
+    "scenario": "Est-ce que danser un slow avec quelqu'un d'autre, ça passe ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 64,
+    "category": "argent",
+    "scenario": "C'est acceptable d'offrir un cadeau utile, genre un aspirateur ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 65,
+    "category": "jalousie",
+    "scenario": "Est-ce que la jalousie se soigne ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 66,
+    "category": "reseaux",
+    "scenario": "Est-ce que suivre des comptes très sexy, ça compte comme mater ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 67,
+    "category": "vacances",
+    "scenario": "Faut-il se déconnecter totalement du travail en vacances ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 68,
+    "category": "seduction",
+    "scenario": "C'est acceptable de flirter « pour rire » en soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 69,
+    "category": "amis",
+    "scenario": "Peut-on annuler un plan en amoureux pour dépanner un ami ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 70,
+    "category": "travail",
+    "scenario": "Peut-on refuser une promotion pour préserver son couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 71,
+    "category": "ex",
+    "scenario": "Est-ce que comparer son partenaire à son ex, c'est impardonnable ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 72,
+    "category": "projets",
+    "scenario": "Tu dirais oui à une micro-maison de 20 m² pour vivre sans crédit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 73,
+    "category": "quotidien",
+    "scenario": "Faut-il répartir les tâches ménagères sur un planning écrit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 74,
+    "category": "telephone",
+    "scenario": "Peut-on supprimer des conversations avant de prêter son téléphone ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 75,
+    "category": "famille",
+    "scenario": "Peut-on partir en vacances avec ses parents à 35 ans ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 76,
+    "category": "sexe",
+    "scenario": "Tu dirais oui à une nuit d'hôtel juste pour pimenter le quotidien ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 77,
+    "category": "soirees",
+    "scenario": "Peut-on partir d'une soirée sans l'autre s'il veut rester ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 78,
+    "category": "argent",
+    "scenario": "Faut-il faire un budget mensuel à deux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 79,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux du chien qui reçoit plus de câlins que soi ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 80,
+    "category": "reseaux",
+    "scenario": "Tu dirais oui à supprimer tous tes réseaux si je le fais aussi ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 81,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à une croisière géante avec buffet à volonté ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 82,
+    "category": "seduction",
+    "scenario": "Est-ce que le regard qui traîne, ça compte comme une infidélité ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 83,
+    "category": "amis",
+    "scenario": "Est-ce que le couple doit toujours passer avant les amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 84,
+    "category": "travail",
+    "scenario": "C'est acceptable d'annuler des vacances pour un dossier urgent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 85,
+    "category": "ex",
+    "scenario": "Peut-on liker une photo de son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 86,
+    "category": "projets",
+    "scenario": "Peut-on vouloir des enfants sans vouloir se marier ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 87,
+    "category": "quotidien",
+    "scenario": "C'est acceptable de porter le même jogging trois jours de suite ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 88,
+    "category": "telephone",
+    "scenario": "Faut-il répondre aux messages de l'autre dans les 10 minutes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 89,
+    "category": "famille",
+    "scenario": "C'est acceptable que la belle-famille débarque sans prévenir ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 90,
+    "category": "sexe",
+    "scenario": "Est-ce que la tendresse au quotidien compte plus que la passion ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 91,
+    "category": "soirees",
+    "scenario": "Tu dirais oui à un karaoké en duo devant tous nos amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 92,
+    "category": "argent",
+    "scenario": "Peut-on jouer au loto en secret ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 93,
+    "category": "jalousie",
+    "scenario": "C'est acceptable de tester la jalousie de l'autre pour voir s'il tient à nous ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 94,
+    "category": "reseaux",
+    "scenario": "Peut-on répondre à un DM d'un(e) inconnu(e) qui nous complimente ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 95,
+    "category": "vacances",
+    "scenario": "Est-ce que visiter des musées, c'est obligatoire en voyage ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 96,
+    "category": "seduction",
+    "scenario": "Peut-on dire à l'autre qu'un(e) de ses ami(e)s est très beau/belle ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 97,
+    "category": "amis",
+    "scenario": "Peut-on dormir chez un(e) ami(e) célibataire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 98,
+    "category": "travail",
+    "scenario": "Peut-on devenir le chef de son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 99,
+    "category": "ex",
+    "scenario": "Faut-il dire combien d'ex on a eus ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 100,
+    "category": "projets",
+    "scenario": "Faut-il se fixer une date limite pour les grands projets (maison, bébé) ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 101,
+    "category": "quotidien",
+    "scenario": "Peut-on jeter les vieux t-shirts troués de l'autre en cachette ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 102,
+    "category": "telephone",
+    "scenario": "Peut-on mettre son partenaire en sourdine quelques heures ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 103,
+    "category": "famille",
+    "scenario": "Peut-on raconter nos disputes à sa mère ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 104,
+    "category": "sexe",
+    "scenario": "Peut-on garder certains fantasmes secrets ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 105,
+    "category": "soirees",
+    "scenario": "Faut-il se fixer une heure de retour quand on sort séparément ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 106,
+    "category": "argent",
+    "scenario": "Tu dirais oui à tout miser sur un projet risqué si j'y crois à fond ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 107,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux de la réussite de son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 108,
+    "category": "reseaux",
+    "scenario": "Faut-il se donner nos mots de passe de réseaux sociaux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 109,
+    "category": "vacances",
+    "scenario": "Peut-on retourner chaque année au même endroit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 110,
+    "category": "seduction",
+    "scenario": "Faut-il se faire beau/belle uniquement pour son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 111,
+    "category": "amis",
+    "scenario": "Faut-il dire à l'autre quand ses amis nous agacent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 112,
+    "category": "travail",
+    "scenario": "Faut-il séparer totalement vie pro et vie de couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 113,
+    "category": "ex",
+    "scenario": "Peut-on garder un cadeau de valeur offert par un ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 114,
+    "category": "projets",
+    "scenario": "Peut-on élever des poules en pleine ville ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 115,
+    "category": "quotidien",
+    "scenario": "Est-ce que péter devant l'autre, c'est une preuve d'amour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 116,
+    "category": "telephone",
+    "scenario": "Est-ce que le téléphone à table doit être banni à vie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 117,
+    "category": "famille",
+    "scenario": "Est-ce qu'on épouse aussi la famille de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 118,
+    "category": "sexe",
+    "scenario": "Faut-il tout se dire sur ce qu'on aime ou pas ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 119,
+    "category": "soirees",
+    "scenario": "C'est grave d'oublier de répondre aux messages pendant une soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 120,
+    "category": "argent",
+    "scenario": "Peut-on prêter de l'argent à sa famille sans consulter l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 121,
+    "category": "jalousie",
+    "scenario": "Est-ce qu'un partenaire jamais jaloux, c'est un partenaire qui s'en fiche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 122,
+    "category": "reseaux",
+    "scenario": "C'est grave de ne jamais liker les posts de son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 123,
+    "category": "vacances",
+    "scenario": "Faut-il réveiller l'autre pour un lever de soleil en vacances ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 124,
+    "category": "seduction",
+    "scenario": "Peut-on taire un compliment appuyé reçu d'un(e) inconnu(e) ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 125,
+    "category": "amis",
+    "scenario": "Peut-on prêter notre appart à des amis pendant nos vacances ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 126,
+    "category": "travail",
+    "scenario": "Peut-on aller à un afterwork avec un(e) collègue séduisant(e) ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 127,
+    "category": "ex",
+    "scenario": "C'est grave de rêver de son ex de temps en temps ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 128,
+    "category": "projets",
+    "scenario": "Tu dirais oui à une année sabbatique à deux, sans plan précis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 129,
+    "category": "quotidien",
+    "scenario": "Faut-il se coucher à la même heure que l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 130,
+    "category": "telephone",
+    "scenario": "Peut-on géolocaliser son partenaire « pour sa sécurité » ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 131,
+    "category": "famille",
+    "scenario": "Faut-il prendre parti quand nos deux familles se disputent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 132,
+    "category": "sexe",
+    "scenario": "Est-ce que la première fois ensemble reste la plus mémorable ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 133,
+    "category": "soirees",
+    "scenario": "Peut-on mentir sur l'heure à laquelle on est rentré ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 134,
+    "category": "argent",
+    "scenario": "Est-ce que payer l'addition à tour de rôle, c'est le bon système ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 135,
+    "category": "jalousie",
+    "scenario": "Faut-il éviter tout ce qui pourrait rendre l'autre jaloux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 136,
+    "category": "reseaux",
+    "scenario": "Peut-on poster un « couple goals » juste après une dispute ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 137,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à des vacances sans téléphone du tout ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 138,
+    "category": "seduction",
+    "scenario": "Est-ce qu'un dîner aux chandelles, ça marche encore après dix ans ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 139,
+    "category": "amis",
+    "scenario": "C'est grave de ne pas avoir d'amis en commun ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 140,
+    "category": "travail",
+    "scenario": "Est-ce qu'un déjeuner en tête-à-tête avec un(e) collègue, ça se dit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 141,
+    "category": "ex",
+    "scenario": "Peut-on prendre un café en tête-à-tête avec son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 142,
+    "category": "projets",
+    "scenario": "Est-ce qu'adopter un animal, c'est un bon test avant un bébé ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 143,
+    "category": "quotidien",
+    "scenario": "Peut-on regarder seul la suite d'une série commencée à deux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 144,
+    "category": "telephone",
+    "scenario": "C'est grave de ne jamais décrocher quand l'autre appelle ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 145,
+    "category": "famille",
+    "scenario": "Peut-on héberger un beau-frère au chômage pendant six mois ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 146,
+    "category": "sexe",
+    "scenario": "Peut-on rire pendant un moment intime sans vexer l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 147,
+    "category": "soirees",
+    "scenario": "Est-ce qu'un enterrement de vie de célibataire sans limites, ça se respecte ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 148,
+    "category": "argent",
+    "scenario": "Faut-il garder un compte perso secret « au cas où » ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 149,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux du passé de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 150,
+    "category": "reseaux",
+    "scenario": "Est-ce que publier nos disputes en story, c'est un motif de rupture ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 151,
+    "category": "vacances",
+    "scenario": "Peut-on rentrer plus tôt de vacances si on s'ennuie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 152,
+    "category": "seduction",
+    "scenario": "Tu dirais oui à refaire notre premier rendez-vous à l'identique ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 153,
+    "category": "amis",
+    "scenario": "Peut-on garder un(e) ami(e) qui a dragué son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 154,
+    "category": "travail",
+    "scenario": "Tu dirais oui à monter une entreprise ensemble ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 155,
+    "category": "ex",
+    "scenario": "Est-ce qu'un ex peut rester ton meilleur ami ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 156,
+    "category": "projets",
+    "scenario": "Peut-on construire sa maison soi-même sans se séparer avant la fin ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 157,
+    "category": "quotidien",
+    "scenario": "C'est grave de ne pas savoir cuisiner du tout ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 158,
+    "category": "telephone",
+    "scenario": "Peut-on avoir des conversations qui s'effacent automatiquement ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 159,
+    "category": "famille",
+    "scenario": "Tu dirais oui à vivre à moins de 5 minutes de chez mes parents ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 160,
+    "category": "sexe",
+    "scenario": "Tu dirais oui à un week-end en amoureux sans quitter le lit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 161,
+    "category": "soirees",
+    "scenario": "Peut-on aller à la soirée d'un ami que l'autre déteste ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 162,
+    "category": "argent",
+    "scenario": "Peut-on dépenser 300 € pour son plaisir sans se justifier ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 163,
+    "category": "jalousie",
+    "scenario": "Est-ce que vérifier avec qui l'autre sort, c'est de la jalousie saine ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 164,
+    "category": "reseaux",
+    "scenario": "Peut-on rester en ligne ami avec quelqu'un qui nous drague ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 165,
+    "category": "vacances",
+    "scenario": "Est-ce que la plage transat toute la journée, c'est le paradis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 166,
+    "category": "seduction",
+    "scenario": "Peut-on garder ses techniques de drague secrètes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 167,
+    "category": "amis",
+    "scenario": "Est-ce qu'un couple doit tout faire avec le même groupe d'amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 168,
+    "category": "travail",
+    "scenario": "Peut-on se plaindre de son travail tous les soirs ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 169,
+    "category": "ex",
+    "scenario": "Faut-il supprimer son ex de tous ses réseaux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 170,
+    "category": "projets",
+    "scenario": "Faut-il vivre ensemble avant de s'engager pour la vie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 171,
+    "category": "quotidien",
+    "scenario": "Peut-on redécorer le salon sans demander l'avis de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 172,
+    "category": "telephone",
+    "scenario": "Faut-il éteindre son téléphone pendant les moments à deux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 173,
+    "category": "famille",
+    "scenario": "Peut-on interdire un sujet de conversation aux repas de famille ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 174,
+    "category": "sexe",
+    "scenario": "Est-ce que le désir baisse forcément avec les années ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 175,
+    "category": "soirees",
+    "scenario": "Faut-il raconter toute sa soirée en rentrant ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 176,
+    "category": "argent",
+    "scenario": "C'est grave d'être radin en couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 177,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux des amis d'enfance très proches de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 178,
+    "category": "reseaux",
+    "scenario": "Faut-il annoncer sa relation en ligne dès le premier mois ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 179,
+    "category": "vacances",
+    "scenario": "Peut-on partir à l'autre bout du monde sans plan B ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 180,
+    "category": "seduction",
+    "scenario": "Est-ce que s'habiller très sexy pour sortir sans l'autre, ça se discute ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 181,
+    "category": "amis",
+    "scenario": "Tu dirais oui à des vacances chaque été avec ma bande d'amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 182,
+    "category": "travail",
+    "scenario": "Faut-il prévenir quand on rentre tard à cause du boulot ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 183,
+    "category": "ex",
+    "scenario": "Peut-on travailler dans la même entreprise que son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 184,
+    "category": "projets",
+    "scenario": "Peut-on émigrer dans un pays dont on ne parle pas la langue ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 185,
+    "category": "quotidien",
+    "scenario": "Est-ce que la vaisselle qui « trempe » compte comme vaisselle faite ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 186,
+    "category": "telephone",
+    "scenario": "Peut-on regarder l'écran de l'autre quand une notification s'affiche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 187,
+    "category": "famille",
+    "scenario": "Est-ce que couper les ponts avec un proche peut se justifier ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 188,
+    "category": "sexe",
+    "scenario": "Peut-on tenir une liste partagée d'idées coquines ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 189,
+    "category": "soirees",
+    "scenario": "Peut-on boire plus que de raison quand l'autre reste sobre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 190,
+    "category": "argent",
+    "scenario": "Peut-on signer un contrat de mariage sans que ce soit un manque d'amour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 191,
+    "category": "jalousie",
+    "scenario": "C'est grave d'imaginer des scénarios de tromperie sans aucune preuve ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 192,
+    "category": "reseaux",
+    "scenario": "Peut-on scroller au lit quand l'autre veut dormir ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 193,
+    "category": "vacances",
+    "scenario": "Faut-il goûter toutes les spécialités locales, même les insectes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 194,
+    "category": "seduction",
+    "scenario": "Faut-il se dire quand quelqu'un nous a dragués dans la journée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 195,
+    "category": "amis",
+    "scenario": "Peut-on avoir des secrets avec ses amis que l'autre ignore ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 196,
+    "category": "travail",
+    "scenario": "Peut-on lâcher un CDI pour vivre de sa passion ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 197,
+    "category": "ex",
+    "scenario": "C'est acceptable de souhaiter son anniversaire à son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 198,
+    "category": "projets",
+    "scenario": "Tu dirais oui à une maison à la campagne avec potager et cheminée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 199,
+    "category": "quotidien",
+    "scenario": "Faut-il s'embrasser tous les matins avant de partir ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 200,
+    "category": "telephone",
+    "scenario": "Est-ce qu'un téléphone toujours posé face cachée, c'est louche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 201,
+    "category": "famille",
+    "scenario": "Faut-il tout annoncer à nos familles avant nos amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 202,
+    "category": "sexe",
+    "scenario": "Faut-il toujours éteindre la lumière ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 203,
+    "category": "soirees",
+    "scenario": "Tu dirais oui à une soirée jeux de société tous les vendredis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 204,
+    "category": "argent",
+    "scenario": "Est-ce que l'argent est un sujet plus tabou que le sexe ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 205,
+    "category": "jalousie",
+    "scenario": "Peut-on rire de la jalousie de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 206,
+    "category": "reseaux",
+    "scenario": "C'est acceptable de taguer l'autre dans des memes gênants ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 207,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à un trek d'une semaine sans douche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 208,
+    "category": "seduction",
+    "scenario": "Peut-on tester son pouvoir de séduction juste pour se rassurer ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 209,
+    "category": "amis",
+    "scenario": "Faut-il défendre son partenaire même quand ses amis ont raison ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 210,
+    "category": "travail",
+    "scenario": "Est-ce que le télétravail à deux dans 40 m², c'est vivable ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 211,
+    "category": "ex",
+    "scenario": "Peut-on partir en week-end dans un lieu déjà visité avec un ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 212,
+    "category": "projets",
+    "scenario": "Est-ce qu'un couple sans projet commun est un couple en danger ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 213,
+    "category": "quotidien",
+    "scenario": "Peut-on avoir chacun sa couette dans le même lit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 214,
+    "category": "telephone",
+    "scenario": "Peut-on appeler dix fois de suite si l'autre ne répond pas ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 215,
+    "category": "famille",
+    "scenario": "Peut-on laisser les grands-parents gâter les enfants sans limite ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 216,
+    "category": "sexe",
+    "scenario": "Est-ce que dormir sans pyjama, c'est meilleur pour le couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 217,
+    "category": "soirees",
+    "scenario": "C'est acceptable d'annuler un dîner en amoureux pour une soirée entre potes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 218,
+    "category": "argent",
+    "scenario": "Tu dirais oui à vivre un an sans rien acheter de neuf ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 219,
+    "category": "jalousie",
+    "scenario": "Est-ce que la jalousie disparaît avec la confiance ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 220,
+    "category": "reseaux",
+    "scenario": "Peut-on lancer un live sans prévenir quand l'autre passe derrière en pyjama ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 221,
+    "category": "vacances",
+    "scenario": "Peut-on faire une seule valise pour deux pour voyager léger ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 222,
+    "category": "seduction",
+    "scenario": "Est-ce que les mots doux quotidiens, c'est indispensable ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 223,
+    "category": "amis",
+    "scenario": "Peut-on devenir ami avec l'ex d'un ami ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 224,
+    "category": "travail",
+    "scenario": "Peut-on dire à l'autre que son projet pro est une mauvaise idée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 225,
+    "category": "ex",
+    "scenario": "Est-ce que stalker l'ex de son partenaire, c'est normal ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 226,
+    "category": "projets",
+    "scenario": "Peut-on rêver de choses complètement différentes et durer ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 227,
+    "category": "quotidien",
+    "scenario": "C'est acceptable de snoozer cinq fois avant de se lever ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 228,
+    "category": "telephone",
+    "scenario": "Tu dirais oui à un dimanche par mois sans téléphone à la maison ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 229,
+    "category": "famille",
+    "scenario": "C'est grave de préférer la famille de l'autre à la sienne ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 230,
+    "category": "sexe",
+    "scenario": "Peut-on avouer avoir déjà fait semblant, même une fois ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 231,
+    "category": "soirees",
+    "scenario": "Peut-on fumer en soirée quand on a promis d'arrêter ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 232,
+    "category": "argent",
+    "scenario": "Peut-on regarder les relevés bancaires de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 233,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux du temps que l'autre passe sur ses passions ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 234,
+    "category": "reseaux",
+    "scenario": "Est-ce qu'un couple devrait avoir un compte commun ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 235,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à une destination surprise choisie par moi seul(e) ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 236,
+    "category": "seduction",
+    "scenario": "Peut-on rougir devant quelqu'un d'autre sans que ce soit grave ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 237,
+    "category": "amis",
+    "scenario": "C'est acceptable qu'un ami débarque sans prévenir à la maison ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 238,
+    "category": "travail",
+    "scenario": "C'est grave de ne rien comprendre au métier de son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 239,
+    "category": "ex",
+    "scenario": "Peut-on consoler son ex qui vient de se faire larguer ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 240,
+    "category": "projets",
+    "scenario": "Faut-il toujours un plan B quand on lance un grand projet ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 241,
+    "category": "quotidien",
+    "scenario": "Peut-on imposer son animal de compagnie à quelqu'un d'allergique ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 242,
+    "category": "telephone",
+    "scenario": "Peut-on garder de vieux SMS pour les relire avec nostalgie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 243,
+    "category": "famille",
+    "scenario": "Peut-on comparer sa belle-mère à sa mère à voix haute ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 244,
+    "category": "sexe",
+    "scenario": "Est-ce que l'absence rend les retrouvailles plus intenses ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 245,
+    "category": "soirees",
+    "scenario": "Est-ce que payer sa tournée à tout le monde sans consulter l'autre, ça passe ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 246,
+    "category": "argent",
+    "scenario": "Est-ce qu'un crédit sur 25 ans engage plus qu'un mariage ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 247,
+    "category": "jalousie",
+    "scenario": "Faut-il rassurer l'autre à chaque crise de jalousie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 248,
+    "category": "reseaux",
+    "scenario": "Est-ce que poster nos photos de vacances en temps réel, c'est trop ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 249,
+    "category": "vacances",
+    "scenario": "Peut-on dépasser le budget vacances pour une excursion de rêve ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 250,
+    "category": "seduction",
+    "scenario": "C'est acceptable de donner son numéro « par politesse » ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 251,
+    "category": "amis",
+    "scenario": "Peut-on donner un double des clés à un ami ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 252,
+    "category": "travail",
+    "scenario": "Peut-on accepter un poste avec des déplacements chaque semaine ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 253,
+    "category": "ex",
+    "scenario": "Faut-il avouer quand on croise son ex par hasard ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 254,
+    "category": "projets",
+    "scenario": "Tu dirais oui à ouvrir une chambre d'hôtes au bord de la mer ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 255,
+    "category": "quotidien",
+    "scenario": "Est-ce qu'un couple doit manger la même chose au dîner ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 256,
+    "category": "telephone",
+    "scenario": "Faut-il prévenir avant d'appeler en visio ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 257,
+    "category": "famille",
+    "scenario": "Est-ce que les fêtes de famille obligatoires, ça existe vraiment ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 258,
+    "category": "sexe",
+    "scenario": "Peut-on refuser un câlin du matin pour cause de mauvaise haleine ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 259,
+    "category": "soirees",
+    "scenario": "Faut-il rentrer ensemble même quand l'un des deux s'ennuie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 260,
+    "category": "argent",
+    "scenario": "Faut-il fixer un montant max pour les dépenses sans consultation ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 261,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux de la relation de l'autre avec sa mère ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 262,
+    "category": "reseaux",
+    "scenario": "Peut-on regarder les stories de quelqu'un plusieurs fois par jour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 263,
+    "category": "vacances",
+    "scenario": "Faut-il se lever tôt en vacances pour « rentabiliser » la journée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 264,
+    "category": "seduction",
+    "scenario": "Faut-il jouer les inaccessibles même en couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 265,
+    "category": "amis",
+    "scenario": "Est-ce que les copains de sport comptent comme des vrais amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 266,
+    "category": "travail",
+    "scenario": "Faut-il mettre une photo de couple sur son bureau ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 267,
+    "category": "ex",
+    "scenario": "Peut-on garder le pull d'un ex parce qu'il est confortable ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 268,
+    "category": "projets",
+    "scenario": "Peut-on renoncer à un rêve personnel pour un projet de couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 269,
+    "category": "quotidien",
+    "scenario": "Faut-il tirer la chasse la nuit au risque de réveiller l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 270,
+    "category": "telephone",
+    "scenario": "Peut-on prendre le téléphone de l'autre pour le GPS sans demander ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 271,
+    "category": "famille",
+    "scenario": "Faut-il inviter les cousins éloignés au mariage ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 272,
+    "category": "sexe",
+    "scenario": "Faut-il fêter chaque anniversaire de couple sous la couette ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 273,
+    "category": "soirees",
+    "scenario": "Peut-on faire semblant d'être malade pour éviter une soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 274,
+    "category": "argent",
+    "scenario": "Peut-on rembourser les dettes de l'autre par amour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 275,
+    "category": "jalousie",
+    "scenario": "Est-ce qu'être possessif et être amoureux, c'est la même chose ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 276,
+    "category": "reseaux",
+    "scenario": "Peut-on commenter « 🔥 » sous la photo d'un(e) ami(e) ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 277,
+    "category": "vacances",
+    "scenario": "Peut-on prendre 300 photos par jour en voyage ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 278,
+    "category": "seduction",
+    "scenario": "Est-ce que la séduction passe d'abord par l'humour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 279,
+    "category": "amis",
+    "scenario": "Peut-on choisir son témoin de mariage sans consulter l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 280,
+    "category": "travail",
+    "scenario": "Peut-on demander à l'autre de changer de travail s'il le rend malheureux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 281,
+    "category": "ex",
+    "scenario": "C'est grave d'avoir encore le numéro de son ex enregistré ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 282,
+    "category": "projets",
+    "scenario": "Est-ce que déménager tous les trois ans, c'est une vie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 283,
+    "category": "quotidien",
+    "scenario": "Peut-on chanter faux sous la douche sans être jugé ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 284,
+    "category": "telephone",
+    "scenario": "C'est acceptable d'avoir 47 000 photos et de ne jamais trier ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 285,
+    "category": "famille",
+    "scenario": "Peut-on demander à la belle-famille de ne pas commenter notre éducation ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 286,
+    "category": "sexe",
+    "scenario": "Est-ce que la complicité se mesure aussi sur l'oreiller ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 287,
+    "category": "soirees",
+    "scenario": "Tu dirais oui à un Nouvel An chacun de son côté ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 288,
+    "category": "argent",
+    "scenario": "C'est acceptable de se faire rembourser un cadeau raté ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 289,
+    "category": "jalousie",
+    "scenario": "Peut-on quitter quelqu'un uniquement pour jalousie excessive ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 290,
+    "category": "reseaux",
+    "scenario": "Est-ce que les couples qui s'affichent trop en ligne durent moins longtemps ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 291,
+    "category": "vacances",
+    "scenario": "Est-ce que trois semaines de vacances ensemble non-stop, c'est trop ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 292,
+    "category": "seduction",
+    "scenario": "Tu dirais oui à un cours de danse en couple pour raviver la flamme ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 293,
+    "category": "amis",
+    "scenario": "Faut-il couper les ponts avec un ami toxique si l'autre le demande ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 294,
+    "category": "travail",
+    "scenario": "Est-ce que les histoires d'amour au bureau finissent toujours mal ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 295,
+    "category": "ex",
+    "scenario": "Peut-on inviter un ex à notre mariage ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 296,
+    "category": "projets",
+    "scenario": "Peut-on faire un bébé sans se sentir prêts à 100 % ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 297,
+    "category": "quotidien",
+    "scenario": "C'est grave d'oublier de racheter le papier toilette ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 298,
+    "category": "telephone",
+    "scenario": "Peut-on envoyer un vocal de 5 minutes au lieu d'appeler ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 299,
+    "category": "famille",
+    "scenario": "Tu dirais oui à des vacances avec nos deux familles en même temps ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 300,
+    "category": "sexe",
+    "scenario": "Peut-on s'envoyer des messages coquins en pleine journée de travail ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 301,
+    "category": "soirees",
+    "scenario": "Peut-on accepter un verre offert par un inconnu en soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 302,
+    "category": "argent",
+    "scenario": "Peut-on négocier les prix partout sans avoir honte ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 303,
+    "category": "jalousie",
+    "scenario": "C'est acceptable de bouder après avoir vu l'autre rire avec quelqu'un ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 304,
+    "category": "reseaux",
+    "scenario": "Peut-on créer un compte pour notre chat ou notre chien ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 305,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à passer Noël au soleil loin de tout ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 306,
+    "category": "seduction",
+    "scenario": "Peut-on avoir un crush de bureau inavoué sans tromper ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 307,
+    "category": "amis",
+    "scenario": "Peut-on organiser des soirées entre filles ou entre gars interdites à l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 308,
+    "category": "travail",
+    "scenario": "Peut-on rater un événement familial important pour le travail ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 309,
+    "category": "ex",
+    "scenario": "Est-ce que « on s'est quittés en bons termes » te rassure vraiment ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 310,
+    "category": "projets",
+    "scenario": "Faut-il écrire nos objectifs de couple noir sur blanc chaque année ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 311,
+    "category": "quotidien",
+    "scenario": "Peut-on garder un carton d'affaires « au cas où » pendant dix ans ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 312,
+    "category": "telephone",
+    "scenario": "Est-ce que répondre « ok » à un long message d'amour, c'est un crime ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 313,
+    "category": "famille",
+    "scenario": "Peut-on mentir à sa famille sur notre situation pour avoir la paix ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 314,
+    "category": "sexe",
+    "scenario": "Tu dirais oui à un jeu de rôle où on fait semblant de se rencontrer dans un bar ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 315,
+    "category": "soirees",
+    "scenario": "Est-ce qu'être toujours le dernier à partir des fêtes, c'est un problème ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 316,
+    "category": "argent",
+    "scenario": "Est-ce que gagner au loto changerait notre couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 317,
+    "category": "jalousie",
+    "scenario": "Peut-on être jaloux d'une célébrité que l'autre trouve parfaite ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 318,
+    "category": "reseaux",
+    "scenario": "Faut-il l'accord des deux pour poster une photo de nos futurs enfants ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 319,
+    "category": "vacances",
+    "scenario": "Peut-on refuser de conduire pendant tout le road trip ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 320,
+    "category": "seduction",
+    "scenario": "Est-ce qu'offrir des fleurs, c'est démodé ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 321,
+    "category": "amis",
+    "scenario": "C'est grave de préférer voir ses amis plutôt que la belle-famille ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 322,
+    "category": "travail",
+    "scenario": "Faut-il inviter son boss à dîner à la maison ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 323,
+    "category": "ex",
+    "scenario": "Peut-on héberger un ex en galère pour quelques nuits ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 324,
+    "category": "projets",
+    "scenario": "Tu dirais oui à vivre six mois par an à l'étranger ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 325,
+    "category": "quotidien",
+    "scenario": "Est-ce que cuisiner pour l'autre, c'est plus romantique qu'un resto ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 326,
+    "category": "telephone",
+    "scenario": "Peut-on consulter son téléphone en pleine conversation sérieuse ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 327,
+    "category": "famille",
+    "scenario": "Est-ce qu'un secret de famille doit être partagé avec son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 328,
+    "category": "sexe",
+    "scenario": "Est-ce que le romantisme est indispensable avant l'intimité ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 329,
+    "category": "soirees",
+    "scenario": "Faut-il prévenir quand la soirée se prolonge chez quelqu'un ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 330,
+    "category": "argent",
+    "scenario": "Faut-il révéler le prix de la bague de fiançailles ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 331,
+    "category": "jalousie",
+    "scenario": "Faut-il présenter ses collègues à l'autre pour éviter les doutes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 332,
+    "category": "reseaux",
+    "scenario": "Peut-on bloquer quelqu'un depuis le compte de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 333,
+    "category": "vacances",
+    "scenario": "Faut-il tenir un budget précis même en vacances ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 334,
+    "category": "seduction",
+    "scenario": "Faut-il entretenir une part de mystère même après des années ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 335,
+    "category": "amis",
+    "scenario": "Peut-on suivre les conseils de couple d'un ami célibataire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 336,
+    "category": "travail",
+    "scenario": "Peut-on cacher à l'autre une grosse prime reçue au travail ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 337,
+    "category": "ex",
+    "scenario": "Faut-il prévenir quand son ex nous envoie un message ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 338,
+    "category": "projets",
+    "scenario": "Peut-on adopter trois chiens d'un coup ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 339,
+    "category": "quotidien",
+    "scenario": "Peut-on partager la même brosse à dents en cas d'urgence ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 340,
+    "category": "telephone",
+    "scenario": "Faut-il un forfait familial et une facture commune ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 341,
+    "category": "famille",
+    "scenario": "Faut-il appeler ses beaux-parents « papa » et « maman » ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 342,
+    "category": "sexe",
+    "scenario": "Peut-on comparer, même mentalement, avec le passé ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 343,
+    "category": "soirees",
+    "scenario": "Peut-on organiser une fête à la maison quand l'autre est absent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 344,
+    "category": "argent",
+    "scenario": "Peut-on laisser l'autre gérer tout l'argent du foyer ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 345,
+    "category": "jalousie",
+    "scenario": "Peut-on demander qui écrit quand l'autre sourit à son écran ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 346,
+    "category": "reseaux",
+    "scenario": "C'est acceptable de suivre en cachette le compte de quelqu'un qui nous plaît ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 347,
+    "category": "vacances",
+    "scenario": "Peut-on partir un mois en solo pour « se retrouver » ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 348,
+    "category": "seduction",
+    "scenario": "Peut-on redevenir timide devant son propre partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 349,
+    "category": "amis",
+    "scenario": "Est-ce qu'on doit tout dire à son meilleur ami, même sur son couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 350,
+    "category": "travail",
+    "scenario": "Est-ce que la retraite à 40 ans, c'est un objectif de couple réaliste ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 351,
+    "category": "ex",
+    "scenario": "Peut-on complimenter physiquement son ex devant son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 352,
+    "category": "projets",
+    "scenario": "Est-ce que la maison de nos rêves vaut 25 ans de crédit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 353,
+    "category": "quotidien",
+    "scenario": "Peut-on ouvrir la fenêtre en plein hiver si l'autre est frileux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 354,
+    "category": "telephone",
+    "scenario": "Peut-on changer son code sans donner le nouveau à l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 355,
+    "category": "famille",
+    "scenario": "Peut-on choisir un prénom d'enfant sans écouter les familles ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 356,
+    "category": "sexe",
+    "scenario": "Est-ce que les réconciliations sur l'oreiller sont les meilleures ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 357,
+    "category": "soirees",
+    "scenario": "C'est acceptable de s'endormir sur le canapé en pleine soirée chez des amis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 358,
+    "category": "argent",
+    "scenario": "Tu dirais oui à un mois de vacances de rêve plutôt qu'un an d'économies ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 359,
+    "category": "jalousie",
+    "scenario": "Est-ce qu'on peut être jaloux tout en faisant totalement confiance ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 360,
+    "category": "reseaux",
+    "scenario": "Tu dirais oui à devenir des influenceurs couple si ça payait bien ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 361,
+    "category": "vacances",
+    "scenario": "Est-ce qu'un city trip par an minimum, c'est vital pour le couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 362,
+    "category": "seduction",
+    "scenario": "Est-ce que draguer son propre partenaire par SMS, ça se fait encore ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 363,
+    "category": "amis",
+    "scenario": "Tu dirais oui à une colocation avec notre couple d'amis préféré ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 364,
+    "category": "travail",
+    "scenario": "Tu dirais oui à me suivre à l'étranger pour ma carrière ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 365,
+    "category": "ex",
+    "scenario": "C'est acceptable de suivre la nouvelle relation de son ex de loin ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 366,
+    "category": "projets",
+    "scenario": "Peut-on planifier toute sa vie à l'avance sans tuer la magie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 367,
+    "category": "quotidien",
+    "scenario": "C'est acceptable de se parler à travers la porte des toilettes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 368,
+    "category": "telephone",
+    "scenario": "Est-ce que dormir avec son téléphone sous l'oreiller, c'est inquiétant ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 369,
+    "category": "famille",
+    "scenario": "C'est acceptable de zapper l'anniversaire d'un beau-parent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 370,
+    "category": "sexe",
+    "scenario": "Peut-on raconter ses rêves un peu coquins au petit-déjeuner ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 371,
+    "category": "soirees",
+    "scenario": "Peut-on aller seul à un concert si l'autre déteste l'artiste ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 372,
+    "category": "argent",
+    "scenario": "Peut-on acheter un appartement chacun de son côté ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 373,
+    "category": "jalousie",
+    "scenario": "Peut-on jouer à rendre l'autre jaloux pour pimenter le couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 374,
+    "category": "reseaux",
+    "scenario": "Peut-on poster une photo où l'autre se trouve moche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 375,
+    "category": "vacances",
+    "scenario": "Peut-on dormir dans un aéroport pour économiser une nuit d'hôtel ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 376,
+    "category": "seduction",
+    "scenario": "C'est grave de ne plus faire aucun effort vestimentaire à la maison ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 377,
+    "category": "amis",
+    "scenario": "Peut-on refuser que l'autre voyage avec un(e) ami(e) trop proche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 378,
+    "category": "travail",
+    "scenario": "Peut-on appeler son partenaire en pleine réunion pour un truc urgent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 379,
+    "category": "ex",
+    "scenario": "Peut-on retomber amoureux d'un ex des années après ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 380,
+    "category": "projets",
+    "scenario": "Tu dirais oui à un potager qui nous rend autonomes en légumes ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 381,
+    "category": "quotidien",
+    "scenario": "Peut-on se disputer pour le sens du rouleau de papier toilette ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 382,
+    "category": "telephone",
+    "scenario": "Peut-on interdire les écrans dans la chambre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 383,
+    "category": "famille",
+    "scenario": "Peut-on s'installer dans la maison de famille de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 384,
+    "category": "sexe",
+    "scenario": "Est-ce que la sieste crapuleuse devrait être un rituel du dimanche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 385,
+    "category": "soirees",
+    "scenario": "Est-ce que les déguisements assortis en soirée, c'est obligatoire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 386,
+    "category": "argent",
+    "scenario": "C'est grave de ne jamais faire de petites attentions ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 387,
+    "category": "jalousie",
+    "scenario": "C'est grave de fouiller les poches de veste de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 388,
+    "category": "reseaux",
+    "scenario": "Est-ce que répondre aux commentaires flatteurs, c'est de la drague ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 389,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à des vacances à la ferme pour s'occuper des animaux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 390,
+    "category": "seduction",
+    "scenario": "Peut-on demander à l'autre de changer de style vestimentaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 391,
+    "category": "amis",
+    "scenario": "Faut-il présenter ses amis d'enfance avant de s'engager ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 392,
+    "category": "travail",
+    "scenario": "Faut-il soutenir une reconversion qui divise nos revenus par deux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 393,
+    "category": "ex",
+    "scenario": "Est-ce que tous les ex doivent rester dans le passé, sans exception ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 394,
+    "category": "projets",
+    "scenario": "Faut-il renouveler ses vœux tous les dix ans ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 395,
+    "category": "quotidien",
+    "scenario": "Est-ce que ronfler, c'est un motif valable pour le canapé ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 396,
+    "category": "telephone",
+    "scenario": "C'est grave de remonter trois ans de photos dans le téléphone de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 397,
+    "category": "famille",
+    "scenario": "Est-ce que ta famille doit connaître nos problèmes d'argent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 398,
+    "category": "sexe",
+    "scenario": "Faut-il oser proposer une nouveauté même en risquant un non ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 399,
+    "category": "soirees",
+    "scenario": "Faut-il assumer ses bêtises d'alcool le lendemain ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 400,
+    "category": "argent",
+    "scenario": "Est-ce que compter chaque centime au restaurant, c'est un tue-l'amour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 401,
+    "category": "jalousie",
+    "scenario": "Peut-on tiquer sur un prénom qui revient trop souvent dans les conversations ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 402,
+    "category": "reseaux",
+    "scenario": "Faut-il montrer à l'autre les DM bizarres qu'on reçoit ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 403,
+    "category": "vacances",
+    "scenario": "Peut-on annuler des vacances pour raisons financières sans drame ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 404,
+    "category": "seduction",
+    "scenario": "Est-ce que la galanterie est toujours d'actualité ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 405,
+    "category": "amis",
+    "scenario": "Peut-on mentir à un ami pour protéger son couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 406,
+    "category": "travail",
+    "scenario": "Peut-on travailler de nuit quand l'autre travaille de jour ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 407,
+    "category": "ex",
+    "scenario": "Peut-on demander des conseils à son ex sur sa relation actuelle ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 408,
+    "category": "projets",
+    "scenario": "Peut-on changer de région sur un coup de tête ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 409,
+    "category": "quotidien",
+    "scenario": "Faut-il demander avant de goûter dans l'assiette de l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 410,
+    "category": "telephone",
+    "scenario": "Faut-il dire qui appelle quand on décroche devant l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 411,
+    "category": "famille",
+    "scenario": "Faut-il défendre son partenaire contre sa propre mère ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 412,
+    "category": "sexe",
+    "scenario": "Est-ce que la pudeur a encore sa place après des années de couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 413,
+    "category": "soirees",
+    "scenario": "Peut-on quitter une soirée sans dire au revoir à personne ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 414,
+    "category": "argent",
+    "scenario": "Faut-il avouer ses achats en ligne quand les colis arrivent ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 415,
+    "category": "jalousie",
+    "scenario": "Est-ce que demander « tu étais où ? » chaque soir, c'est déjà trop ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 416,
+    "category": "reseaux",
+    "scenario": "Peut-on garder une app de rencontre « juste pour voir », même en couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 417,
+    "category": "vacances",
+    "scenario": "Est-ce que s'engueuler en vacances, c'est le vrai test du couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 418,
+    "category": "seduction",
+    "scenario": "Faut-il s'organiser un rendez-vous galant chaque mois ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 419,
+    "category": "amis",
+    "scenario": "C'est acceptable d'avoir un « ami de secours » au cas où ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 420,
+    "category": "travail",
+    "scenario": "Est-ce que réussir sa carrière compte autant que réussir son couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 421,
+    "category": "ex",
+    "scenario": "Faut-il jeter les lettres d'amour de ses ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 422,
+    "category": "projets",
+    "scenario": "Tu dirais oui à une famille nombreuse, genre quatre enfants ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 423,
+    "category": "quotidien",
+    "scenario": "Peut-on laisser traîner ses chaussettes plus de 24 heures ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 424,
+    "category": "telephone",
+    "scenario": "Peut-on filtrer les appels de la belle-famille ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 425,
+    "category": "famille",
+    "scenario": "Peut-on imposer un repas de famille hebdomadaire à l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 426,
+    "category": "sexe",
+    "scenario": "Est-ce que la fatigue est une excuse toujours valable ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 427,
+    "category": "soirees",
+    "scenario": "Tu dirais oui à un week-end festival sans douche ni réseau ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 428,
+    "category": "argent",
+    "scenario": "Peut-on vivre avec un dépensier quand on est une fourmi ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 429,
+    "category": "jalousie",
+    "scenario": "Peut-on demander à l'autre d'éviter certains vêtements par jalousie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 430,
+    "category": "reseaux",
+    "scenario": "C'est grave de passer plus de trois heures par jour sur les réseaux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 431,
+    "category": "vacances",
+    "scenario": "Faut-il ramener des souvenirs à toute la famille et aux collègues ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 432,
+    "category": "seduction",
+    "scenario": "Peut-on rester proche de quelqu'un qui nous a clairement dragué ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 433,
+    "category": "amis",
+    "scenario": "Peut-on faire la fête avec les amis de l'autre sans lui ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 434,
+    "category": "travail",
+    "scenario": "Peut-on sécher le pot de départ d'un collègue pour un dîner en amoureux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 435,
+    "category": "ex",
+    "scenario": "Peut-on s'inscrire dans la même salle de sport que son ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 436,
+    "category": "projets",
+    "scenario": "Peut-on garder chacun son appart tout en étant en couple à vie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 437,
+    "category": "quotidien",
+    "scenario": "Est-ce que faire les courses ensemble, c'est un moment de couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 438,
+    "category": "telephone",
+    "scenario": "Tu dirais oui à échanger nos téléphones pendant 24 heures ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 439,
+    "category": "famille",
+    "scenario": "Tu dirais oui à accueillir un parent âgé à la maison plus tard ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 440,
+    "category": "sexe",
+    "scenario": "Tu dirais oui à laisser l'autre décider de tout pour une soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 441,
+    "category": "soirees",
+    "scenario": "Peut-on garder pour soi certains détails d'une soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 442,
+    "category": "argent",
+    "scenario": "Peut-on accepter que l'autre paie tout si on gagne très peu ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 443,
+    "category": "jalousie",
+    "scenario": "Est-ce qu'un grand jaloux peut vraiment changer ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 444,
+    "category": "reseaux",
+    "scenario": "Peut-on entretenir des flammes Snapchat avec quelqu'un d'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 445,
+    "category": "vacances",
+    "scenario": "Peut-on tester un restaurant au hasard sans regarder les avis ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 446,
+    "category": "seduction",
+    "scenario": "Est-ce qu'un(e) serveur(se) qui flirte mérite un plus gros pourboire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 447,
+    "category": "amis",
+    "scenario": "Est-ce qu'un ami qui critique notre couple reste un ami ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 448,
+    "category": "travail",
+    "scenario": "C'est acceptable de parler boulot pendant un dîner romantique ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 449,
+    "category": "ex",
+    "scenario": "C'est grave de refuser de parler de ses ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 450,
+    "category": "projets",
+    "scenario": "Tu dirais oui à un tatouage commun pour sceller un projet fou ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 451,
+    "category": "quotidien",
+    "scenario": "Peut-on refuser de tuer l'araignée et laisser l'autre gérer ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 452,
+    "category": "telephone",
+    "scenario": "Peut-on écrire à quelqu'un tous les jours sans que ce soit suspect ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 453,
+    "category": "famille",
+    "scenario": "Peut-on laisser sa mère faire ses lessives à 30 ans ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 454,
+    "category": "sexe",
+    "scenario": "Est-ce que les compliments chuchotés font toujours de l'effet ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 455,
+    "category": "soirees",
+    "scenario": "Est-ce que sortir tous les week-ends, c'est compatible avec le couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 456,
+    "category": "argent",
+    "scenario": "Faut-il économiser pour les enfants avant même d'en avoir ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 457,
+    "category": "jalousie",
+    "scenario": "Peut-on avouer qu'on aime un peu quand l'autre est jaloux ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 458,
+    "category": "reseaux",
+    "scenario": "Est-ce qu'un « vu » sans réponse mérite une explication ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 459,
+    "category": "vacances",
+    "scenario": "Tu dirais oui à une nuit à la belle étoile en plein désert ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 460,
+    "category": "seduction",
+    "scenario": "Peut-on faire semblant de ne pas remarquer qu'on nous drague ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 461,
+    "category": "amis",
+    "scenario": "Peut-on prêter de l'argent à un ami sans en parler à l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 462,
+    "category": "travail",
+    "scenario": "Faut-il poser tous ses congés en même temps que l'autre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 463,
+    "category": "ex",
+    "scenario": "Peut-on aimer deux fois la même personne dans une vie ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 464,
+    "category": "projets",
+    "scenario": "Est-ce que réussir sa vie de couple, c'est un projet en soi ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 465,
+    "category": "quotidien",
+    "scenario": "Peut-on critiquer la cuisine de l'autre s'il s'est donné du mal ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 466,
+    "category": "telephone",
+    "scenario": "Est-ce que le premier réflexe du matin peut être le téléphone plutôt qu'un bisou ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 467,
+    "category": "famille",
+    "scenario": "Est-ce qu'une belle-famille envahissante peut faire capoter un couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 468,
+    "category": "sexe",
+    "scenario": "Peut-on inventer un mot de code secret pour dire « ce soir » ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 469,
+    "category": "soirees",
+    "scenario": "Faut-il refuser les afters qui finissent au petit matin ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 470,
+    "category": "argent",
+    "scenario": "Peut-on revendre un cadeau de la belle-famille sur Internet ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 471,
+    "category": "jalousie",
+    "scenario": "Est-ce qu'une dispute de jalousie peut renforcer un couple ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 472,
+    "category": "reseaux",
+    "scenario": "Faut-il fêter nos anniversaires de couple en post public ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 473,
+    "category": "vacances",
+    "scenario": "Peut-on faire du tourisme dans sa propre ville et appeler ça des vacances ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 474,
+    "category": "seduction",
+    "scenario": "Tu dirais oui à un week-end surprise 100 % romantique organisé par moi ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 475,
+    "category": "amis",
+    "scenario": "Faut-il inviter tous nos amis ou personne à nos anniversaires ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 476,
+    "category": "travail",
+    "scenario": "Peut-on faire relire ses mails importants à son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 477,
+    "category": "ex",
+    "scenario": "Est-ce que garder de bons souvenirs de son ex, c'est tromper un peu ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 478,
+    "category": "projets",
+    "scenario": "Peut-on préparer sa retraite ensemble dès 30 ans ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 479,
+    "category": "quotidien",
+    "scenario": "Est-ce que chacun devrait avoir sa soirée solo chaque semaine ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 480,
+    "category": "telephone",
+    "scenario": "Peut-on raccrocher au nez de l'autre pendant une dispute ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 481,
+    "category": "famille",
+    "scenario": "Faut-il fixer un budget cadeau identique pour les deux familles ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 482,
+    "category": "sexe",
+    "scenario": "Peut-on réclamer un câlin uniquement pour mieux se rendormir ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 483,
+    "category": "soirees",
+    "scenario": "Peut-on ramener des amis à l'improviste après une soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 484,
+    "category": "argent",
+    "scenario": "Tu dirais oui à arrêter de travailler si je pouvais nous faire vivre ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 485,
+    "category": "jalousie",
+    "scenario": "Tu dirais oui à un pacte « zéro jalousie » pendant un mois ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 486,
+    "category": "reseaux",
+    "scenario": "Peut-on mettre en sourdine les stories de son partenaire ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 487,
+    "category": "vacances",
+    "scenario": "Est-ce que voyager révèle plus un couple que vivre ensemble ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 488,
+    "category": "seduction",
+    "scenario": "Est-ce que le charme compte plus que la beauté ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 489,
+    "category": "amis",
+    "scenario": "Peut-on garder pour soi qu'un ami trompe sa copine ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 490,
+    "category": "travail",
+    "scenario": "Peut-on aimer son travail plus que sa vie de couple, temporairement ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 491,
+    "category": "ex",
+    "scenario": "Tu dirais oui à un dîner à quatre avec nos deux ex ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 492,
+    "category": "projets",
+    "scenario": "Tu dirais oui à un food truck qu'on tiendrait tous les deux l'été ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 493,
+    "category": "quotidien",
+    "scenario": "Tu dirais oui à une semaine sans ménage, quitte à vivre dans le chaos ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 494,
+    "category": "famille",
+    "scenario": "Peut-on passer un réveillon en amoureux en boudant les deux familles ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 495,
+    "category": "sexe",
+    "scenario": "Tu dirais oui à un massage chaque soir pendant une semaine, à charge de revanche ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 496,
+    "category": "soirees",
+    "scenario": "C'est grave de raconter nos disputes pendant une soirée ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 497,
+    "category": "argent",
+    "scenario": "Est-ce que parler d'héritage en couple, ça porte malheur ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 1
+  },
+  {
+    "id": 498,
+    "category": "reseaux",
+    "scenario": "Est-ce que retirer « en couple » de son profil après une dispute, ça passe ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 3
+  },
+  {
+    "id": 499,
+    "category": "seduction",
+    "scenario": "C'est acceptable de jouer de son charme pour obtenir un surclassement ?",
+    "optionA": "Oui",
+    "optionB": "Non",
+    "spice": 2
+  },
+  {
+    "id": 500,
+    "category": "amis",
+    "scenario": "Tu dirais oui à un road trip d'un mois avec mes potes et toi ?",
     "optionA": "Oui",
     "optionB": "Non",
     "spice": 1
