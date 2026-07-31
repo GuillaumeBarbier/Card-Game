@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import type { Deck } from "@/lib/types";
@@ -124,6 +125,16 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
             <DeckTile key={deck.slug} deck={deck} onOpen={() => setSheet(deck)} />
           ))}
         </motion.section>
+      </div>
+
+      <div className="mx-auto max-w-md px-6 pb-safe pb-10">
+        <Link
+          href="/flechettes"
+          className="flex items-center justify-between rounded-2xl border border-line bg-white/[0.03] px-5 py-3.5 text-sm text-mist"
+        >
+          <span>🎯 Compteur de fléchettes</span>
+          <span>→</span>
+        </Link>
       </div>
 
       <p
