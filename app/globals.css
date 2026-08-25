@@ -142,3 +142,14 @@ body {
   color: transparent;
   animation: shimmer 3.2s linear infinite;
 }
+
+@keyframes confetti-fall {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(var(--drift), 108vh, 0) rotate(calc(680deg + var(--tilt)));
+    opacity: 0.85;
+  }
+}

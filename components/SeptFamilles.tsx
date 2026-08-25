@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import {
@@ -65,10 +65,16 @@ function ColorCard({
 }: {
   family: Family;
   n?: number;
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "fill";
 }) {
   const dims =
-    size === "sm" ? "h-12 w-9 rounded-lg" : size === "lg" ? "h-28 w-20 rounded-2xl" : "h-20 w-14 rounded-xl";
+    size === "sm"
+      ? "h-12 w-9 rounded-lg"
+      : size === "lg"
+        ? "h-28 w-20 rounded-2xl"
+        : size === "fill"
+          ? "h-full w-full rounded-2xl"
+          : "h-20 w-14 rounded-xl";
   return (
     <div
       className={`relative flex items-center justify-center overflow-hidden border ${dims}`}
@@ -83,7 +89,7 @@ function ColorCard({
       {n !== undefined && (
         <span
           className={`display leading-none ${
-            size === "sm" ? "text-xl" : size === "lg" ? "text-6xl" : "text-4xl"
+            size === "sm" ? "text-xl" : size === "lg" || size === "fill" ? "text-6xl" : "text-4xl"
           }`}
           style={{ color: family.deep }}
         >
@@ -92,6 +98,83 @@ function ColorCard({
       )}
     </div>
   );
+}
+
+/* ---------- animations de résultat ---------- */
+
+function ConfettiRain({ startDelay = 0 }: { startDelay?: number }) {
+  const pieces = useMemo(
+    () =>
+      Array.from({ length: 70 }, (_, i) => ({
+        left: Math.random() * 100,
+        delay: startDelay + Math.random() * 0.7,
+        dur: 1.9 + Math.random() * 1.5,
+        color: FAMILIES[i % FAMILIES.length].color,
+        w: 6 + Math.random() * 8,
+        drift: -60 + Math.random() * 120,
+        tilt: Math.random() * 360,
+      })),
+    [startDelay],
+  );
+  return (
+    <div className="pointer-events-none fixed inset-0 z-[60] overflow-hidden">
+      {pieces.map((p, i) => (
+        <span
+          key={i}
+          style={
+            {
+              position: "absolute",
+              top: "-6vh",
+              left: `${p.left}%`,
+              width: p.w,
+              height: p.w * 0.45,
+              background: p.color,
+              borderRadius: 2,
+              animation: `confetti-fall ${p.dur}s ${p.delay}s cubic-bezier(0.25, 0.6, 0.45, 1) forwards`,
+              "--drift": `${p.drift}px`,
+              "--tilt": `${p.tilt}deg`,
+            } as React.CSSProperties
+          }
+        />
+      ))}
+    </div>
+  );
+}
+
+/** Carte face cachée qui se retourne pour révéler la pioche. */
+function FlipReveal({ family, n }: { family: Family; n: number }) {
+  return (
+    <div className="h-44 w-[7.5rem]" style={{ perspective: 900 }}>
+      <motion.div
+        initial={{ rotateY: 0 }}
+        animate={{ rotateY: 180 }}
+        transition={{ delay: 0.55, duration: 0.7, ease: "easeInOut" }}
+        className="relative h-full w-full"
+        style={{ transformStyle: "preserve-3d" }}
+      >
+        <div
+          className="absolute inset-0 flex items-center justify-center rounded-2xl border border-cream/20 bg-[#1b191e]"
+          style={{ backfaceVisibility: "hidden", boxShadow: "0 8px 30px rgba(0,0,0,0.5)" }}
+        >
+          <span className="display italic text-4xl text-cream/25">?</span>
+        </div>
+        <div
+          className="absolute inset-0"
+          style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
+        >
+          <ColorCard family={family} n={n} size="fill" />
+        </div>
+      </motion.div>
+    </div>
+  );
+}
+
+interface AskResult {
+  kind: "given" | "lucky" | "draw" | "empty";
+  card: number | null;
+  from: string;
+  next: string | null;
+  laid: number | null;
 }
 
 /* ---------- composant principal ---------- */
@@ -103,6 +186,7 @@ export default function SeptFamilles() {
   const [askFamily, setAskFamily] = useState<number | null>(null);
   const [askNumber, setAskNumber] = useState<number | null>(null);
   const [askTarget, setAskTarget] = useState<number | null>(null);
+  const [result, setResult] = useState<AskResult | null>(null);
 
   useEffect(() => {
     const p = loadProfile();
@@ -183,34 +267,40 @@ export default function SeptFamilles() {
     const target = s.players[askTarget];
     const label = cardLabel(wanted);
 
+    let res: AskResult;
     if (target.hand.includes(wanted)) {
       target.hand = target.hand.filter((id) => id !== wanted);
       me.hand.push(wanted);
       vibrate([30, 40, 30]);
       s.event = `${target.name} avait ${label} — ${me.name} rejoue !`;
+      res = { kind: "given", card: wanted, from: target.name, next: null, laid: null };
     } else if (s.pile.length > 0) {
       const drawn = s.pile.shift()!;
       me.hand.push(drawn);
       if (drawn === wanted) {
         vibrate([30, 40, 30, 40, 60]);
         s.event = `Bonne pioche ! ${me.name} tire ${label} et rejoue.`;
+        res = { kind: "lucky", card: wanted, from: target.name, next: null, laid: null };
       } else {
         vibrate(40);
         s.event = `${target.name} n'a pas ${label}. Mauvaise pioche — au tour de ${target.name}.`;
         s.current = askTarget;
         s.phase = "handoff";
+        res = { kind: "draw", card: drawn, from: target.name, next: target.name, laid: null };
       }
     } else {
       vibrate(40);
       s.event = `${target.name} n'a pas ${label} et la pioche est vide — au tour de ${target.name}.`;
       s.current = askTarget;
       s.phase = "handoff";
+      res = { kind: "empty", card: null, from: target.name, next: target.name, laid: null };
     }
 
     const laid = layDownComplete(me);
     if (laid !== null) {
       s.event = `${s.event} 👏 ${me.name} pose la famille ${familyById(laid).name} complète !`;
       vibrate([40, 60, 40, 60, 120]);
+      res.laid = laid;
     }
 
     const total = s.players.reduce((n, p) => n + p.families.length, 0);
@@ -229,6 +319,7 @@ export default function SeptFamilles() {
     }
 
     resetAsk();
+    setResult(res);
     persist(s);
   };
 
@@ -299,11 +390,109 @@ export default function SeptFamilles() {
 
   const me = state.players[state.current];
 
+  /* ---------- overlay de résultat animé ---------- */
+  const resultOverlay = (
+    <AnimatePresence>
+      {result && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-ink/90 px-8 backdrop-blur-xl"
+        >
+          {(result.kind === "given" || result.laid !== null) && <ConfettiRain />}
+          {result.kind === "lucky" && <ConfettiRain startDelay={1.15} />}
+
+          {result.card !== null && result.kind === "given" && (
+            <motion.div
+              initial={{ scale: 0.3, y: 60, rotate: -12, opacity: 0 }}
+              animate={{ scale: 1, y: 0, rotate: 0, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 240, damping: 15 }}
+              className="h-44 w-[7.5rem]"
+            >
+              <ColorCard
+                family={familyById(familyOf(result.card))}
+                n={numberOf(result.card)}
+                size="fill"
+              />
+            </motion.div>
+          )}
+          {result.card !== null && (result.kind === "lucky" || result.kind === "draw") && (
+            <FlipReveal
+              family={familyById(familyOf(result.card))}
+              n={numberOf(result.card)}
+            />
+          )}
+
+          <motion.p
+            initial={{ y: 16, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: result.kind === "given" ? 0.25 : 1.2 }}
+            className={`display mt-7 text-center text-4xl italic ${
+              result.kind === "given" || result.kind === "lucky" ? "text-sage" : "text-flame"
+            }`}
+          >
+            {result.kind === "given" && "C'est cadeau !"}
+            {result.kind === "lucky" && "Bonne pioche !"}
+            {result.kind === "draw" && "Mauvaise pioche"}
+            {result.kind === "empty" && "Pioche vide"}
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: result.kind === "given" ? 0.4 : 1.35 }}
+            className="mt-2 max-w-64 text-center text-sm leading-relaxed text-mist"
+          >
+            {result.kind === "given" &&
+              result.card !== null &&
+              `${result.from} te donne ${cardLabel(result.card)}.`}
+            {result.kind === "lucky" &&
+              result.card !== null &&
+              `Tu tires exactement ${cardLabel(result.card)} — tu rejoues.`}
+            {result.kind === "draw" &&
+              result.card !== null &&
+              `${result.from} ne l'a pas. Tu pioches ${cardLabel(result.card)} — chut 🤫`}
+            {result.kind === "empty" &&
+              `${result.from} n'a pas la carte et il n'y a plus rien à piocher.`}
+          </motion.p>
+          {result.laid !== null && (
+            <motion.p
+              initial={{ scale: 0.6, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ delay: 0.6, type: "spring", stiffness: 260, damping: 14 }}
+              className="mt-4 rounded-full px-5 py-2 text-sm font-semibold"
+              style={{
+                background: familyById(result.laid).color,
+                color: familyById(result.laid).deep,
+              }}
+            >
+              👏 Famille {familyById(result.laid).name} complète !
+            </motion.p>
+          )}
+
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: result.kind === "given" ? 0.7 : 1.6 }}
+            onClick={() => {
+              vibrate(15);
+              setResult(null);
+            }}
+            className="mt-9 w-full max-w-72 rounded-full bg-flame py-4 font-semibold text-ink shadow-[0_10px_40px_-10px_rgba(255,77,46,0.6)] active:scale-[0.98] transition-transform"
+          >
+            {result.next ? `Passer le téléphone à ${result.next}` : "Je rejoue"}
+          </motion.button>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+
   /* ---------- fin de partie ---------- */
   if (state.phase === "end") {
     const ranking = [...state.players].sort((a, b) => b.families.length - a.families.length);
     return (
       <Shell onReset={reset}>
+        {resultOverlay}
         <div className="flex flex-1 flex-col items-center justify-center pb-safe text-center">
           <p className="eyebrow text-mist">Partie terminée</p>
           <p className="display mt-3 text-5xl">{ranking[0].name} 🏆</p>
@@ -338,6 +527,7 @@ export default function SeptFamilles() {
   if (state.phase === "handoff") {
     return (
       <Shell onReset={reset}>
+        {resultOverlay}
         <div className="flex flex-1 flex-col justify-center pb-safe pb-8">
           {state.event && (
             <motion.p
@@ -401,6 +591,7 @@ export default function SeptFamilles() {
 
   return (
     <Shell onReset={reset}>
+      {resultOverlay}
       <div className="flex flex-1 flex-col pb-safe pb-6">
         <div className="flex items-center justify-between">
           <p className="text-sm">
