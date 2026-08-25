@@ -136,11 +136,11 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
           <div className="flex items-center justify-between gap-3">
             <div className="min-w-0">
               <p className="eyebrow" style={{ color: "#C9DEC6" }}>
-                42 cartes · 2-6 joueurs
+                7 couleurs · 2-6 joueurs
               </p>
               <p className="display mt-1.5 text-3xl">7 Familles</p>
               <p className="mt-1 text-sm text-mist">
-                Un seul téléphone, zéro triche possible
+                « Je veux le 1 Rose ! » — dès 3 ans
               </p>
             </div>
             <div className="flex shrink-0 -space-x-3">

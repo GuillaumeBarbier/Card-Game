@@ -6,11 +6,12 @@ import { AnimatePresence, motion } from "motion/react";
 import {
   ALL_CARDS,
   FAMILIES,
-  MEMBERS,
+  NUMBERS,
   cardId,
+  cardLabel,
   familyById,
   familyOf,
-  memberOf,
+  numberOf,
   type Family,
 } from "@/lib/familles";
 import { loadProfile, vibrate } from "@/lib/store";
@@ -29,7 +30,6 @@ interface FState {
   current: number;
   phase: "handoff" | "play" | "end";
   event: string | null;
-  celebration: number | null;
 }
 
 const KEY = "entrenous.familles";
@@ -45,52 +45,49 @@ function shuffled<T>(arr: T[]): T[] {
 
 function deal(names: string[]): FState {
   const pile = shuffled(ALL_CARDS);
+  // 28 cartes : 5 par joueur jusqu'à 4 joueurs, 4 au-delà.
+  const perPlayer = names.length <= 4 ? 5 : 4;
   const players: FPlayer[] = names.map((name) => ({
     name,
-    hand: pile.splice(0, 6),
+    hand: pile.splice(0, perPlayer),
     families: [],
   }));
-  return { players, pile, current: 0, phase: "handoff", event: null, celebration: null };
+  return { players, pile, current: 0, phase: "handoff", event: null };
 }
 
-/* ---------- carte visuelle ---------- */
+/* ---------- cartes visuelles ---------- */
 
-function FamilyCard({
+/** Carte à jouer : couleur de la famille + gros chiffre. */
+function ColorCard({
   family,
-  memberIdx,
-  owned = true,
-  small = false,
+  n,
+  size = "md",
 }: {
   family: Family;
-  memberIdx?: number;
-  owned?: boolean;
-  small?: boolean;
+  n?: number;
+  size?: "sm" | "md" | "lg";
 }) {
+  const dims =
+    size === "sm" ? "h-12 w-9 rounded-lg" : size === "lg" ? "h-28 w-20 rounded-2xl" : "h-20 w-14 rounded-xl";
   return (
     <div
-      className={`relative flex flex-col items-center justify-center overflow-hidden rounded-xl border ${
-        small ? "h-14 w-10" : "h-24 w-[4.2rem]"
-      } ${owned ? "" : "opacity-35"}`}
+      className={`relative flex items-center justify-center overflow-hidden border ${dims}`}
       style={{
         background: family.image
           ? `url(${family.image}) center/cover, ${family.color}`
           : family.color,
-        borderColor: `${family.deep}55`,
-        boxShadow: "0 2px 8px rgba(0,0,0,0.25)",
+        borderColor: `${family.deep}44`,
+        boxShadow: "0 3px 10px rgba(0,0,0,0.3)",
       }}
     >
-      <span
-        className={`display leading-none ${small ? "text-xl" : "text-4xl"}`}
-        style={{ color: family.deep }}
-      >
-        {family.id}
-      </span>
-      {memberIdx !== undefined && (
+      {n !== undefined && (
         <span
-          className={`mt-0.5 font-medium ${small ? "text-[0.5rem]" : "text-[0.65rem]"}`}
-          style={{ color: "#3a3140" }}
+          className={`display leading-none ${
+            size === "sm" ? "text-xl" : size === "lg" ? "text-6xl" : "text-4xl"
+          }`}
+          style={{ color: family.deep }}
         >
-          {MEMBERS[memberIdx]}
+          {n}
         </span>
       )}
     </div>
@@ -104,7 +101,7 @@ export default function SeptFamilles() {
   const [setup, setSetup] = useState(true);
   const [names, setNames] = useState<string[]>(["", ""]);
   const [askFamily, setAskFamily] = useState<number | null>(null);
-  const [askMember, setAskMember] = useState<number | null>(null);
+  const [askNumber, setAskNumber] = useState<number | null>(null);
   const [askTarget, setAskTarget] = useState<number | null>(null);
 
   useEffect(() => {
@@ -114,7 +111,8 @@ export default function SeptFamilles() {
       const saved = localStorage.getItem(KEY);
       if (saved) {
         const s = JSON.parse(saved) as FState;
-        if (s.players?.length) {
+        // Ignore les sauvegardes de l'ancienne version (6 membres par famille).
+        if (s.players?.length && s.players.every((pl) => pl.hand.every((id) => id % 10 >= 1 && id % 10 <= 4))) {
           setState(s);
           setSetup(false);
         }
@@ -131,7 +129,7 @@ export default function SeptFamilles() {
 
   const resetAsk = () => {
     setAskFamily(null);
-    setAskMember(null);
+    setAskNumber(null);
     setAskTarget(null);
   };
 
@@ -151,10 +149,10 @@ export default function SeptFamilles() {
     setState(null);
   };
 
-  /** Détecte et pose les familles complètes du joueur. Retourne l'id posé ou null. */
+  /** Pose les familles complètes (4 chiffres d'une couleur). */
   const layDownComplete = (p: FPlayer): number | null => {
     for (const f of FAMILIES) {
-      const ids = MEMBERS.map((_, m) => cardId(f.id, m));
+      const ids = NUMBERS.map((n) => cardId(f.id, n));
       if (ids.every((id) => p.hand.includes(id))) {
         p.hand = p.hand.filter((id) => !ids.includes(id));
         p.families.push(f.id);
@@ -169,7 +167,6 @@ export default function SeptFamilles() {
     vibrate(15);
     const s: FState = structuredClone(state);
     const me = s.players[s.current];
-    // Main vide en début de tour : on pioche une carte pour pouvoir jouer.
     if (me.hand.length === 0 && s.pile.length > 0) {
       me.hand.push(s.pile.shift()!);
       s.event = `${me.name} n'avait plus de carte et en pioche une.`;
@@ -179,43 +176,40 @@ export default function SeptFamilles() {
   };
 
   const ask = () => {
-    if (!state || askFamily === null || askMember === null || askTarget === null) return;
-    const wanted = cardId(askFamily, askMember);
+    if (!state || askFamily === null || askNumber === null || askTarget === null) return;
+    const wanted = cardId(askFamily, askNumber);
     const s: FState = structuredClone(state);
     const me = s.players[s.current];
     const target = s.players[askTarget];
-    s.celebration = null;
-
-    const memberLabel = `${MEMBERS[askMember]} de la famille ${askFamily}`;
+    const label = cardLabel(wanted);
 
     if (target.hand.includes(wanted)) {
       target.hand = target.hand.filter((id) => id !== wanted);
       me.hand.push(wanted);
       vibrate([30, 40, 30]);
-      s.event = `${target.name} avait ${memberLabel} — ${me.name} rejoue !`;
+      s.event = `${target.name} avait ${label} — ${me.name} rejoue !`;
     } else if (s.pile.length > 0) {
       const drawn = s.pile.shift()!;
       me.hand.push(drawn);
       if (drawn === wanted) {
         vibrate([30, 40, 30, 40, 60]);
-        s.event = `Bonne pioche ! ${me.name} tire exactement ${memberLabel} et rejoue.`;
+        s.event = `Bonne pioche ! ${me.name} tire ${label} et rejoue.`;
       } else {
         vibrate(40);
-        s.event = `${target.name} n'a pas ${memberLabel}. Mauvaise pioche — au tour de ${target.name}.`;
+        s.event = `${target.name} n'a pas ${label}. Mauvaise pioche — au tour de ${target.name}.`;
         s.current = askTarget;
         s.phase = "handoff";
       }
     } else {
       vibrate(40);
-      s.event = `${target.name} n'a pas ${memberLabel} et la pioche est vide — au tour de ${target.name}.`;
+      s.event = `${target.name} n'a pas ${label} et la pioche est vide — au tour de ${target.name}.`;
       s.current = askTarget;
       s.phase = "handoff";
     }
 
     const laid = layDownComplete(me);
     if (laid !== null) {
-      s.celebration = laid;
-      s.event = `${s.event} 👏 ${me.name} pose la famille ${laid} complète !`;
+      s.event = `${s.event} 👏 ${me.name} pose la famille ${familyById(laid).name} complète !`;
       vibrate([40, 60, 40, 60, 120]);
     }
 
@@ -223,7 +217,6 @@ export default function SeptFamilles() {
     if (total >= FAMILIES.length) {
       s.phase = "end";
     } else if (s.phase === "play") {
-      // Le joueur rejoue mais n'a peut-être plus de carte en main.
       if (me.hand.length === 0 && s.pile.length > 0) {
         me.hand.push(s.pile.shift()!);
       }
@@ -249,13 +242,14 @@ export default function SeptFamilles() {
             <span className="italic text-flame">7 familles.</span>
           </h1>
           <p className="mt-3 text-sm leading-relaxed text-mist">
-            Un seul téléphone : l&apos;app connaît toutes les mains, distribue,
-            vérifie les demandes et fait piocher. Impossible de tricher.
+            7 couleurs, 4 chiffres par couleur : « Je veux le 1 Rose ! ».
+            Pensé pour jouer avec les enfants qui ne lisent pas encore —
+            l&apos;app distribue, vérifie et fait piocher toute seule.
           </p>
 
           <div className="mt-6 flex gap-1.5">
             {FAMILIES.map((f) => (
-              <FamilyCard key={f.id} family={f} small />
+              <ColorCard key={f.id} family={f} n={((f.id - 1) % 4) + 1} size="sm" />
             ))}
           </div>
 
@@ -322,7 +316,7 @@ export default function SeptFamilles() {
                 <span className="text-sm">{p.name}</span>
                 <span className="flex gap-1">
                   {p.families.map((fid) => (
-                    <FamilyCard key={fid} family={familyById(fid)} small />
+                    <ColorCard key={fid} family={familyById(fid)} size="sm" />
                   ))}
                   {p.families.length === 0 && <span className="text-xs text-mist">—</span>}
                 </span>
@@ -359,7 +353,6 @@ export default function SeptFamilles() {
             <span className="italic text-flame">{me.name}</span>
           </p>
 
-          {/* tableau public */}
           <div className="mt-8 space-y-2">
             {state.players.map((p, i) => (
               <div
@@ -375,11 +368,9 @@ export default function SeptFamilles() {
                     {p.families.map((fid) => (
                       <span
                         key={fid}
-                        className="display flex h-6 w-5 items-center justify-center rounded-md text-xs"
-                        style={{ background: familyById(fid).color, color: familyById(fid).deep }}
-                      >
-                        {fid}
-                      </span>
+                        className="h-6 w-5 rounded-md border border-black/10"
+                        style={{ background: familyById(fid).color }}
+                      />
                     ))}
                   </span>
                 </span>
@@ -404,8 +395,9 @@ export default function SeptFamilles() {
     );
   }
 
-  /* ---------- tour de jeu (main visible) ---------- */
+  /* ---------- tour de jeu ---------- */
   const myFamilies = [...new Set(me.hand.map(familyOf))].sort((a, b) => a - b);
+  const askedFamily = askFamily !== null ? familyById(askFamily) : null;
 
   return (
     <Shell onReset={reset}>
@@ -429,36 +421,47 @@ export default function SeptFamilles() {
           </motion.p>
         )}
 
-        {/* main groupée par famille */}
-        <p className="eyebrow mt-5 text-mist">Ma main — tape une famille pour demander</p>
-        <div className="-mx-6 mt-3 flex gap-3 overflow-x-auto px-6 pb-2">
+        {/* main groupée par couleur */}
+        <p className="eyebrow mt-5 text-mist">Ma main — tape une couleur</p>
+        <div className="-mx-6 mt-3 flex gap-2.5 overflow-x-auto px-6 pb-2">
           {myFamilies.map((fid) => {
             const family = familyById(fid);
-            const owned = me.hand.filter((id) => familyOf(id) === fid).map(memberOf);
+            const owned = me.hand
+              .filter((id) => familyOf(id) === fid)
+              .map(numberOf)
+              .sort();
             return (
               <button
                 key={fid}
                 onClick={() => {
                   vibrate(10);
                   setAskFamily(fid);
-                  setAskMember(null);
+                  setAskNumber(null);
                   setAskTarget(null);
                 }}
-                className={`flex shrink-0 flex-col items-center gap-1.5 rounded-2xl border p-2.5 transition-colors ${
-                  askFamily === fid ? "border-cream/60 bg-white/[0.07]" : "border-line bg-white/[0.03]"
+                className={`shrink-0 rounded-2xl border p-1.5 transition-colors ${
+                  askFamily === fid ? "border-cream/70 bg-white/[0.08]" : "border-transparent"
                 }`}
               >
-                <FamilyCard family={family} />
-                <div className="flex flex-wrap justify-center gap-1" style={{ maxWidth: "5rem" }}>
-                  {owned.sort().map((m) => (
-                    <span
-                      key={m}
-                      className="rounded-full px-1.5 py-0.5 text-[0.55rem] font-medium"
-                      style={{ background: family.color, color: "#3a3140" }}
-                    >
-                      {MEMBERS[m]}
-                    </span>
-                  ))}
+                <div
+                  className="flex h-28 w-[4.6rem] flex-col items-center justify-center gap-0.5 rounded-xl border"
+                  style={{
+                    background: family.image
+                      ? `url(${family.image}) center/cover, ${family.color}`
+                      : family.color,
+                    borderColor: `${family.deep}44`,
+                    boxShadow: "0 3px 10px rgba(0,0,0,0.3)",
+                  }}
+                >
+                  <span
+                    className="display leading-none"
+                    style={{ color: family.deep, fontSize: owned.length > 2 ? "1.6rem" : "2.2rem" }}
+                  >
+                    {owned.join(" ")}
+                  </span>
+                  <span className="text-[0.55rem] font-medium" style={{ color: "#3a3140" }}>
+                    {family.name}
+                  </span>
                 </div>
               </button>
             );
@@ -469,7 +472,7 @@ export default function SeptFamilles() {
           <div className="mt-2 flex items-center gap-2">
             <span className="text-[0.6rem] uppercase tracking-widest text-mist">Posées</span>
             {me.families.map((fid) => (
-              <FamilyCard key={fid} family={familyById(fid)} small />
+              <ColorCard key={fid} family={familyById(fid)} size="sm" />
             ))}
           </div>
         )}
@@ -477,45 +480,51 @@ export default function SeptFamilles() {
         {/* constructeur de demande */}
         <div className="mt-auto">
           <AnimatePresence mode="wait">
-            {askFamily !== null && (
+            {askedFamily && (
               <motion.div
-                key={askFamily}
+                key={askedFamily.id}
                 initial={{ y: 24, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: 16, opacity: 0 }}
                 className="rounded-3xl border border-line bg-white/[0.04] p-4"
               >
                 <p className="text-xs text-mist">
-                  Famille {askFamily} — quelle carte veux-tu ?
+                  Famille <span style={{ color: askedFamily.deep }}>{askedFamily.name}</span> —
+                  quel chiffre veux-tu ?
                 </p>
-                <div className="mt-2.5 grid grid-cols-3 gap-2">
-                  {MEMBERS.map((m, idx) => {
-                    const has = me.hand.includes(cardId(askFamily, idx));
+                <div className="mt-2.5 grid grid-cols-4 gap-2">
+                  {NUMBERS.map((n) => {
+                    const has = me.hand.includes(cardId(askedFamily.id, n));
                     return (
                       <button
-                        key={m}
+                        key={n}
                         disabled={has}
                         onClick={() => {
                           vibrate(10);
-                          setAskMember(idx);
+                          setAskNumber(n);
                         }}
-                        className={`rounded-xl border py-2.5 text-sm transition-colors ${
+                        className={`display flex h-16 items-center justify-center rounded-xl border text-3xl transition-all ${
                           has
-                            ? "border-line text-mist/40 line-through"
-                            : askMember === idx
-                              ? "border-flame bg-flame font-semibold text-ink"
-                              : "border-line bg-white/[0.04] text-cream"
+                            ? "border-line opacity-25"
+                            : askNumber === n
+                              ? "scale-105 border-cream"
+                              : "border-transparent"
                         }`}
+                        style={{
+                          background: askedFamily.color,
+                          color: askedFamily.deep,
+                          boxShadow: has ? "none" : "0 3px 10px rgba(0,0,0,0.3)",
+                        }}
                       >
-                        {m}
+                        {n}
                       </button>
                     );
                   })}
                 </div>
 
-                {askMember !== null && (
+                {askNumber !== null && (
                   <>
-                    <p className="mt-3 text-xs text-mist">À qui la demander ?</p>
+                    <p className="mt-3 text-xs text-mist">À qui le demander ?</p>
                     <div className="mt-2 flex flex-wrap gap-2">
                       {state.players.map((p, i) =>
                         i === state.current ? null : (
@@ -541,19 +550,19 @@ export default function SeptFamilles() {
 
                 <button
                   onClick={ask}
-                  disabled={askMember === null || askTarget === null}
+                  disabled={askNumber === null || askTarget === null}
                   className="mt-4 w-full rounded-full bg-flame py-4 font-semibold text-ink active:scale-[0.98] transition-transform disabled:opacity-30"
                 >
-                  {askMember !== null && askTarget !== null
-                    ? `Demander ${MEMBERS[askMember]} (famille ${askFamily}) à ${state.players[askTarget].name}`
-                    : "Demander"}
+                  {askNumber !== null && askTarget !== null
+                    ? `Demander le ${askNumber} ${askedFamily.name} à ${state.players[askTarget].name}`
+                    : "Je veux…"}
                 </button>
               </motion.div>
             )}
           </AnimatePresence>
           {askFamily === null && (
             <p className="rounded-3xl border border-dashed border-line px-4 py-5 text-center text-xs text-mist">
-              Règle : tu ne peux demander que dans une famille que tu as déjà en main.
+              Règle : on ne demande que dans une couleur qu&apos;on a déjà en main.
             </p>
           )}
         </div>
