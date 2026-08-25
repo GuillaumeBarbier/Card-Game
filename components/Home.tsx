@@ -145,9 +145,9 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
             </div>
             <div className="flex shrink-0 -space-x-3">
               {[
-                { c: "#F2C8CF", d: "#B96B7B", n: 1 },
-                { c: "#F2E3AE", d: "#AD934A", n: 3 },
-                { c: "#BFD8E8", d: "#5D89A8", n: 5 },
+                { c: "#E8342E", d: "#FFFFFF", n: 1 },
+                { c: "#FFCF24", d: "#6E5300", n: 3 },
+                { c: "#2E8DFF", d: "#FFFFFF", n: 5 },
               ].map(({ c, d, n }, i) => (
                 <span
                   key={n}

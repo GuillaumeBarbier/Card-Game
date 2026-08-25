@@ -459,7 +459,7 @@ export default function SeptFamilles() {
                   >
                     {owned.join(" ")}
                   </span>
-                  <span className="text-[0.55rem] font-medium" style={{ color: "#3a3140" }}>
+                  <span className="text-[0.55rem] font-semibold" style={{ color: family.deep }}>
                     {family.name}
                   </span>
                 </div>

@@ -11,14 +11,17 @@ export interface Family {
   image?: string;
 }
 
+// Couleurs vives (même saturation que l'accent de l'app), toutes
+// identifiables sans confusion par de jeunes enfants.
+// `deep` = couleur des chiffres/du texte posés sur la couleur.
 export const FAMILIES: Family[] = [
-  { id: 1, name: "Rose", color: "#F2C8CF", deep: "#B96B7B" },
-  { id: 2, name: "Orange", color: "#F5CFA6", deep: "#BE7F3E" },
-  { id: 3, name: "Jaune", color: "#F2E3AE", deep: "#A88D3E" },
-  { id: 4, name: "Vert", color: "#C9DEC6", deep: "#5F8F5D" },
-  { id: 5, name: "Bleu", color: "#BFD8E8", deep: "#4F7F9F" },
-  { id: 6, name: "Violet", color: "#CBC6E8", deep: "#6F63A8" },
-  { id: 7, name: "Marron", color: "#D9C3AC", deep: "#8F6F4F" },
+  { id: 1, name: "Rouge", color: "#E8342E", deep: "#FFFFFF" },
+  { id: 2, name: "Orange", color: "#FF8A1E", deep: "#5E3200" },
+  { id: 3, name: "Jaune", color: "#FFCF24", deep: "#6E5300" },
+  { id: 4, name: "Vert", color: "#2DB958", deep: "#FFFFFF" },
+  { id: 5, name: "Bleu", color: "#2E8DFF", deep: "#FFFFFF" },
+  { id: 6, name: "Rose", color: "#FF5DA8", deep: "#FFFFFF" },
+  { id: 7, name: "Violet", color: "#8C52E8", deep: "#FFFFFF" },
 ];
 
 export const NUMBERS = [1, 2, 3, 4] as const;
