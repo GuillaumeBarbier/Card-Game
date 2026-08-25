@@ -127,6 +127,41 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
         </motion.section>
       </div>
 
+      <div className="mx-auto max-w-md px-6 pb-4">
+        <p className="eyebrow mb-3 text-mist">En famille</p>
+        <Link
+          href="/familles"
+          className="block rounded-3xl border border-line bg-white/[0.03] p-5"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="eyebrow" style={{ color: "#C9DEC6" }}>
+                42 cartes · 2-6 joueurs
+              </p>
+              <p className="display mt-1.5 text-3xl">7 Familles</p>
+              <p className="mt-1 text-sm text-mist">
+                Un seul téléphone, zéro triche possible
+              </p>
+            </div>
+            <div className="flex shrink-0 -space-x-3">
+              {[
+                { c: "#F2C8CF", d: "#B96B7B", n: 1 },
+                { c: "#F2E3AE", d: "#AD934A", n: 3 },
+                { c: "#BFD8E8", d: "#5D89A8", n: 5 },
+              ].map(({ c, d, n }, i) => (
+                <span
+                  key={n}
+                  className="display flex h-14 w-10 items-center justify-center rounded-lg border border-black/10 text-2xl shadow-md"
+                  style={{ background: c, color: d, transform: `rotate(${(i - 1) * 9}deg)` }}
+                >
+                  {n}
+                </span>
+              ))}
+            </div>
+          </div>
+        </Link>
+      </div>
+
       <div className="mx-auto max-w-md px-6 pb-safe pb-10">
         <Link
           href="/flechettes"
