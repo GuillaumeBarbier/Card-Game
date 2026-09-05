@@ -183,6 +183,60 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
         </Link>
       </div>
 
+      <div className="mx-auto max-w-md space-y-4 px-6 pb-4">
+        <Link
+          href="/bombe"
+          className="block rounded-3xl border border-line bg-white/[0.03] p-5"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="eyebrow text-flame">Dès 3 joueurs · en cercle</p>
+              <p className="display mt-1.5 text-3xl">La Bombe</p>
+              <p className="mt-1 text-sm text-mist">
+                Un mot, on passe — boum au mauvais moment
+              </p>
+            </div>
+            <span className="shrink-0 text-4xl">💣</span>
+          </div>
+        </Link>
+        {/* Tuile masquée le temps que la banque de 200 questions soit générée */}
+        <Link
+          href="/bobard"
+          hidden
+          className="block rounded-3xl border border-line bg-white/[0.03] p-5"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="eyebrow" style={{ color: "#9db89a" }}>
+                Dès 3 joueurs · bluff
+              </p>
+              <p className="display mt-1.5 text-3xl">Le Bobard</p>
+              <p className="mt-1 text-sm text-mist">
+                Inventez le mensonge le plus crédible
+              </p>
+            </div>
+            <span className="shrink-0 text-4xl">🤥</span>
+          </div>
+        </Link>
+        <Link
+          href="/curseur"
+          className="block rounded-3xl border border-line bg-white/[0.03] p-5"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="eyebrow" style={{ color: "#2E8DFF" }}>
+                Dès 2 joueurs · coopératif
+              </p>
+              <p className="display mt-1.5 text-3xl">Le Curseur</p>
+              <p className="mt-1 text-sm text-mist">
+                Un indice, une échelle — même longueur d&apos;onde ?
+              </p>
+            </div>
+            <span className="shrink-0 text-4xl">🎚️</span>
+          </div>
+        </Link>
+      </div>
+
       <div className="mx-auto max-w-md px-6 pb-safe pb-10">
         <Link
           href="/flechettes"

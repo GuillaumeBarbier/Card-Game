@@ -1,0 +1,1202 @@
+[
+  {
+    "cat": "Animaux de la ferme",
+    "level": 1
+  },
+  {
+    "cat": "Animaux de la jungle",
+    "level": 1
+  },
+  {
+    "cat": "Animaux de la mer",
+    "level": 1
+  },
+  {
+    "cat": "Animaux du zoo",
+    "level": 1
+  },
+  {
+    "cat": "Animaux de compagnie",
+    "level": 1
+  },
+  {
+    "cat": "Oiseaux",
+    "level": 1
+  },
+  {
+    "cat": "Insectes et petites bêtes",
+    "level": 1
+  },
+  {
+    "cat": "Animaux qui pondent des œufs",
+    "level": 1
+  },
+  {
+    "cat": "Animaux à quatre pattes",
+    "level": 1
+  },
+  {
+    "cat": "Bébés animaux",
+    "level": 1
+  },
+  {
+    "cat": "Cris d'animaux",
+    "level": 1
+  },
+  {
+    "cat": "Animaux qui savent nager",
+    "level": 1
+  },
+  {
+    "cat": "Animaux qui commencent par C",
+    "level": 1
+  },
+  {
+    "cat": "Couleurs",
+    "level": 1
+  },
+  {
+    "cat": "Fruits",
+    "level": 1
+  },
+  {
+    "cat": "Légumes",
+    "level": 1
+  },
+  {
+    "cat": "Bonbons et sucreries",
+    "level": 1
+  },
+  {
+    "cat": "Desserts",
+    "level": 1
+  },
+  {
+    "cat": "Boissons",
+    "level": 1
+  },
+  {
+    "cat": "Choses qu'on mange au petit-déjeuner",
+    "level": 1
+  },
+  {
+    "cat": "Parfums de glace",
+    "level": 1
+  },
+  {
+    "cat": "Choses qu'on met sur une pizza",
+    "level": 1
+  },
+  {
+    "cat": "Choses sucrées",
+    "level": 1
+  },
+  {
+    "cat": "Choses salées",
+    "level": 1
+  },
+  {
+    "cat": "Choses qu'on peut manger avec les doigts",
+    "level": 1
+  },
+  {
+    "cat": "Personnages Disney",
+    "level": 1
+  },
+  {
+    "cat": "Héros de dessins animés",
+    "level": 1
+  },
+  {
+    "cat": "Personnages de contes de fées",
+    "level": 1
+  },
+  {
+    "cat": "Super-héros",
+    "level": 1
+  },
+  {
+    "cat": "Pokémon",
+    "level": 1
+  },
+  {
+    "cat": "Personnages de jeux vidéo",
+    "level": 1
+  },
+  {
+    "cat": "Comptines et chansons pour enfants",
+    "level": 1
+  },
+  {
+    "cat": "Prénoms de garçons",
+    "level": 1
+  },
+  {
+    "cat": "Prénoms de filles",
+    "level": 1
+  },
+  {
+    "cat": "Parties du corps",
+    "level": 1
+  },
+  {
+    "cat": "Métiers",
+    "level": 1
+  },
+  {
+    "cat": "Sports",
+    "level": 1
+  },
+  {
+    "cat": "Instruments de musique",
+    "level": 1
+  },
+  {
+    "cat": "Jouets",
+    "level": 1
+  },
+  {
+    "cat": "Jeux de société",
+    "level": 1
+  },
+  {
+    "cat": "Vêtements",
+    "level": 1
+  },
+  {
+    "cat": "Vêtements d'hiver",
+    "level": 1
+  },
+  {
+    "cat": "Moyens de transport",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans la trousse",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans le cartable",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans la salle de classe",
+    "level": 1
+  },
+  {
+    "cat": "Choses qu'on fait à la récré",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans la cuisine",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans la chambre",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans le jardin",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans la forêt",
+    "level": 1
+  },
+  {
+    "cat": "Choses à la plage",
+    "level": 1
+  },
+  {
+    "cat": "Choses à la piscine",
+    "level": 1
+  },
+  {
+    "cat": "Choses au parc",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans un château fort",
+    "level": 1
+  },
+  {
+    "cat": "Choses dans un cirque",
+    "level": 1
+  },
+  {
+    "cat": "Choses à la fête foraine",
+    "level": 1
+  },
+  {
+    "cat": "Choses qu'on voit dans le ciel",
+    "level": 1
+  },
+  {
+    "cat": "Choses qu'on emporte en pique-nique",
+    "level": 1
+  },
+  {
+    "cat": "Choses qui volent",
+    "level": 1
+  },
+  {
+    "cat": "Choses qui roulent",
+    "level": 1
+  },
+  {
+    "cat": "Choses qui font du bruit",
+    "level": 1
+  },
+  {
+    "cat": "Choses qui piquent",
+    "level": 1
+  },
+  {
+    "cat": "Choses rondes",
+    "level": 1
+  },
+  {
+    "cat": "Choses douces",
+    "level": 1
+  },
+  {
+    "cat": "Choses froides",
+    "level": 1
+  },
+  {
+    "cat": "Choses chaudes",
+    "level": 1
+  },
+  {
+    "cat": "Choses collantes",
+    "level": 1
+  },
+  {
+    "cat": "Choses qui brillent",
+    "level": 1
+  },
+  {
+    "cat": "Choses qui sentent bon",
+    "level": 1
+  },
+  {
+    "cat": "Choses jaunes",
+    "level": 1
+  },
+  {
+    "cat": "Choses rouges",
+    "level": 1
+  },
+  {
+    "cat": "Choses vertes",
+    "level": 1
+  },
+  {
+    "cat": "Choses bleues",
+    "level": 1
+  },
+  {
+    "cat": "Choses de Noël",
+    "level": 1
+  },
+  {
+    "cat": "Choses d'Halloween",
+    "level": 1
+  },
+  {
+    "cat": "Choses d'anniversaire",
+    "level": 1
+  },
+  {
+    "cat": "Fleurs",
+    "level": 1
+  },
+  {
+    "cat": "Mots qui commencent par A",
+    "level": 1
+  },
+  {
+    "cat": "Mots qui commencent par B",
+    "level": 1
+  },
+  {
+    "cat": "Capitales du monde",
+    "level": 2
+  },
+  {
+    "cat": "Pays d'Europe",
+    "level": 2
+  },
+  {
+    "cat": "Pays d'Afrique",
+    "level": 2
+  },
+  {
+    "cat": "Pays d'Asie",
+    "level": 2
+  },
+  {
+    "cat": "Pays où il fait chaud",
+    "level": 2
+  },
+  {
+    "cat": "Villes de France",
+    "level": 2
+  },
+  {
+    "cat": "Villes des États-Unis",
+    "level": 2
+  },
+  {
+    "cat": "Départements français",
+    "level": 2
+  },
+  {
+    "cat": "Mers et océans du monde",
+    "level": 2
+  },
+  {
+    "cat": "Langues parlées dans le monde",
+    "level": 2
+  },
+  {
+    "cat": "Nationalités",
+    "level": 2
+  },
+  {
+    "cat": "Monuments célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Marques de voitures",
+    "level": 2
+  },
+  {
+    "cat": "Marques de céréales",
+    "level": 2
+  },
+  {
+    "cat": "Marques de vêtements",
+    "level": 2
+  },
+  {
+    "cat": "Marques de luxe",
+    "level": 2
+  },
+  {
+    "cat": "Marques de sport",
+    "level": 2
+  },
+  {
+    "cat": "Marques de sodas et boissons",
+    "level": 2
+  },
+  {
+    "cat": "Marques de chocolat",
+    "level": 2
+  },
+  {
+    "cat": "Marques de téléphones",
+    "level": 2
+  },
+  {
+    "cat": "Marques d'électroménager",
+    "level": 2
+  },
+  {
+    "cat": "Marques de bière",
+    "level": 2
+  },
+  {
+    "cat": "Enseignes de supermarchés",
+    "level": 2
+  },
+  {
+    "cat": "Enseignes de fast-food",
+    "level": 2
+  },
+  {
+    "cat": "Chaînes de télévision",
+    "level": 2
+  },
+  {
+    "cat": "Émissions de télévision",
+    "level": 2
+  },
+  {
+    "cat": "Jeux télévisés",
+    "level": 2
+  },
+  {
+    "cat": "Animateurs télé",
+    "level": 2
+  },
+  {
+    "cat": "Émissions de téléréalité",
+    "level": 2
+  },
+  {
+    "cat": "Chanteurs français",
+    "level": 2
+  },
+  {
+    "cat": "Chanteuses françaises",
+    "level": 2
+  },
+  {
+    "cat": "Rappeurs français",
+    "level": 2
+  },
+  {
+    "cat": "Groupes de musique",
+    "level": 2
+  },
+  {
+    "cat": "Titres de chansons françaises",
+    "level": 2
+  },
+  {
+    "cat": "Styles de musique",
+    "level": 2
+  },
+  {
+    "cat": "Styles de danse",
+    "level": 2
+  },
+  {
+    "cat": "Films français",
+    "level": 2
+  },
+  {
+    "cat": "Films avec Louis de Funès",
+    "level": 2
+  },
+  {
+    "cat": "Acteurs français",
+    "level": 2
+  },
+  {
+    "cat": "Actrices françaises",
+    "level": 2
+  },
+  {
+    "cat": "Sagas de cinéma célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Séries télé",
+    "level": 2
+  },
+  {
+    "cat": "Personnages de Harry Potter",
+    "level": 2
+  },
+  {
+    "cat": "Personnages d'Astérix",
+    "level": 2
+  },
+  {
+    "cat": "Dieux et héros de la mythologie grecque",
+    "level": 2
+  },
+  {
+    "cat": "Humoristes français",
+    "level": 2
+  },
+  {
+    "cat": "Youtubeurs et influenceurs français",
+    "level": 2
+  },
+  {
+    "cat": "Duos célèbres",
+    "level": 2
+  },
+  {
+    "cat": "BD et mangas célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Peintres célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Écrivains français",
+    "level": 2
+  },
+  {
+    "cat": "Personnages historiques français",
+    "level": 2
+  },
+  {
+    "cat": "Inventions célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Footballeurs célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Clubs de football",
+    "level": 2
+  },
+  {
+    "cat": "Sportifs français célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un stade de foot",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans une salle de sport",
+    "level": 2
+  },
+  {
+    "cat": "Fromages français",
+    "level": 2
+  },
+  {
+    "cat": "Vins français",
+    "level": 2
+  },
+  {
+    "cat": "Plats français traditionnels",
+    "level": 2
+  },
+  {
+    "cat": "Plats italiens",
+    "level": 2
+  },
+  {
+    "cat": "Sortes de pâtes",
+    "level": 2
+  },
+  {
+    "cat": "Herbes et épices",
+    "level": 2
+  },
+  {
+    "cat": "Sauces",
+    "level": 2
+  },
+  {
+    "cat": "Cocktails célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Cuisines du monde",
+    "level": 2
+  },
+  {
+    "cat": "Plats d'hiver réconfortants",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on mange à la cantine",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on achète à la boulangerie",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on tartine",
+    "level": 2
+  },
+  {
+    "cat": "Parfums de yaourt",
+    "level": 2
+  },
+  {
+    "cat": "Choses qui se mangent crues",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on met dans un sandwich",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un frigo",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans une salle de bain",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un garage",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un grenier",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un sac à main",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans une valise",
+    "level": 2
+  },
+  {
+    "cat": "Choses sur un bureau",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans une pharmacie",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un hôpital",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un avion",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans une voiture",
+    "level": 2
+  },
+  {
+    "cat": "Choses à la montagne",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un camping",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un supermarché",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on trouve au cinéma",
+    "level": 2
+  },
+  {
+    "cat": "Choses dans un mariage",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on voit sur l'autoroute",
+    "level": 2
+  },
+  {
+    "cat": "Parties d'une voiture",
+    "level": 2
+  },
+  {
+    "cat": "Outils de bricolage",
+    "level": 2
+  },
+  {
+    "cat": "Ustensiles de cuisine",
+    "level": 2
+  },
+  {
+    "cat": "Objets qui fonctionnent avec des piles",
+    "level": 2
+  },
+  {
+    "cat": "Objets qu'on branche",
+    "level": 2
+  },
+  {
+    "cat": "Objets qu'on a dans les poches",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on perd tout le temps",
+    "level": 2
+  },
+  {
+    "cat": "Choses en bois",
+    "level": 2
+  },
+  {
+    "cat": "Objets qu'on n'utilise plus",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on recycle",
+    "level": 2
+  },
+  {
+    "cat": "Choses interdites dans un avion",
+    "level": 2
+  },
+  {
+    "cat": "Choses qui coûtent cher",
+    "level": 2
+  },
+  {
+    "cat": "Choses qui font peur",
+    "level": 2
+  },
+  {
+    "cat": "Choses qui sentent mauvais",
+    "level": 2
+  },
+  {
+    "cat": "Métiers en uniforme",
+    "level": 2
+  },
+  {
+    "cat": "Métiers de nuit",
+    "level": 2
+  },
+  {
+    "cat": "Métiers dangereux",
+    "level": 2
+  },
+  {
+    "cat": "Métiers de la santé",
+    "level": 2
+  },
+  {
+    "cat": "Métiers où l'on porte des gants",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui finissent en -ette",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui finissent en -tion",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui finissent en -eau",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui finissent en -age",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui finissent en -oir",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui finissent en -phone",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui commencent par télé-",
+    "level": 2
+  },
+  {
+    "cat": "Mots qui riment avec « pain »",
+    "level": 2
+  },
+  {
+    "cat": "Mots de trois lettres",
+    "level": 2
+  },
+  {
+    "cat": "Mots anglais utilisés en français",
+    "level": 2
+  },
+  {
+    "cat": "Onomatopées",
+    "level": 2
+  },
+  {
+    "cat": "Prénoms des années 90",
+    "level": 2
+  },
+  {
+    "cat": "Prénoms de grand-mères",
+    "level": 2
+  },
+  {
+    "cat": "Prénoms de grand-pères",
+    "level": 2
+  },
+  {
+    "cat": "Prénoms composés",
+    "level": 2
+  },
+  {
+    "cat": "Noms de famille très courants",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on fait le dimanche",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on fait avant de dormir",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on fait en vacances",
+    "level": 2
+  },
+  {
+    "cat": "Choses qu'on fait quand on s'ennuie",
+    "level": 2
+  },
+  {
+    "cat": "Bonnes excuses pour être en retard",
+    "level": 2
+  },
+  {
+    "cat": "Résolutions du Nouvel An",
+    "level": 2
+  },
+  {
+    "cat": "Petits plaisirs de la vie",
+    "level": 2
+  },
+  {
+    "cat": "Phrases que disent tous les parents",
+    "level": 2
+  },
+  {
+    "cat": "Phrases qu'on entend à l'école",
+    "level": 2
+  },
+  {
+    "cat": "Petits surnoms amoureux",
+    "level": 2
+  },
+  {
+    "cat": "Superstitions connues",
+    "level": 2
+  },
+  {
+    "cat": "Expressions avec un animal",
+    "level": 2
+  },
+  {
+    "cat": "Expressions avec une partie du corps",
+    "level": 2
+  },
+  {
+    "cat": "Remèdes de grand-mère",
+    "level": 2
+  },
+  {
+    "cat": "Matières scolaires",
+    "level": 2
+  },
+  {
+    "cat": "Fêtes qu'on célèbre en France",
+    "level": 2
+  },
+  {
+    "cat": "Races de chiens",
+    "level": 2
+  },
+  {
+    "cat": "Arbres fruitiers",
+    "level": 2
+  },
+  {
+    "cat": "Coiffures et coupes de cheveux",
+    "level": 2
+  },
+  {
+    "cat": "Jeux de cartes",
+    "level": 2
+  },
+  {
+    "cat": "Jeux vidéo célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Applications sur un téléphone",
+    "level": 2
+  },
+  {
+    "cat": "Réseaux sociaux",
+    "level": 2
+  },
+  {
+    "cat": "Sites internet célèbres",
+    "level": 2
+  },
+  {
+    "cat": "Mauvaises excuses pour annuler un rencard",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on regrette le lundi matin",
+    "level": 3
+  },
+  {
+    "cat": "Pires cadeaux de belle-mère",
+    "level": 3
+  },
+  {
+    "cat": "Excuses pour ne pas faire de sport",
+    "level": 3
+  },
+  {
+    "cat": "Mots de verlan",
+    "level": 3
+  },
+  {
+    "cat": "Petits mensonges du quotidien",
+    "level": 3
+  },
+  {
+    "cat": "Sujets qui fâchent aux repas de famille",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on cache à ses parents",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on fait en télétravail au lieu de bosser",
+    "level": 3
+  },
+  {
+    "cat": "Excuses pour partir tôt d'une soirée",
+    "level": 3
+  },
+  {
+    "cat": "Choses gênantes devant la belle-famille",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on cherche sur Internet à 3h du matin",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on dit après deux verres",
+    "level": 3
+  },
+  {
+    "cat": "Pires idées de tatouage",
+    "level": 3
+  },
+  {
+    "cat": "Choses à ne pas dire à un premier rendez-vous",
+    "level": 3
+  },
+  {
+    "cat": "Raisons bidon de rompre",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on fait quand on est seul chez soi",
+    "level": 3
+  },
+  {
+    "cat": "Prénoms qu'on n'oserait pas donner à son enfant",
+    "level": 3
+  },
+  {
+    "cat": "Choses agaçantes que font les collègues",
+    "level": 3
+  },
+  {
+    "cat": "Phrases préférées des boomers",
+    "level": 3
+  },
+  {
+    "cat": "Choses embarrassantes dans un caddie",
+    "level": 3
+  },
+  {
+    "cat": "Chansons qu'on chante sous la douche",
+    "level": 3
+  },
+  {
+    "cat": "Achats qu'on a vite regrettés",
+    "level": 3
+  },
+  {
+    "cat": "Trucs de radin",
+    "level": 3
+  },
+  {
+    "cat": "Signes qu'on vieillit",
+    "level": 3
+  },
+  {
+    "cat": "Petites bêtises que tout le monde a faites",
+    "level": 3
+  },
+  {
+    "cat": "Pires métiers du monde",
+    "level": 3
+  },
+  {
+    "cat": "Excuses pour ne pas répondre à un message",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on pense tout bas en réunion",
+    "level": 3
+  },
+  {
+    "cat": "Choses à ne pas faire en entretien d'embauche",
+    "level": 3
+  },
+  {
+    "cat": "Chansons ringardes qu'on adore",
+    "level": 3
+  },
+  {
+    "cat": "Trucs qui n'arrivent que quand on est pressé",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on vole à l'hôtel",
+    "level": 3
+  },
+  {
+    "cat": "Situations gênantes en soirée",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on fait semblant de comprendre",
+    "level": 3
+  },
+  {
+    "cat": "Pires cadeaux de Saint-Valentin",
+    "level": 3
+  },
+  {
+    "cat": "Pires habitudes au volant",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on dit aux enfants pour avoir la paix",
+    "level": 3
+  },
+  {
+    "cat": "Mensonges des sites de rencontre",
+    "level": 3
+  },
+  {
+    "cat": "Choses gênantes qui arrivent à la plage",
+    "level": 3
+  },
+  {
+    "cat": "Excuses pour éviter un repas de famille",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on mange en cachette",
+    "level": 3
+  },
+  {
+    "cat": "Trucs gênants que font les parents devant les copains",
+    "level": 3
+  },
+  {
+    "cat": "Excuses pour ne pas inviter les gens chez soi",
+    "level": 3
+  },
+  {
+    "cat": "Choses insupportables au cinéma",
+    "level": 3
+  },
+  {
+    "cat": "Défauts insupportables d'un coloc",
+    "level": 3
+  },
+  {
+    "cat": "Pires phrases de drague",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on fait la veille d'un examen",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on remet toujours à demain",
+    "level": 3
+  },
+  {
+    "cat": "Choses désagréables dans le métro",
+    "level": 3
+  },
+  {
+    "cat": "Habitudes agaçantes en couple",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on dit pour paraître intelligent",
+    "level": 3
+  },
+  {
+    "cat": "Objets qu'on garde « au cas où »",
+    "level": 3
+  },
+  {
+    "cat": "Galères de vacances",
+    "level": 3
+  },
+  {
+    "cat": "Excuses pour ne pas faire le ménage",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on fait juste avant l'arrivée des invités",
+    "level": 3
+  },
+  {
+    "cat": "Pires déguisements de soirée",
+    "level": 3
+  },
+  {
+    "cat": "Choses gênantes chez le médecin",
+    "level": 3
+  },
+  {
+    "cat": "Expressions des ados d'aujourd'hui",
+    "level": 3
+  },
+  {
+    "cat": "Chansons qu'on massacre au karaoké",
+    "level": 3
+  },
+  {
+    "cat": "Choses qui coûtent trop cher pour ce que c'est",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on jure d'arrêter mais qu'on refait",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on ne veut pas trouver dans son lit",
+    "level": 3
+  },
+  {
+    "cat": "Trucs qu'on fait pour éviter quelqu'un dans la rue",
+    "level": 3
+  },
+  {
+    "cat": "Surnoms gênants donnés par les parents",
+    "level": 3
+  },
+  {
+    "cat": "Raisons de faire semblant d'être malade",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on regrette d'avoir postées sur Internet",
+    "level": 3
+  },
+  {
+    "cat": "Pires choses à offrir à un ado",
+    "level": 3
+  },
+  {
+    "cat": "Excuses d'enfant pris la main dans le sac",
+    "level": 3
+  },
+  {
+    "cat": "Choses qu'on fait dans les bouchons",
+    "level": 3
+  }
+]
