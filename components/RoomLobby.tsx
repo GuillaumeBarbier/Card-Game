@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "motion/react";
-import { loadProfile, loadSeen, saveProfile, vibrate } from "@/lib/store";
+import { dismissKeyboard, loadProfile, loadSeen, saveProfile, vibrate } from "@/lib/store";
 
 type Mode = "create" | "join";
 
@@ -22,6 +22,7 @@ export default function RoomLobby() {
     if (!name.trim() || busy) return;
     setBusy(true);
     setError(null);
+    dismissKeyboard();
     vibrate(15);
     saveProfile({ ...loadProfile(), p1: name.trim() });
     try {

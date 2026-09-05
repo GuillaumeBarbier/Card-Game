@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import { loadProfile, vibrate } from "@/lib/store";
+import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 
 /* ---------- géométrie de la cible ---------- */
 
@@ -200,6 +200,7 @@ export default function DartsGame() {
   const start = () => {
     const list = names.map((n) => n.trim()).filter(Boolean);
     if (list.length < 1) return;
+    dismissKeyboard();
     vibrate(20);
     persist(freshGame(target, list));
     setHistory([]);

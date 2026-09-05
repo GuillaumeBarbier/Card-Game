@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import PAIRS from "@/data/undercover.json";
-import { loadProfile, vibrate } from "@/lib/store";
+import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
 
 /* ---------- règles de points ---------- */
@@ -101,6 +101,7 @@ export default function Undercover() {
   const start = () => {
     const list = names.map((n) => n.trim()).filter(Boolean);
     if (list.length < 3) return;
+    dismissKeyboard();
     vibrate(20);
     const s: UState = {
       players: list.map((name) => ({ name, score: 0 })),
@@ -360,6 +361,7 @@ export default function Undercover() {
               <p className="mt-3 text-xs text-mist">Les autres, on ne regarde pas 👀</p>
               <button
                 onClick={() => {
+                  dismissKeyboard();
                   vibrate(15);
                   setWordShown(true);
                 }}

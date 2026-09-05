@@ -101,6 +101,15 @@ export function unseenFirstOrder(
   return [...unseen, ...alreadySeen];
 }
 
+/**
+ * Relâche le focus du champ actif (ferme le clavier iOS). Évite la popup
+ * « Annuler la saisie » de Secouer pour annuler quand on passe le téléphone.
+ */
+export function dismissKeyboard() {
+  if (typeof document === "undefined") return;
+  (document.activeElement as HTMLElement | null)?.blur?.();
+}
+
 export function vibrate(pattern: number | number[]) {
   if (typeof navigator !== "undefined" && "vibrate" in navigator) {
     try {

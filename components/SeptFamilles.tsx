@@ -14,7 +14,7 @@ import {
   numberOf,
   type Family,
 } from "@/lib/familles";
-import { loadProfile, vibrate } from "@/lib/store";
+import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
 
 /* ---------- état du jeu ---------- */
@@ -182,6 +182,7 @@ export default function SeptFamilles() {
   const start = () => {
     const list = names.map((n) => n.trim()).filter(Boolean);
     if (list.length < 2) return;
+    dismissKeyboard();
     vibrate(20);
     persist(deal(list));
     resetAsk();
@@ -210,6 +211,7 @@ export default function SeptFamilles() {
 
   const enterPlay = () => {
     if (!state) return;
+    dismissKeyboard();
     vibrate(15);
     const s: FState = structuredClone(state);
     const me = s.players[s.current];

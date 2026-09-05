@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import type { Deck } from "@/lib/types";
-import { loadProfile, saveProfile, vibrate } from "@/lib/store";
+import { dismissKeyboard, loadProfile, saveProfile, vibrate } from "@/lib/store";
 
 function DeckTile({ deck, onOpen }: { deck: Deck; onOpen: () => void }) {
   return (
@@ -74,6 +74,7 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
   const start = () => {
     if (!sheet) return;
     saveProfile({ p1: p1.trim(), p2: p2.trim() });
+    dismissKeyboard();
     vibrate(20);
     router.push(`/play/${sheet.slug}`);
   };
@@ -249,6 +250,7 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
                   onClick={() => {
                     if (!sheet) return;
                     saveProfile({ p1: p1.trim(), p2: p2.trim() });
+                    dismissKeyboard();
                     vibrate(15);
                     router.push(`/room?deck=${sheet.slug}`);
                   }}
