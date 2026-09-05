@@ -162,6 +162,26 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
         </Link>
       </div>
 
+      <div className="mx-auto max-w-md px-6 pb-4">
+        <Link
+          href="/couverture"
+          className="block rounded-3xl border border-line bg-white/[0.03] p-5"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="eyebrow" style={{ color: "#d8b56a" }}>
+                Dès 3 joueurs · à voix haute
+              </p>
+              <p className="display mt-1.5 text-3xl">Sous Couverture</p>
+              <p className="mt-1 text-sm text-mist">
+                Un mot presque pareil… qui ment ?
+              </p>
+            </div>
+            <span className="display shrink-0 text-4xl italic text-flame">?</span>
+          </div>
+        </Link>
+      </div>
+
       <div className="mx-auto max-w-md px-6 pb-safe pb-10">
         <Link
           href="/flechettes"
