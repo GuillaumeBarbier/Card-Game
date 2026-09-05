@@ -129,7 +129,7 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
       </div>
 
       <div className="mx-auto max-w-md px-6 pb-4">
-        <p className="eyebrow mb-3 text-mist">En famille</p>
+        <p className="eyebrow mb-3 text-mist">En famille ou entre amis</p>
         <Link
           href="/familles"
           className="block rounded-3xl border border-line bg-white/[0.03] p-5"

@@ -25,15 +25,6 @@ export const DECKS: Deck[] = [
     available: (ouinonCards as Card[]).length >= 100,
     cardCount: (ouinonCards as Card[]).length,
   },
-  {
-    slug: "premiere-fois",
-    name: "Premières Fois",
-    tagline: "Vos souvenirs, face à face",
-    description: "Bientôt disponible.",
-    accent: "#9db89a",
-    available: false,
-    cardCount: 0,
-  },
 ];
 
 export function getDeck(slug: string): Deck | undefined {
