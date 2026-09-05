@@ -199,10 +199,8 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
             <span className="shrink-0 text-4xl">💣</span>
           </div>
         </Link>
-        {/* Tuile masquée le temps que la banque de 200 questions soit générée */}
         <Link
           href="/bobard"
-          hidden
           className="block rounded-3xl border border-line bg-white/[0.03] p-5"
         >
           <div className="flex items-center justify-between gap-3">

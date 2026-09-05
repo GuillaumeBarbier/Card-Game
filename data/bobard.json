@@ -1,1 +1,1002 @@
-[{"q":"En Alaska, il est illégal de réveiller un ours pour…","a":"le prendre en photo","info":"La loi vise les touristes trop téméraires."}]
+[
+  {
+    "q": "En Alaska, il est illégal de réveiller un ours endormi pour…",
+    "a": "le prendre en photo",
+    "info": "La loi vise les touristes trop téméraires : réveiller un ours pour un cliché souvenir est passible d'amende."
+  },
+  {
+    "q": "À Venise, il est interdit depuis 2008 de…",
+    "a": "nourrir les pigeons",
+    "info": "Fini les photos avec les pigeons place Saint-Marc : leurs fientes abîmaient les monuments. Amende à la clé."
+  },
+  {
+    "q": "En Suisse, la loi sur le bien-être animal interdit de posséder un seul…",
+    "a": "cochon d'Inde",
+    "info": "Animal social, il doit vivre au moins en duo. Il a même existé un service de location de compagnon pour cochon d'Inde veuf."
+  },
+  {
+    "q": "Depuis 1992, il est interdit de vendre à Singapour…",
+    "a": "du chewing-gum",
+    "info": "La mesure visait les gommes collées dans le métro et les boîtes aux lettres. Seule exception : le chewing-gum thérapeutique en pharmacie."
+  },
+  {
+    "q": "Un règlement français de 1910 interdit dans les gares de…",
+    "a": "s'embrasser sur les quais",
+    "info": "Le but : éviter que les adieux interminables des amoureux ne retardent les trains."
+  },
+  {
+    "q": "Au Danemark, les parents doivent choisir le prénom de leur bébé…",
+    "a": "dans une liste officielle",
+    "info": "Environ 7 000 prénoms approuvés par l'État. Pour en sortir, il faut une autorisation spéciale."
+  },
+  {
+    "q": "Au Japon, une loi impose aux employeurs de mesurer chaque année…",
+    "a": "le tour de taille des salariés",
+    "info": "La loi « Metabo » de 2008 lutte contre le surpoids des 40-74 ans. Au-delà du seuil, direction les conseils diététiques."
+  },
+  {
+    "q": "En Grèce, il est interdit de visiter l'Acropole en portant…",
+    "a": "des talons aiguilles",
+    "info": "Interdits depuis 2009 sur les sites antiques : les talons pointus abîment les marbres millénaires."
+  },
+  {
+    "q": "En Australie-Occidentale, il a longtemps été interdit de posséder plus de 50 kg de…",
+    "a": "pommes de terre",
+    "info": "Un office public de la patate pouvait même faire fouiller les véhicules suspects. La règle n'a disparu que dans les années 2010."
+  },
+  {
+    "q": "Une loi britannique de 1986 interdit de manipuler un saumon…",
+    "a": "de manière suspecte",
+    "info": "Le « Salmon Act » vise le braconnage et le recel de poisson pêché illégalement. La formulation fait toujours sourire les juristes."
+  },
+  {
+    "q": "En Thaïlande, il est illégal de marcher sur…",
+    "a": "un billet de banque",
+    "info": "Les billets portent le portrait du roi : les piétiner relève du crime de lèse-majesté."
+  },
+  {
+    "q": "À Rome, il est interdit, sous peine de grosse amende, de…",
+    "a": "se baigner dans les fontaines",
+    "info": "Un plongeon dans la fontaine de Trevi peut coûter jusqu'à 450 euros. La Dolce Vita a un prix."
+  },
+  {
+    "q": "En France, avec l'autorisation du président de la République, on peut épouser…",
+    "a": "une personne décédée",
+    "info": "Le mariage posthume existe depuis 1959, créé après la catastrophe du barrage de Malpasset pour une fiancée endeuillée."
+  },
+  {
+    "q": "La crevette-pistolet étourdit ses proies grâce à…",
+    "a": "un claquement de pince",
+    "info": "Le claquement crée une bulle brûlante et l'un des sons les plus puissants de l'océan, capable de brouiller les sonars."
+  },
+  {
+    "q": "Pour ne pas dériver pendant leur sommeil, les loutres de mer…",
+    "a": "se tiennent la patte",
+    "info": "Elles dorment main dans la main ou enroulées dans les algues, pour se réveiller les unes à côté des autres."
+  },
+  {
+    "q": "Pour survivre à la sécheresse, un escargot peut dormir jusqu'à…",
+    "a": "trois ans",
+    "info": "Il se scelle derrière un bouchon de mucus séché et attend patiemment le retour de l'humidité."
+  },
+  {
+    "q": "Des chercheurs ont montré que les vaches ont…",
+    "a": "des meilleures amies",
+    "info": "Séparée de sa copine préférée, une vache stresse et son rythme cardiaque s'accélère."
+  },
+  {
+    "q": "Le wombat est le seul animal au monde à faire des crottes…",
+    "a": "en forme de cube",
+    "info": "Les cubes ne roulent pas et marquent mieux son territoire. L'explication du phénomène a reçu un prix Ig Nobel."
+  },
+  {
+    "q": "La pieuvre possède trois…",
+    "a": "cœurs",
+    "info": "Deux pour les branchies, un pour le reste du corps. Et son sang est bleu."
+  },
+  {
+    "q": "Le koala est l'un des rares animaux à posséder, comme nous…",
+    "a": "des empreintes digitales",
+    "info": "Elles sont si proches des nôtres qu'elles pourraient, selon des criminologues, semer le doute sur une scène de crime."
+  },
+  {
+    "q": "Chaque dauphin possède son propre…",
+    "a": "prénom sifflé",
+    "info": "Un sifflement signature développé jeune, qu'il garde toute sa vie et auquel il répond quand on l'appelle."
+  },
+  {
+    "q": "Le paresseux ne descend de son arbre qu'environ une fois par semaine pour…",
+    "a": "faire ses besoins",
+    "info": "Une expédition risquée : c'est au sol, sans défense, qu'il est le plus vulnérable face aux prédateurs."
+  },
+  {
+    "q": "Pour séduire sa partenaire, le manchot papou lui offre…",
+    "a": "un caillou",
+    "info": "Le plus joli galet servira à construire le nid. Certains n'hésitent pas à le voler chez les voisins."
+  },
+  {
+    "q": "Le colibri est le seul oiseau capable de voler…",
+    "a": "en marche arrière",
+    "info": "Ses ailes battent en forme de huit des dizaines de fois par seconde, ce qui lui permet aussi le surplace."
+  },
+  {
+    "q": "Les chats adultes miaulent presque uniquement pour…",
+    "a": "parler aux humains",
+    "info": "Entre eux, ils communiquent par postures et odeurs. Le miaulement est un langage développé pour nous."
+  },
+  {
+    "q": "Le cœur de la baleine bleue est à peu près aussi gros que…",
+    "a": "une voiturette de golf",
+    "info": "Près de 180 kg. Ses battements peuvent être détectés à plusieurs kilomètres."
+  },
+  {
+    "q": "Des chercheurs ont montré que les abeilles savent reconnaître…",
+    "a": "des visages humains",
+    "info": "Avec moins d'un million de neurones, elles apprennent à distinguer des photos de visages."
+  },
+  {
+    "q": "Quand on les chatouille, les rats se mettent à…",
+    "a": "rire",
+    "info": "Des gloussements ultrasoniques inaudibles pour nous. Et ils reviennent en redemander."
+  },
+  {
+    "q": "Des pigeons ont appris en laboratoire à distinguer…",
+    "a": "un Monet d'un Picasso",
+    "info": "L'étude japonaise a reçu un prix Ig Nobel : les pigeons généralisaient même à d'autres peintres du même style."
+  },
+  {
+    "q": "Le crocodile est physiquement incapable de…",
+    "a": "tirer la langue",
+    "info": "Sa langue est fixée au plancher de sa gueule par une membrane."
+  },
+  {
+    "q": "Le kangourou est incapable de…",
+    "a": "marcher à reculons",
+    "info": "Sa grosse queue et ses pattes l'en empêchent. Il figure sur les armoiries australiennes comme symbole d'un pays qui avance."
+  },
+  {
+    "q": "L'éléphant adulte est incapable de…",
+    "a": "sauter",
+    "info": "Trop lourd : même en courant, il garde toujours au moins un pied au sol."
+  },
+  {
+    "q": "L'ornithorynque, déjà très bizarre, ne possède pas…",
+    "a": "d'estomac",
+    "info": "Son œsophage rejoint directement l'intestin. Il pond aussi des œufs et allaite sans tétines."
+  },
+  {
+    "q": "Les requins sont apparus sur Terre avant…",
+    "a": "les arbres",
+    "info": "Ils nagent depuis plus de 400 millions d'années, bien avant les premières vraies forêts."
+  },
+  {
+    "q": "Un cafard peut survivre environ une semaine…",
+    "a": "sans tête",
+    "info": "Il respire par des orifices sur le corps. Il finit par mourir… de soif."
+  },
+  {
+    "q": "Les papillons goûtent leur nourriture avec…",
+    "a": "leurs pattes",
+    "info": "Des capteurs gustatifs sous les pattes leur indiquent si la plante convient pour se nourrir ou pondre."
+  },
+  {
+    "q": "Le tardigrade, minuscule « ourson d'eau », a survécu à un séjour…",
+    "a": "dans le vide de l'espace",
+    "info": "Exposés en orbite en 2007, certains sont revenus vivants et se sont même reproduits ensuite."
+  },
+  {
+    "q": "La méduse Turritopsis est célèbre parce qu'elle peut…",
+    "a": "rajeunir",
+    "info": "Stressée ou blessée, l'adulte repasse au stade juvénile et recommence sa vie : on la surnomme la méduse immortelle."
+  },
+  {
+    "q": "Des corbeaux nourris régulièrement par des humains leur rapportent…",
+    "a": "des petits cadeaux",
+    "info": "Boutons, perles, morceaux de métal : une fillette de Seattle a reçu toute une collection de ses corbeaux."
+  },
+  {
+    "q": "À la naissance, les flamants roses sont…",
+    "a": "gris",
+    "info": "Ils rosissent grâce aux pigments des crevettes et des algues qu'ils mangent."
+  },
+  {
+    "q": "Les incisives du castor ont une couleur étonnante :",
+    "a": "orange",
+    "info": "Leur émail est enrichi en fer, ce qui les rend orange et assez solides pour couper des arbres."
+  },
+  {
+    "q": "En oubliant où ils ont caché leurs glands, les écureuils…",
+    "a": "plantent des forêts",
+    "info": "Des milliers de graines enterrées et jamais retrouvées germent chaque année."
+  },
+  {
+    "q": "Chez l'hippocampe, c'est le mâle qui…",
+    "a": "porte les bébés",
+    "info": "La femelle dépose ses œufs dans sa poche ventrale et il finit par « accoucher » de centaines de petits."
+  },
+  {
+    "q": "La fameuse corne torsadée du narval est en réalité…",
+    "a": "une dent",
+    "info": "Une incisive qui pousse en spirale à travers sa lèvre et peut atteindre trois mètres."
+  },
+  {
+    "q": "Chez les poissons-clowns, le mâle dominant peut…",
+    "a": "devenir une femelle",
+    "info": "À la mort de la femelle du groupe, le mâle change de sexe. Ça donne une toute autre lecture de « Nemo »."
+  },
+  {
+    "q": "Le plus proche parent vivant du T-Rex est…",
+    "a": "la poule",
+    "info": "L'analyse de protéines fossiles de T-Rex l'a rapproché des poulets et des autruches."
+  },
+  {
+    "q": "La migration du papillon monarque est si longue qu'elle s'étale sur…",
+    "a": "plusieurs générations",
+    "info": "Aucun individu ne fait l'aller-retour complet Canada-Mexique : ce sont les descendants qui reviennent."
+  },
+  {
+    "q": "Quand les grandes pyramides d'Égypte ont été bâties, il existait encore…",
+    "a": "des mammouths",
+    "info": "Une population de mammouths laineux a survécu sur l'île de Wrangel, en Sibérie, des siècles après Gizeh."
+  },
+  {
+    "q": "Le plus grand être vivant connu au monde est…",
+    "a": "un champignon",
+    "info": "Un armillaire de l'Oregon s'étend sur près de 9 km² sous la forêt, principalement en filaments souterrains."
+  },
+  {
+    "q": "En une seule journée, certains bambous peuvent pousser de…",
+    "a": "près d'un mètre",
+    "info": "Jusqu'à environ 90 cm pour les espèces les plus rapides : on peut presque les regarder grandir."
+  },
+  {
+    "q": "Une fois adultes, les tournesols cessent de suivre le soleil et regardent tous…",
+    "a": "vers l'est",
+    "info": "Se réchauffer dès l'aube leur permet d'attirer davantage de pollinisateurs."
+  },
+  {
+    "q": "Pour les botanistes, la banane est une baie, contrairement à…",
+    "a": "la fraise",
+    "info": "La fraise est un « faux-fruit » : les vrais fruits sont les petits grains jaunes à sa surface."
+  },
+  {
+    "q": "La vanille est le fruit…",
+    "a": "d'une orchidée",
+    "info": "Hors du Mexique, chaque fleur est pollinisée à la main, une méthode mise au point par Edmond Albius, jeune esclave réunionnais de 12 ans."
+  },
+  {
+    "q": "Sur Vénus, une journée dure plus longtemps que…",
+    "a": "une année",
+    "info": "243 jours terrestres pour tourner sur elle-même, 225 seulement pour faire le tour du Soleil."
+  },
+  {
+    "q": "Sur Neptune, les scientifiques pensent qu'il pleut…",
+    "a": "des diamants",
+    "info": "En profondeur, la pression comprimerait le carbone de l'atmosphère en véritables pluies de diamants."
+  },
+  {
+    "q": "De retour de sortie, les astronautes racontent que l'espace sent…",
+    "a": "le steak grillé",
+    "info": "Une odeur de viande brûlée et de métal chaud imprègne les combinaisons et le sas."
+  },
+  {
+    "q": "Faute de vent et de pluie, les empreintes de pas laissées sur la Lune dureront…",
+    "a": "des millions d'années",
+    "info": "Sans atmosphère pour les effacer, les traces de Neil Armstrong sont quasi éternelles."
+  },
+  {
+    "q": "Après plusieurs mois dans l'espace, les astronautes…",
+    "a": "grandissent de quelques centimètres",
+    "info": "Jusqu'à 5 cm : sans gravité, la colonne vertébrale se détend. Tout rentre dans l'ordre au retour."
+  },
+  {
+    "q": "Il y a plus d'arbres sur Terre que…",
+    "a": "d'étoiles dans la Voie lactée",
+    "info": "Environ 3 000 milliards d'arbres, contre quelques centaines de milliards d'étoiles dans notre galaxie."
+  },
+  {
+    "q": "Le seul aliment courant qui ne périme jamais est…",
+    "a": "le miel",
+    "info": "Des pots retrouvés dans des tombes égyptiennes vieilles de 3 000 ans étaient encore comestibles."
+  },
+  {
+    "q": "À cause de leur potassium, les bananes sont très légèrement…",
+    "a": "radioactives",
+    "info": "Sans aucun danger : les physiciens utilisent même la « dose équivalente banane » pour vulgariser la radioactivité."
+  },
+  {
+    "q": "L'été, sous l'effet de la chaleur, la tour Eiffel…",
+    "a": "grandit d'environ 15 cm",
+    "info": "Le fer se dilate. Elle penche aussi légèrement du côté opposé au soleil."
+  },
+  {
+    "q": "Dans certaines conditions, l'eau chaude gèle plus vite que…",
+    "a": "l'eau froide",
+    "info": "C'est l'effet Mpemba, nommé d'après un lycéen tanzanien qui a osé contredire son professeur."
+  },
+  {
+    "q": "Un éclair est environ cinq fois plus chaud que…",
+    "a": "la surface du Soleil",
+    "info": "Près de 30 000 °C dans le canal de foudre, contre environ 5 500 °C pour notre étoile."
+  },
+  {
+    "q": "Si l'on trouvait un océan assez grand, la planète Saturne…",
+    "a": "flotterait",
+    "info": "Sa densité moyenne est inférieure à celle de l'eau, cas unique parmi les planètes du système solaire."
+  },
+  {
+    "q": "Depuis sa découverte en 1930, Pluton n'a toujours pas…",
+    "a": "fait un tour complet du Soleil",
+    "info": "Son année dure 248 ans : le premier tour complet depuis sa découverte s'achèvera en 2178."
+  },
+  {
+    "q": "Sur Mars, les couchers de soleil sont…",
+    "a": "bleus",
+    "info": "La poussière martienne diffuse la lumière à l'inverse de notre atmosphère : ciel rouge le jour, halo bleu le soir."
+  },
+  {
+    "q": "Depuis 2018, une voiture de sport est en orbite…",
+    "a": "autour du Soleil",
+    "info": "Le roadster Tesla lancé par la fusée Falcon Heavy, avec un mannequin baptisé Starman au volant."
+  },
+  {
+    "q": "À bord de la Station spatiale, une partie de l'eau potable provient…",
+    "a": "de l'urine recyclée",
+    "info": "Le système de bord récupère environ 90 % des liquides, sueur et humidité de l'haleine comprises."
+  },
+  {
+    "q": "En apesanteur, il est impossible de…",
+    "a": "pleurer normalement",
+    "info": "Les larmes ne coulent pas : elles s'accumulent en boule sur l'œil et finissent par piquer."
+  },
+  {
+    "q": "Au point Nemo, le lieu le plus isolé des océans, les humains les plus proches sont parfois…",
+    "a": "des astronautes",
+    "info": "La Station spatiale passe à 400 km au-dessus, plus près que toute côte habitée, à environ 2 700 km."
+  },
+  {
+    "q": "Cléopâtre a vécu plus près de nous que de…",
+    "a": "la construction des pyramides",
+    "info": "Environ 2 500 ans la séparent des pyramides de Gizeh, contre à peine plus de 2 000 ans de nous."
+  },
+  {
+    "q": "L'université d'Oxford est plus ancienne que…",
+    "a": "l'Empire aztèque",
+    "info": "On y enseignait déjà vers 1096, plus de deux siècles avant la fondation de Tenochtitlan en 1325."
+  },
+  {
+    "q": "La guerre la plus courte de l'histoire a duré environ…",
+    "a": "38 minutes",
+    "info": "En 1896, entre le Royaume-Uni et Zanzibar. Le sultan a capitulé en moins d'une heure."
+  },
+  {
+    "q": "En 1952, Albert Einstein a décliné une offre pour devenir…",
+    "a": "président d'Israël",
+    "info": "Il s'est dit honoré mais trop peu doué pour la politique et les rapports humains."
+  },
+  {
+    "q": "Lors d'une chasse organisée en son honneur, Napoléon a été chargé par…",
+    "a": "des centaines de lapins",
+    "info": "Élevés en clapier, ils ont couru vers le cortège en pensant être nourris et ont submergé l'Empereur."
+  },
+  {
+    "q": "En 1932, l'armée australienne a perdu une « guerre » contre…",
+    "a": "des émeus",
+    "info": "Mitrailleuses contre 20 000 grands oiseaux trop rapides et trop coriaces : l'armée s'est retirée bredouille."
+  },
+  {
+    "q": "Le règne le plus court de l'histoire de France a duré environ…",
+    "a": "vingt minutes",
+    "info": "Celui de Louis XIX en 1830 : le temps de signer son abdication juste après celle de son père Charles X."
+  },
+  {
+    "q": "Pendant la Première Guerre mondiale, un pigeon a reçu…",
+    "a": "une décoration militaire",
+    "info": "Cher Ami a contribué à sauver près de 200 soldats en livrant son message malgré ses blessures."
+  },
+  {
+    "q": "Dans la Rome antique, on lavait le linge avec…",
+    "a": "de l'urine",
+    "info": "Riche en ammoniaque, elle était collectée dans la rue et même taxée par l'empereur Vespasien."
+  },
+  {
+    "q": "La tour de Pise penche depuis…",
+    "a": "sa construction",
+    "info": "Le sol a cédé dès le troisième étage, au 12e siècle. Les bâtisseurs ont continué en corrigeant l'angle."
+  },
+  {
+    "q": "Selon les historiens romains, l'empereur Caligula voulait nommer consul…",
+    "a": "son cheval",
+    "info": "Incitatus aurait eu une écurie de marbre et un collier de pierres précieuses."
+  },
+  {
+    "q": "Les casques à cornes des Vikings ont en réalité été popularisés par…",
+    "a": "un costumier d'opéra",
+    "info": "Pour un opéra de Wagner en 1876. Aucun casque viking à cornes n'a jamais été retrouvé."
+  },
+  {
+    "q": "En 1919, un quartier de Boston a été dévasté par une inondation…",
+    "a": "de mélasse",
+    "info": "Un réservoir géant a cédé : une vague de sirop lancée à près de 50 km/h a fait 21 morts."
+  },
+  {
+    "q": "Dans les années 1960, un grand pont de Londres a été vendu et remonté…",
+    "a": "en Arizona",
+    "info": "Le London Bridge, démonté pierre par pierre, enjambe désormais un lac en plein désert américain."
+  },
+  {
+    "q": "Pour voyager en France en 1976, la momie de Ramsès II a reçu…",
+    "a": "un passeport",
+    "info": "Profession indiquée : « roi (décédé) ». Elle a été accueillie au Bourget avec les honneurs militaires."
+  },
+  {
+    "q": "Le Colisée de Rome pouvait être inondé pour organiser…",
+    "a": "des batailles navales",
+    "info": "Ces spectacles, les naumachies, rejouaient de vraies batailles avec navires et rameurs."
+  },
+  {
+    "q": "Contrairement à la légende, Napoléon Bonaparte était…",
+    "a": "de taille moyenne",
+    "info": "Environ 1,69 m, dans la norme de l'époque. La faute aux caricatures anglaises et à sa garde composée de colosses."
+  },
+  {
+    "q": "Le premier film sur le naufrage du Titanic est sorti…",
+    "a": "un mois après le drame",
+    "info": "Avec, dans son propre rôle, l'actrice Dorothy Gibson, rescapée du naufrage."
+  },
+  {
+    "q": "Le premier selfie de l'histoire date de…",
+    "a": "1839",
+    "info": "Robert Cornelius a posé de longues secondes immobile devant son propre objectif, à Philadelphie."
+  },
+  {
+    "q": "Installé à Londres en 1868, le premier feu de circulation du monde a fini par…",
+    "a": "exploser",
+    "info": "Alimenté au gaz, il a grièvement blessé le policier qui l'actionnait. Il régulait… des calèches."
+  },
+  {
+    "q": "Le mot « ordinateur » a été inventé en 1955 à la demande…",
+    "a": "d'IBM",
+    "info": "Le latiniste Jacques Perret l'a proposé : le mot désignait autrefois Dieu, « celui qui met de l'ordre »."
+  },
+  {
+    "q": "Le tout premier SMS de l'histoire, envoyé en 1992, disait…",
+    "a": "Merry Christmas",
+    "info": "Envoyé d'un ordinateur vers un téléphone chez Vodafone. Le destinataire ne pouvait même pas répondre."
+  },
+  {
+    "q": "Elizabeth II était la seule personne du Royaume-Uni autorisée à conduire…",
+    "a": "sans permis",
+    "info": "Permis et plaques étaient délivrés au nom de la Couronne. Elle adorait conduire son Land Rover."
+  },
+  {
+    "q": "Le dentier de George Washington était fait, entre autres, en…",
+    "a": "ivoire d'hippopotame",
+    "info": "Jamais en bois, contrairement à la légende : ivoire, laiton, or et vraies dents humaines."
+  },
+  {
+    "q": "Pendant la Seconde Guerre mondiale, des boîtes de Monopoly cachaient…",
+    "a": "des kits d'évasion",
+    "info": "Cartes imprimées sur soie, boussoles et vrais billets, glissés dans des jeux envoyés aux prisonniers alliés."
+  },
+  {
+    "q": "La Joconde est devenue mondialement célèbre surtout grâce à…",
+    "a": "son vol en 1911",
+    "info": "Un vitrier italien l'a gardée deux ans dans sa chambre. Même Picasso a été soupçonné du vol."
+  },
+  {
+    "q": "De son vivant, Van Gogh n'a vendu…",
+    "a": "qu'un seul tableau",
+    "info": "« La Vigne rouge », achetée par une amie peintre. Ses toiles valent aujourd'hui des dizaines de millions."
+  },
+  {
+    "q": "Chaque année, les Pays-Bas envoient au Canada des dizaines de milliers de…",
+    "a": "bulbes de tulipes",
+    "info": "Un merci pour avoir abrité leur famille royale pendant la guerre. Ottawa en a fait un grand festival."
+  },
+  {
+    "q": "La Marseillaise a été composée…",
+    "a": "à Strasbourg",
+    "info": "En une nuit de 1792, par Rouget de Lisle. Ce sont les volontaires marseillais qui l'ont rendue célèbre en la chantant."
+  },
+  {
+    "q": "Chaque nouveau membre de l'Académie française reçoit en général…",
+    "a": "une épée",
+    "info": "Dessinée sur mesure et offerte avec l'habit vert. Son financement est souvent assuré par un comité d'amis."
+  },
+  {
+    "q": "Le pays qui possède le plus de fuseaux horaires au monde est…",
+    "a": "la France",
+    "info": "Douze fuseaux grâce aux territoires d'outre-mer, devant les États-Unis et la Russie."
+  },
+  {
+    "q": "Toutes les distances routières de France se mesurent depuis…",
+    "a": "le parvis de Notre-Dame",
+    "info": "Une dalle « point zéro » y est scellée. La toucher porterait bonheur, disent les touristes."
+  },
+  {
+    "q": "Le four à micro-ondes a été inventé grâce à…",
+    "a": "une barre de chocolat fondue",
+    "info": "En 1945, elle a fondu dans la poche de l'ingénieur Percy Spencer près d'un radar. Il a ensuite testé du pop-corn."
+  },
+  {
+    "q": "Au 19e siècle, le tapis de course servait à…",
+    "a": "punir les prisonniers",
+    "info": "Des heures de marche forcée dans les prisons anglaises, parfois utilisées pour moudre du grain."
+  },
+  {
+    "q": "Le papier bulle a d'abord été commercialisé comme…",
+    "a": "papier peint",
+    "info": "Échec total en 1957. Il a ensuite servi d'isolant de serre avant de protéger les colis d'IBM."
+  },
+  {
+    "q": "Le jouet Slinky est né quand un ingénieur de la marine a fait tomber…",
+    "a": "un ressort",
+    "info": "Richard James l'a vu « marcher » tout seul sur le sol. Plus de 300 millions d'exemplaires vendus depuis."
+  },
+  {
+    "q": "Les tout premiers frisbees étaient en réalité…",
+    "a": "des moules à tarte",
+    "info": "Des étudiants américains se lançaient les moules en métal de la boulangerie Frisbie."
+  },
+  {
+    "q": "Le Viagra a été découvert en cherchant un médicament pour…",
+    "a": "le cœur",
+    "info": "Le traitement contre l'angine de poitrine a déçu, mais les volontaires ont signalé un effet secondaire inattendu."
+  },
+  {
+    "q": "Le pacemaker est né grâce à…",
+    "a": "une erreur de branchement",
+    "info": "Wilson Greatbatch a monté une mauvaise résistance sur son circuit, qui s'est mis à pulser comme un cœur."
+  },
+  {
+    "q": "La saccharine, premier édulcorant, a été découverte parce qu'un chimiste…",
+    "a": "ne s'était pas lavé les mains",
+    "info": "En 1879, il a trouvé son dîner étrangement sucré après une journée de laboratoire."
+  },
+  {
+    "q": "Le Post-it est né grâce à une colle…",
+    "a": "ratée",
+    "info": "Trop faible pour coller durablement. Un collègue l'a mise sur ses marque-pages de chorale : bingo."
+  },
+  {
+    "q": "Les feux d'artifice ont été inventés par des alchimistes chinois qui cherchaient…",
+    "a": "un élixir d'immortalité",
+    "info": "Leur mélange de salpêtre et de soufre a donné la poudre noire. Raté pour la vie éternelle."
+  },
+  {
+    "q": "Avant d'être un jouet, la pâte à modeler Play-Doh servait à…",
+    "a": "nettoyer le papier peint",
+    "info": "Elle décrassait la suie des murs chauffés au charbon. Une institutrice a eu l'idée de la donner aux enfants."
+  },
+  {
+    "q": "Dans les années 1830 aux États-Unis, le ketchup était vendu comme…",
+    "a": "un médicament",
+    "info": "En pilules « d'extrait de tomate », censées soigner la digestion et les rhumatismes."
+  },
+  {
+    "q": "Avant les voitures de sport, Lamborghini fabriquait…",
+    "a": "des tracteurs",
+    "info": "Vexé par une remarque méprisante d'Enzo Ferrari, Ferruccio Lamborghini a lancé ses propres bolides."
+  },
+  {
+    "q": "À ses débuts en 1938, l'entreprise Samsung vendait…",
+    "a": "du poisson séché",
+    "info": "Ainsi que des nouilles et des légumes, exportés vers la Chine. Loin, très loin des smartphones."
+  },
+  {
+    "q": "Fondée en 1889, Nintendo vendait à l'origine…",
+    "a": "des cartes à jouer",
+    "info": "Des cartes hanafuda peintes à la main. L'entreprise a aussi tenté les taxis et les hôtels avant les jeux vidéo."
+  },
+  {
+    "q": "Avant les automobiles, Peugeot était surtout célèbre pour ses…",
+    "a": "moulins à café",
+    "info": "Et à poivre. Ils sont toujours fabriqués aujourd'hui, lion sur le fût compris."
+  },
+  {
+    "q": "Le guide Michelin a été créé et distribué gratuitement pour inciter les gens à…",
+    "a": "user leurs pneus",
+    "info": "Dès 1900, il encourageait les voyages en automobile… et donc l'achat de pneus Michelin."
+  },
+  {
+    "q": "Le logo des sucettes Chupa Chups a été dessiné par…",
+    "a": "Salvador Dalí",
+    "info": "En 1969, en une heure. C'est lui qui a suggéré de placer le logo sur le dessus de la sucette, plus visible."
+  },
+  {
+    "q": "Les M&M's ont d'abord été créés pour…",
+    "a": "les soldats américains",
+    "info": "Un chocolat qui ne fond pas dans la main : idéal dans les rations militaires dès 1941."
+  },
+  {
+    "q": "La machine à barbe à papa a été co-inventée par…",
+    "a": "un dentiste",
+    "info": "William Morrison, en 1897. Le succès fut immédiat à l'Exposition universelle de 1904."
+  },
+  {
+    "q": "Le bikini doit son nom à…",
+    "a": "un atoll du Pacifique",
+    "info": "L'atoll de Bikini, site d'essais nucléaires en 1946. Son créateur promettait un effet « explosif »."
+  },
+  {
+    "q": "La technologie sans fil Bluetooth doit son nom à…",
+    "a": "un roi viking",
+    "info": "Harald « à la dent bleue », unificateur du Danemark. Le logo combine ses initiales en alphabet runique."
+  },
+  {
+    "q": "Le nom « Google » vient à l'origine de…",
+    "a": "une faute d'orthographe",
+    "info": "Les fondateurs visaient « googol », le nombre 1 suivi de cent zéros. La coquille est restée."
+  },
+  {
+    "q": "Le tout premier objet vendu sur eBay était…",
+    "a": "un pointeur laser cassé",
+    "info": "Vendu 14,83 dollars en 1995 à un acheteur qui collectionnait… les pointeurs laser cassés."
+  },
+  {
+    "q": "Avant de s'appeler Amazon, l'entreprise de Jeff Bezos devait se nommer…",
+    "a": "Cadabra",
+    "info": "Abandonné parce qu'au téléphone, on comprenait « cadaver ». « Relentless » a aussi été envisagé."
+  },
+  {
+    "q": "La toute première vidéo mise en ligne sur YouTube montre son cofondateur…",
+    "a": "devant des éléphants",
+    "info": "« Me at the zoo », 19 secondes tournées au zoo de San Diego en avril 2005."
+  },
+  {
+    "q": "Le plus grand fabricant de pneus au monde, en nombre d'unités, est…",
+    "a": "LEGO",
+    "info": "Plus de 300 millions de petits pneus par an, loin devant Michelin et Goodyear."
+  },
+  {
+    "q": "Pour résoudre son propre cube, l'inventeur Ernő Rubik a mis…",
+    "a": "plus d'un mois",
+    "info": "Il n'avait évidemment aucun mode d'emploi. Le record du monde actuel tient en quelques secondes."
+  },
+  {
+    "q": "Le Nutella a été inventé à cause d'une pénurie de…",
+    "a": "cacao",
+    "info": "Après-guerre, le pâtissier Ferrero a étiré son peu de chocolat avec des noisettes du Piémont."
+  },
+  {
+    "q": "Le Fanta a été inventé en Allemagne à cause…",
+    "a": "d'une pénurie de Coca-Cola",
+    "info": "Privée de sirop pendant la guerre, la filiale locale a créé un soda avec du petit-lait et des restes de pommes."
+  },
+  {
+    "q": "Les courriels indésirables s'appellent « spam » à cause de…",
+    "a": "un sketch des Monty Python",
+    "info": "Des vikings y chantent « Spam », une marque de jambon en boîte, jusqu'à couvrir toute conversation."
+  },
+  {
+    "q": "Le mot « salaire » vient du latin et désignait une ration de…",
+    "a": "sel",
+    "info": "Le « salarium » des soldats romains servait à acheter cette denrée alors précieuse."
+  },
+  {
+    "q": "En latin, le mot « canicule » signifie…",
+    "a": "petite chienne",
+    "info": "C'est le surnom de l'étoile Sirius, du Grand Chien, dont le lever accompagnait les grandes chaleurs."
+  },
+  {
+    "q": "Le mot « travail » vient du nom d'un…",
+    "a": "instrument de torture",
+    "info": "Le « tripalium » romain, à trois pieux. Tout un programme pour le lundi matin."
+  },
+  {
+    "q": "Le mot « vasistas » vient de l'expression allemande…",
+    "a": "Was ist das ?",
+    "info": "« Qu'est-ce que c'est ? », lancé à travers le petit guichet de la porte avant d'ouvrir."
+  },
+  {
+    "q": "L'expression « faire grève » vient du nom…",
+    "a": "d'une place de Paris",
+    "info": "Les ouvriers sans travail attendaient l'embauche place de Grève, l'actuelle place de l'Hôtel-de-Ville."
+  },
+  {
+    "q": "La poubelle doit son nom à…",
+    "a": "un préfet de Paris",
+    "info": "Eugène Poubelle a imposé le bac à ordures en 1884. Sa famille a moyennement goûté l'hommage."
+  },
+  {
+    "q": "Le mot « silhouette » vient du nom d'un…",
+    "a": "ministre des Finances",
+    "info": "Étienne de Silhouette, réputé si économe que son nom a désigné les portraits au rabais, réduits à un contour."
+  },
+  {
+    "q": "Le docteur Guillotin, qui a donné son nom à la guillotine…",
+    "a": "ne l'a pas inventée",
+    "info": "Il a seulement plaidé pour une exécution égale pour tous. Sa famille a demandé en vain à débaptiser la machine."
+  },
+  {
+    "q": "Le mot « robot » vient du tchèque et signifie…",
+    "a": "corvée",
+    "info": "« Robota », le travail forcé. Le mot est né en 1920 dans une pièce de théâtre de Karel Čapek."
+  },
+  {
+    "q": "Georges Perec a écrit un roman de 300 pages sans jamais utiliser…",
+    "a": "la lettre e",
+    "info": "« La Disparition » (1969). Il a ensuite écrit « Les Revenentes »… où le e est la seule voyelle."
+  },
+  {
+    "q": "Le plus petit mot français contenant toutes les voyelles est…",
+    "a": "oiseau",
+    "info": "Six lettres seulement pour caser a, e, i, o, u. Et aucune ne s'y prononce comme elle s'écrit."
+  },
+  {
+    "q": "Le croissant, symbole du petit-déjeuner français, est originaire…",
+    "a": "d'Autriche",
+    "info": "Descendant du kipferl viennois, introduit à Paris au 19e siècle par une boulangerie autrichienne."
+  },
+  {
+    "q": "À l'origine, la plupart des carottes cultivées étaient…",
+    "a": "violettes",
+    "info": "La carotte orange a été sélectionnée par les Hollandais au 17e siècle, en clin d'œil, dit-on, à la maison d'Orange."
+  },
+  {
+    "q": "Au 18e siècle, l'ananas était si luxueux qu'on pouvait…",
+    "a": "le louer pour une soirée",
+    "info": "Il trônait en décoration de table avant d'être rendu, parfois un peu fatigué, au loueur."
+  },
+  {
+    "q": "Le fortune cookie, star des restaurants chinois d'Amérique, a été inventé…",
+    "a": "au Japon",
+    "info": "Popularisé ensuite en Californie. En Chine, il est resté à peu près inconnu."
+  },
+  {
+    "q": "La salade César a été inventée…",
+    "a": "au Mexique",
+    "info": "Par le restaurateur italien Caesar Cardini, à Tijuana, un soir de rush en 1924."
+  },
+  {
+    "q": "La pizza hawaïenne, à l'ananas, a été inventée…",
+    "a": "au Canada",
+    "info": "Par Sam Panopoulos, restaurateur d'origine grecque installé en Ontario, en 1962."
+  },
+  {
+    "q": "Hors du Japon, le « wasabi » servi au restaurant est presque toujours…",
+    "a": "du raifort coloré",
+    "info": "Le vrai wasabi, rare et cher, perd son piquant quelques minutes après avoir été râpé."
+  },
+  {
+    "q": "Le sandwich doit son nom à un comte anglais qui refusait de quitter…",
+    "a": "sa table de jeu",
+    "info": "Lord Sandwich se faisait servir sa viande entre deux tranches de pain pour continuer à jouer aux cartes."
+  },
+  {
+    "q": "Avant un coup de génie marketing néo-zélandais, le kiwi s'appelait…",
+    "a": "groseille de Chine",
+    "info": "Rebaptisé dans les années 1950 d'après l'oiseau emblème de la Nouvelle-Zélande."
+  },
+  {
+    "q": "Chez les Aztèques, les fèves de cacao servaient de…",
+    "a": "monnaie",
+    "info": "Un lapin valait une poignée de fèves. Il existait même des faux-monnayeurs qui contrefaisaient les fèves."
+  },
+  {
+    "q": "Au 19e siècle en Amérique du Nord, le homard était un plat…",
+    "a": "pour les prisonniers",
+    "info": "Si abondant et méprisé qu'il servait aussi d'engrais et de nourriture pour domestiques."
+  },
+  {
+    "q": "Contrairement au cliché des dessins animés, le vrai gruyère suisse…",
+    "a": "n'a pas de trous",
+    "info": "C'est l'emmental qui en a. Les Suisses tiennent beaucoup à la distinction."
+  },
+  {
+    "q": "La pomme Granny Smith porte le nom…",
+    "a": "d'une vraie grand-mère",
+    "info": "Maria Ann Smith, qui a vu germer ce pommier dans son jardin australien vers 1868."
+  },
+  {
+    "q": "La clémentine doit son nom à…",
+    "a": "un religieux",
+    "info": "Le frère Clément, qui cultivait des agrumes près d'un orphelinat en Algérie vers 1900."
+  },
+  {
+    "q": "La pression dans une bouteille de champagne vaut environ trois fois celle…",
+    "a": "d'un pneu de voiture",
+    "info": "Environ 6 bars : un bouchon peut partir à près de 50 km/h. D'où le muselet en fil de fer."
+  },
+  {
+    "q": "Selon la légende, le café a été découvert grâce à…",
+    "a": "des chèvres",
+    "info": "Un berger éthiopien aurait remarqué ses bêtes surexcitées après avoir brouté des baies rouges."
+  },
+  {
+    "q": "Le premier arrivé du marathon olympique de 1904 avait fait une partie du parcours…",
+    "a": "en voiture",
+    "info": "Fred Lorz, disqualifié après avoir salué la foule. Le vainqueur officiel, lui, carburait au blanc d'œuf."
+  },
+  {
+    "q": "Le maillot jaune du Tour de France doit sa couleur…",
+    "a": "au papier d'un journal",
+    "info": "L'Auto, journal organisateur de l'épreuve, était imprimé sur papier jaune."
+  },
+  {
+    "q": "Jusqu'en 1920, les Jeux olympiques comptaient une épreuve officielle de…",
+    "a": "tir à la corde",
+    "info": "La Grande-Bretagne domine le palmarès, parfois avec des équipes entières de policiers."
+  },
+  {
+    "q": "Aux JO de Paris en 1900, la natation comptait une course…",
+    "a": "avec obstacles",
+    "info": "Dans la Seine : il fallait grimper sur des barques et passer sous d'autres."
+  },
+  {
+    "q": "Le seul sport pratiqué sur la Lune à ce jour est…",
+    "a": "le golf",
+    "info": "Alan Shepard y a frappé deux balles en 1971, avec une tête de club fixée sur un manche d'outil."
+  },
+  {
+    "q": "Pendant les JO de Pékin 2008, Usain Bolt dit s'être nourri presque exclusivement de…",
+    "a": "nuggets de poulet",
+    "info": "Environ un millier en dix jours, se méfiant de la cuisine locale. Bilan : trois records du monde."
+  },
+  {
+    "q": "La FIFA compte plus de membres que…",
+    "a": "l'ONU",
+    "info": "211 fédérations de football contre 193 États membres : le ballon rond rassemble plus large que la diplomatie."
+  },
+  {
+    "q": "La voix de Chewbacca est un mélange de cris…",
+    "a": "d'ours et de morses",
+    "info": "Avec aussi des blaireaux, lions et tigres, enregistrés puis mixés par le designer sonore Ben Burtt."
+  },
+  {
+    "q": "Jusqu'en 2016, il fallait en théorie payer des droits pour chanter en public…",
+    "a": "Joyeux anniversaire",
+    "info": "« Happy Birthday » rapportait environ 2 millions de dollars par an, avant qu'une décision de justice ne la libère."
+  },
+  {
+    "q": "Le Scrabble a été inventé pendant la crise de 1929 par…",
+    "a": "un architecte au chômage",
+    "info": "Alfred Butts a compté les lettres de la une du New York Times pour fixer la valeur des points."
+  },
+  {
+    "q": "Mario, la star de Nintendo, doit son nom à…",
+    "a": "un propriétaire d'entrepôt",
+    "info": "Mario Segale, bailleur de Nintendo of America, venu un jour réclamer un loyer en retard."
+  },
+  {
+    "q": "Le créateur de Pac-Man a eu l'idée de sa forme en regardant…",
+    "a": "une pizza entamée",
+    "info": "Une pizza à laquelle il manquait une part, raconte le créateur du jeu Tōru Iwatani."
+  },
+  {
+    "q": "Dans les scripts des Simpson, le fameux « D'oh! » d'Homer est écrit…",
+    "a": "grognement agacé",
+    "info": "« Annoyed grunt » en VO. C'est l'acteur Dan Castellaneta qui a inventé le son en studio."
+  },
+  {
+    "q": "Le bourdonnement du sabre laser vient d'un moteur de projecteur et…",
+    "a": "d'un vieux téléviseur",
+    "info": "Le ronronnement d'un tube cathodique, capté au micro par le designer sonore Ben Burtt."
+  },
+  {
+    "q": "Avant de s'appeler Mickey, la souris de Disney devait se nommer…",
+    "a": "Mortimer",
+    "info": "L'épouse de Walt Disney trouvait ce prénom trop pompeux et a suggéré Mickey."
+  },
+  {
+    "q": "Toy Story 2 a failli disparaître entièrement à cause de…",
+    "a": "une commande de suppression",
+    "info": "Un ordre informatique lancé par erreur a effacé le film. Une sauvegarde a survécu chez une employée en congé maternité."
+  },
+  {
+    "q": "Sur le tournage de L'Empire contre-attaque, la réplique « Je suis ton père » était…",
+    "a": "tenue secrète",
+    "info": "L'acteur en costume prononçait une fausse ligne. Une poignée de personnes seulement connaissaient la vraie."
+  },
+  {
+    "q": "En 1962, la maison de disques Decca a refusé de signer les Beatles en jugeant que…",
+    "a": "les groupes à guitares étaient finis",
+    "info": "« Les groupes à guitares sont passés de mode. » Sans doute le pire refus de l'histoire de la musique."
+  },
+  {
+    "q": "En plus du rock, Elvis Presley était…",
+    "a": "ceinture noire de karaté",
+    "info": "Obtenue en 1960. Il glissait volontiers des mouvements d'arts martiaux dans ses concerts."
+  },
+  {
+    "q": "Le groupe ABBA portait des costumes extravagants notamment pour…",
+    "a": "payer moins d'impôts",
+    "info": "La loi suédoise permettait de déduire les tenues de scène… à condition qu'elles soient importables en ville."
+  },
+  {
+    "q": "À Halberstadt, en Allemagne, un morceau d'orgue est joué si lentement qu'il durera…",
+    "a": "639 ans",
+    "info": "« As Slow as Possible » de John Cage a démarré en 2001. Chaque changement d'accord attire les foules."
+  },
+  {
+    "q": "Au plus près, la Russie et les États-Unis ne sont séparés que de…",
+    "a": "4 kilomètres",
+    "info": "Entre les deux îles Diomède, au milieu du détroit de Béring. Et presque un jour entier de décalage horaire."
+  },
+  {
+    "q": "Le Canada possède plus de lacs que…",
+    "a": "le reste du monde réuni",
+    "info": "Environ 60 % des lacs de la planète, soit près de deux millions de plans d'eau."
+  },
+  {
+    "q": "D'est en ouest, l'Australie est plus large que…",
+    "a": "la Lune",
+    "info": "Environ 4 000 km de large, contre 3 474 km de diamètre pour la Lune."
+  },
+  {
+    "q": "L'animal national officiel de l'Écosse est…",
+    "a": "la licorne",
+    "info": "Symbole de pureté et d'indomptabilité depuis le Moyen Âge, elle figure sur les armoiries royales."
+  },
+  {
+    "q": "La garde royale de Norvège compte dans ses rangs un colonel en chef un peu spécial :",
+    "a": "un manchot",
+    "info": "Sir Nils Olav, manchot royal du zoo d'Édimbourg, anobli en 2008, passe les troupes en revue."
+  },
+  {
+    "q": "Pendant près de vingt ans, une petite ville d'Alaska a eu pour maire honoraire…",
+    "a": "un chat",
+    "info": "Stubbs, élu symbolique de Talkeetna, recevait des cartes et des visiteurs du monde entier."
+  },
+  {
+    "q": "En 2018, il est tombé sur les dunes du Sahara…",
+    "a": "de la neige",
+    "info": "Jusqu'à 40 cm près d'Aïn Séfra, en Algérie. Et ce n'était ni la première ni la dernière fois."
+  },
+  {
+    "q": "La Mongolie, pays sans accès à la mer, possède tout de même…",
+    "a": "une marine",
+    "info": "Réduite à un remorqueur et une poignée de marins naviguant sur le lac Khövsgöl."
+  },
+  {
+    "q": "Comme les lucioles, les êtres humains émettent…",
+    "a": "de la lumière",
+    "info": "Une bioluminescence mille fois trop faible pour nos yeux, photographiée par des chercheurs japonais."
+  },
+  {
+    "q": "Il est impossible de fredonner en se…",
+    "a": "bouchant le nez",
+    "info": "Le son du fredonnement sort par le nez. Tout le monde essaie discrètement après cette question."
+  },
+  {
+    "q": "Comme les doigts, la langue possède…",
+    "a": "une empreinte unique",
+    "info": "Sa forme et sa texture diffèrent pour chaque personne. Des chercheurs l'étudient comme moyen d'identification."
+  },
+  {
+    "q": "Un bébé naît avec environ 300 os ; un adulte en a…",
+    "a": "206",
+    "info": "De nombreux os, comme ceux du crâne, fusionnent pendant la croissance."
+  },
+  {
+    "q": "Chaque matin au réveil, nous sommes…",
+    "a": "un peu plus grands",
+    "info": "Environ 1 cm de plus : les disques de la colonne vertébrale se regonflent pendant la nuit."
+  },
+  {
+    "q": "L'organe incapable de ressentir la douleur est…",
+    "a": "le cerveau",
+    "info": "Il n'a aucun récepteur de douleur : on peut opérer un patient éveillé. Les migraines viennent des tissus voisins."
+  },
+  {
+    "q": "Il est quasi impossible d'éternuer en gardant…",
+    "a": "les yeux ouverts",
+    "info": "Un réflexe les ferme automatiquement. Non, vos yeux ne risquent pas de sortir de leur orbite."
+  },
+  {
+    "q": "Le hoquet le plus long jamais enregistré a duré…",
+    "a": "68 ans",
+    "info": "L'Américain Charles Osborne a hoqueté de 1922 à 1990, soit des centaines de millions de hoquets."
+  },
+  {
+    "q": "Le garde forestier américain Roy Sullivan a survécu à…",
+    "a": "sept coups de foudre",
+    "info": "Entre 1942 et 1977. Le Guinness des records l'a surnommé le « paratonnerre humain »."
+  },
+  {
+    "q": "Le vol commercial régulier le plus court du monde dure environ…",
+    "a": "90 secondes",
+    "info": "Entre deux îles écossaises des Orcades. Par bon vent, moins d'une minute suffit."
+  }
+]
