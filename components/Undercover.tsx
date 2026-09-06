@@ -41,17 +41,37 @@ interface UState {
 }
 
 const KEY = "entrenous.undercover";
+const SEEN_KEY = "entrenous.undercover.seen";
+
+/** Paires déjà jouées, persistées entre les parties. */
+function loadSeenPairs(): number[] {
+  try {
+    return JSON.parse(localStorage.getItem(SEEN_KEY) ?? "[]") as number[];
+  } catch {
+    return [];
+  }
+}
+
+function markSeenPair(i: number) {
+  const seen = new Set(loadSeenPairs());
+  seen.add(i);
+  localStorage.setItem(SEEN_KEY, JSON.stringify([...seen]));
+}
 
 function newRound(s: UState): URound {
+  const seen = new Set([...loadSeenPairs(), ...s.used]);
   let available = (PAIRS as string[][])
     .map((_, i) => i)
-    .filter((i) => !s.used.includes(i));
+    .filter((i) => !seen.has(i));
   if (available.length === 0) {
+    // les 200 paires sont épuisées : on repart de zéro
+    localStorage.removeItem(SEEN_KEY);
     s.used = [];
     available = (PAIRS as string[][]).map((_, i) => i);
   }
   const pairIdx = available[Math.floor(Math.random() * available.length)];
   s.used.push(pairIdx);
+  markSeenPair(pairIdx);
   const [a, b] = (PAIRS as string[][])[pairIdx];
   const commonIsA = Math.random() < 0.5;
   return {
@@ -160,6 +180,16 @@ export default function Undercover() {
     setAccused(null);
     update((s) => {
       s.roundCount += 1;
+      s.round = newRound(s);
+    });
+  };
+
+  /** Nouvelle paire sans distribuer de points (mot oublié, reprise de partie…). */
+  const skipWords = () => {
+    vibrate(20);
+    setWordShown(false);
+    setAccused(null);
+    update((s) => {
       s.round = newRound(s);
     });
   };
@@ -369,6 +399,12 @@ export default function Undercover() {
               >
                 Je suis {revealPlayer.name} — voir mon mot
               </button>
+              <button
+                onClick={skipWords}
+                className="mx-auto mt-4 block text-xs text-mist underline underline-offset-4"
+              >
+                Mot oublié ? Changer de mots (tour annulé, aucun point)
+              </button>
             </motion.div>
           ) : (
             <motion.div
@@ -463,6 +499,12 @@ export default function Undercover() {
           <p className="mt-3 text-center text-xs text-mist">
             Débattez autant que vous voulez avant de voter.
           </p>
+          <button
+            onClick={skipWords}
+            className="mx-auto mt-3 block text-xs text-mist underline underline-offset-4"
+          >
+            Changer de mots (tour annulé, aucun point)
+          </button>
         </motion.div>
       )}
 
