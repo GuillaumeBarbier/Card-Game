@@ -188,10 +188,8 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
       </div>
 
       <div className="mx-auto max-w-md px-6 pb-4">
-        {/* Tuile masquée le temps que la banque des 80 lieux soit générée */}
         <Link
           href="/espion"
-          hidden
           className="block rounded-3xl border border-line bg-white/[0.03] p-5"
         >
           <div className="flex items-center justify-between gap-3">

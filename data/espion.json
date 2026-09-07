@@ -1,10 +1,322 @@
 [
   {
     "lieu": "Mariage",
-    "roles": ["Le témoin", "La mariée", "Le DJ", "La belle-mère", "Le photographe", "Le cousin éloigné", "L'enfant d'honneur", "Le traiteur"]
+    "roles": ["La mariée", "Le témoin émotif", "Le DJ", "La belle-mère", "Le photographe", "Le cousin éloigné", "L'enfant d'honneur", "Le traiteur débordé"]
+  },
+  {
+    "lieu": "Supermarché",
+    "roles": ["La caissière", "Le vigile", "Le chef de rayon", "La cliente pressée", "Le papa au rayon jouets", "L'hôtesse de dégustation", "Le livreur de palettes", "Le retraité du mardi"]
+  },
+  {
+    "lieu": "Boulangerie",
+    "roles": ["Le boulanger fariné", "La vendeuse souriante", "L'apprenti pâtissier", "La cliente du dimanche", "L'enfant qui hésite", "Le représentant en farine", "La mamie des croissants", "Le livreur de baguettes"]
+  },
+  {
+    "lieu": "Marché du dimanche",
+    "roles": ["Le maraîcher", "La poissonnière", "Le fromager bavard", "La mamie au panier", "Le camelot", "Le touriste ébahi", "L'accordéoniste", "Le dégustateur d'olives"]
+  },
+  {
+    "lieu": "Vide-grenier",
+    "roles": ["L'exposant matinal", "La chineuse experte", "Le collectionneur", "La négociatrice", "L'enfant qui vend ses jouets", "Le vendeur de churros", "L'organisateur au mégaphone", "Le voisin curieux"]
+  },
+  {
+    "lieu": "Restaurant gastronomique",
+    "roles": ["Le chef étoilé", "Le maître d'hôtel", "La sommelière", "Le critique incognito", "Le plongeur", "La cliente d'anniversaire", "Le serveur guindé", "Le commis stressé"]
+  },
+  {
+    "lieu": "Fast-food",
+    "roles": ["L'équipier du drive", "La manageuse", "L'ado en premier job", "Le livreur à vélo", "Le papa du menu enfant", "L'étudiant affamé", "La mascotte clown", "La cliente au régime"]
+  },
+  {
+    "lieu": "Cours de cuisine",
+    "roles": ["Le chef professeur", "L'élève maladroit", "La perfectionniste", "Le goûteur officiel", "La mamie qui sait déjà tout", "Le fiancé motivé", "L'apprentie distraite", "Le plongeur bénévole"]
+  },
+  {
+    "lieu": "Chocolaterie",
+    "roles": ["Le maître chocolatier", "L'apprentie gourmande", "La vendeuse en tablier", "Le client de Pâques", "L'enfant hypnotisé", "Le testeur de pralines", "La touriste suisse", "Le livreur de cacao"]
+  },
+  {
+    "lieu": "Réveillon de Noël",
+    "roles": ["Le papi qui raconte tout", "La mamie aux 13 desserts", "Le tonton blagueur", "L'enfant surexcité", "La cousine végétarienne", "Le Père Noël improvisé", "La maman chef d'orchestre", "L'ado sur son téléphone"]
+  },
+  {
+    "lieu": "Goûter d'anniversaire",
+    "roles": ["La star du jour", "Le magicien épuisé", "La maman organisatrice", "Le copain turbulent", "La copine timide", "Le papa photographe", "La petite sœur jalouse", "Le clown à domicile"]
+  },
+  {
+    "lieu": "Bal du 14 Juillet",
+    "roles": ["Le pompier en uniforme", "L'accordéoniste", "Le maire en écharpe", "La danseuse infatigable", "Le vendeur de lampions", "L'artificier", "L'amoureux transi", "La serveuse de la buvette"]
+  },
+  {
+    "lieu": "Loto du village",
+    "roles": ["L'animateur au micro", "La championne aux 6 cartons", "Le curé du village", "La mamie porte-bonheur", "Le débutant perdu", "La voisine jalouse", "Le vérificateur de grilles", "Le gagnant du jambon"]
+  },
+  {
+    "lieu": "Salon de l'agriculture",
+    "roles": ["L'éleveur moustachu", "La productrice de fromage", "Le président en visite", "L'enfant qui veut un lapin", "La dégustatrice de saucisson", "Le journaliste agricole", "Le jury du concours", "La fermière en salopette"]
+  },
+  {
+    "lieu": "Défilé de mode",
+    "roles": ["Le grand couturier", "La mannequin vedette", "L'habilleuse paniquée", "Le photographe de mode", "La critique blasée", "Le maquilleur", "L'influenceuse au 1er rang", "Le stagiaire aux épingles"]
+  },
+  {
+    "lieu": "Bureau de vote",
+    "roles": ["Le président du bureau", "L'assesseur tatillon", "La scrutatrice du soir", "Le premier votant", "La candidate stressée", "Le citoyen indécis", "La mamie de l'isoloir", "Le journaliste local"]
+  },
+  {
+    "lieu": "Colonie de vacances",
+    "roles": ["Le moniteur guitariste", "La directrice débordée", "Le cuisinier de la cantine", "L'enfant farceur", "La chef d'équipe rouge", "Le petit nouveau timide", "L'infirmière de la colo", "Le champion des veillées"]
+  },
+  {
+    "lieu": "Camping",
+    "roles": ["Le gérant en tongs", "L'animateur du mini-club", "Le campeur suréquipé", "La voisine de mobil-home", "Le papa au barbecue", "La randonneuse perdue", "Le ronfleur de la tente 12", "L'ado en quête de wifi"]
+  },
+  {
+    "lieu": "Hôtel de luxe",
+    "roles": ["Le concierge stylé", "La femme de chambre", "Le groom", "La milliardaire excentrique", "Le chef du room service", "La star incognito", "Le voiturier", "L'inspecteur des étoiles"]
+  },
+  {
+    "lieu": "Refuge de montagne",
+    "roles": ["Le gardien barbu", "La randonneuse épuisée", "Le guide de haute montagne", "L'alpiniste frigorifié", "La reine de la tartiflette", "Le berger de passage", "Le touriste en claquettes", "La secouriste en pause"]
   },
   {
     "lieu": "Station de ski",
-    "roles": ["Le moniteur", "La débutante", "Le perchman", "La skieuse pro", "Le vendeur de forfaits", "Le pisteur", "La touriste frileuse", "Le fondeur"]
+    "roles": ["Le moniteur bronzé", "La débutante terrorisée", "Le perchman blasé", "La championne locale", "Le vendeur de forfaits", "Le pisteur secouriste", "La serveuse de vin chaud", "Le skieur du dimanche"]
+  },
+  {
+    "lieu": "Plage en été",
+    "roles": ["Le maître-nageur", "La marchande de beignets", "Le vacancier écrevisse", "Le bâtisseur de châteaux", "La lectrice sous parasol", "Le joueur de raquettes", "L'enfant à la bouée requin", "La baigneuse frileuse"]
+  },
+  {
+    "lieu": "Piscine municipale",
+    "roles": ["Le maître-nageur sévère", "La championne de brasse", "Le plongeur du grand bain", "La mamie de l'aquagym", "L'enfant qui a froid", "Le nageur du couloir rapide", "La caissière des vestiaires", "Le frileux du pédiluve"]
+  },
+  {
+    "lieu": "Île déserte",
+    "roles": ["Le naufragé barbu", "La chef du campement", "Le pêcheur de crabes", "L'optimiste du radeau", "La vigie du feu de détresse", "Le chasseur de noix de coco", "L'exploratrice de la jungle", "Le râleur des moustiques"]
+  },
+  {
+    "lieu": "Phare en mer",
+    "roles": ["Le gardien solitaire", "La gardienne en relève", "Le technicien de la lampe", "La romancière inspirée", "Le livreur de vivres", "L'apprenti du gardien", "La météorologue", "Le naufragé recueilli"]
+  },
+  {
+    "lieu": "Safari photo",
+    "roles": ["Le guide en 4x4", "La photographe animalière", "Le touriste imprudent", "La zoologiste passionnée", "Le chauffeur qui sait tout", "L'enfant qui veut un lion", "La retraitée aux jumelles", "Le ranger du parc"]
+  },
+  {
+    "lieu": "Grotte touristique",
+    "roles": ["Le guide spéléologue", "La touriste claustrophobe", "L'enfant qui teste l'écho", "Le préhistorien ému", "La vendeuse de souvenirs", "Le grand qui se cogne", "La photographe sans flash", "Le stagiaire lampe frontale"]
+  },
+  {
+    "lieu": "Base polaire",
+    "roles": ["Le chef de mission", "La glaciologue", "Le mécanicien frigorifié", "La biologiste des manchots", "Le radio de la base", "L'explorateur barbu", "La médecin de l'équipe", "Le pilote de motoneige"]
+  },
+  {
+    "lieu": "Paquebot de croisière",
+    "roles": ["Le commandant", "La directrice de croisière", "Le magicien du soir", "La retraitée du buffet", "Le serveur du pont supérieur", "L'enfant du kids club", "La danseuse de revue", "Le passager verdâtre"]
+  },
+  {
+    "lieu": "Sous-marin",
+    "roles": ["Le capitaine", "L'officier au périscope", "L'oreille d'or du sonar", "Le cuistot du bord", "La mécanicienne des machines", "Le matelot claustrophobe", "La médecin de bord", "Le mousse qui se perd"]
+  },
+  {
+    "lieu": "Avion long-courrier",
+    "roles": ["Le commandant de bord", "La chef de cabine", "Le steward souriant", "La passagère du hublot", "Le papa du bébé qui pleure", "L'homme d'affaires pressé", "La touriste du duty free", "Le géant coincé au milieu"]
+  },
+  {
+    "lieu": "Gare TGV",
+    "roles": ["Le contrôleur", "La voyageuse en retard", "La voix des annonces", "Le vendeur de sandwichs", "L'étudiant à la valise XXL", "Le conducteur du TGV", "La dame aux adieux émus", "Le voyageur sans billet"]
+  },
+  {
+    "lieu": "Métro parisien",
+    "roles": ["Le conducteur de rame", "La touriste plan en main", "Le musicien accordéoniste", "La parisienne pressée", "Le contrôleur surprise", "La dame au petit chien", "Le dormeur de la ligne 13", "L'agent des objets trouvés"]
+  },
+  {
+    "lieu": "Aire d'autoroute",
+    "roles": ["Le routier fidèle", "La caissière de la station", "Le papa qui compte les têtes", "L'enfant perdu aux toilettes", "Le motard en gilet", "La serveuse de la cafétéria", "Le vacancier du 15 août", "Le gendarme des radars"]
+  },
+  {
+    "lieu": "Auto-école",
+    "roles": ["Le moniteur au frein", "L'élève du créneau raté", "La championne du code", "Le retraité qui s'y remet", "L'ado pressé d'avoir 18 ans", "La monitrice zen", "Le candidat 5e tentative", "L'inspecteur impassible"]
+  },
+  {
+    "lieu": "Garage automobile",
+    "roles": ["Le garagiste en bleu", "L'apprentie mécano", "Le client au devis salé", "La conductrice inquiète", "Le vendeur d'occasions", "Le stagiaire clé de 12", "La contrôleuse technique", "Le livreur de pièces"]
+  },
+  {
+    "lieu": "Montgolfière",
+    "roles": ["Le pilote au brûleur", "La passagère au vertige", "Le photographe aérien", "L'amoureux à la surprise", "La mamie intrépide", "L'équipier au sol", "Le météorologue prudent", "L'enfant émerveillé"]
+  },
+  {
+    "lieu": "Base spatiale",
+    "roles": ["Le directeur du lancement", "L'astronaute en scaphandre", "La voix du compte à rebours", "L'ingénieur fusée", "Le spationaute débutant", "La journaliste en direct", "Le technicien du pas de tir", "L'astrophysicienne"]
+  },
+  {
+    "lieu": "Château fort",
+    "roles": ["Le guide en costume", "La châtelaine", "Le chevalier de spectacle", "L'archer du donjon", "La touriste aux oubliettes", "Le fauconnier", "L'enfant à l'épée en bois", "Le forgeron démonstrateur"]
+  },
+  {
+    "lieu": "Château hanté",
+    "roles": ["Le fantôme fatigué", "La sorcière ricanante", "Le vampire de service", "L'opérateur des wagonnets", "La visiteuse morte de peur", "Le squelette articulé", "L'ado qui fait le malin", "Le monstre en pause déjeuner"]
+  },
+  {
+    "lieu": "Parc d'attractions",
+    "roles": ["L'opérateur du grand huit", "La mascotte en sueur", "Le vendeur de barbe à papa", "L'ado des sensations fortes", "La maman garde-sacs", "Le peureux du manège", "Le contrôleur de taille", "La gagnante de la peluche"]
+  },
+  {
+    "lieu": "Zoo",
+    "roles": ["Le soigneur des otaries", "La vétérinaire du parc", "Le guide des visites", "L'enfant qui imite le singe", "La photographe des pandas", "Le gardien des serpents", "La caissière de l'entrée", "Le pique-niqueur assiégé"]
+  },
+  {
+    "lieu": "Aquarium géant",
+    "roles": ["Le plongeur nourrisseur", "La guide des requins", "L'enfant collé à la vitre", "Le biologiste marin", "La caissière billetterie", "La touriste au flash", "Le soigneur des méduses", "La stagiaire bassin tactile"]
+  },
+  {
+    "lieu": "Cirque",
+    "roles": ["Le présentateur en habit", "La trapéziste", "Le clown mélancolique", "La dompteuse de fauves", "Le jongleur maladroit", "L'homme canon", "La contorsionniste", "Le vendeur de pop-corn"]
+  },
+  {
+    "lieu": "Musée du Louvre",
+    "roles": ["Le gardien de salle", "La guide conférencière", "Le copiste au chevalet", "La touriste selfie Joconde", "L'étudiant des Beaux-Arts", "Le conservateur pointilleux", "L'enfant qui touche à tout", "La visiteuse à l'audioguide"]
+  },
+  {
+    "lieu": "Bibliothèque",
+    "roles": ["La bibliothécaire au chut", "Le lecteur endormi", "L'étudiante en révisions", "Le retraité des journaux", "L'enfant de l'heure du conte", "La chercheuse du 3e étage", "Le rêveur entre les rayons", "Le retardataire des retours"]
+  },
+  {
+    "lieu": "Cinéma",
+    "roles": ["L'ouvreuse lampe de poche", "Le projectionniste", "La vendeuse de pop-corn", "Le critique qui soupire", "L'ado du premier rendez-vous", "La mamie des séances de 14h", "Le grand qui cache l'écran", "La pleureuse de fin de film"]
+  },
+  {
+    "lieu": "Théâtre",
+    "roles": ["Le metteur en scène", "La comédienne principale", "Le souffleur caché", "L'habilleuse express", "La spectatrice du 1er rang", "Le régisseur des lumières", "L'acteur qui a un trou", "La critique au carnet"]
+  },
+  {
+    "lieu": "Concert de rock",
+    "roles": ["Le chanteur charismatique", "La bassiste discrète", "Le batteur déchaîné", "L'agent de sécurité", "La fan de la première heure", "Le papa venu accompagner", "La vendeuse de t-shirts", "L'ingé son aux manettes"]
+  },
+  {
+    "lieu": "Karaoké",
+    "roles": ["L'animateur au micro", "La diva du dimanche", "Le timide qui se lance", "La choriste improvisée", "Le chanteur faux et fier", "La serveuse de mocktails", "L'organisatrice du duo", "Le fan de Céline Dion"]
+  },
+  {
+    "lieu": "Plateau de télévision",
+    "roles": ["Le présentateur bronzé", "La chauffeuse de salle", "Le cadreur discret", "La candidate du jeu", "Le maquilleur express", "La scripte au chronomètre", "Le spectateur qui applaudit", "L'invitée surprise"]
+  },
+  {
+    "lieu": "Stade de foot",
+    "roles": ["Le gardien de but", "L'arbitre sifflé", "La supportrice en écharpe", "Le vendeur de merguez", "L'entraîneur qui hurle", "Le commentateur exalté", "La mascotte du club", "Le remplaçant qui s'échauffe"]
+  },
+  {
+    "lieu": "Tour de France",
+    "roles": ["Le maillot jaune", "Le grimpeur échappé", "La fan du bord de route", "Le directeur sportif", "La journaliste à moto", "Le camelot de la caravane", "Le papi en camping-car", "La soigneuse de l'équipe"]
+  },
+  {
+    "lieu": "Patinoire",
+    "roles": ["Le patineur artistique", "La débutante cramponnée", "Le pilote de la surfaceuse", "La championne en paillettes", "L'enfant fusée incontrôlable", "Le hockeyeur pressé", "La loueuse de patins", "Le danseur sur glace"]
+  },
+  {
+    "lieu": "Bowling",
+    "roles": ["Le pro à la boule perso", "La débutante des gouttières", "L'ado de l'anniversaire", "Le serveur de nachos", "La championne du strike", "Le loueur de chaussures", "Le papa qui explique tout", "La reine du dimanche soir"]
+  },
+  {
+    "lieu": "Laser game",
+    "roles": ["L'arbitre en gilet", "Le sniper embusqué", "La stratège de l'équipe", "Le papa trop motivé", "L'enfant qui court partout", "La perdue du labyrinthe", "Le traître de l'équipe", "Le champion modeste"]
+  },
+  {
+    "lieu": "Escape game",
+    "roles": ["Le maître du jeu", "La cheffe autoproclamée", "Le fouilleur compulsif", "La logique du groupe", "Le paniqué du chrono", "La lectrice d'indices", "Le sceptique des énigmes", "Le vétéran des 50 salles"]
+  },
+  {
+    "lieu": "Tournoi d'échecs",
+    "roles": ["Le grand maître", "La prodige de 9 ans", "L'arbitre silencieux", "Le joueur qui soupire", "La stratège patiente", "Le spectateur qui chuchote", "La maman dans le couloir", "Le perdant mauvais joueur"]
+  },
+  {
+    "lieu": "Terrain de pétanque",
+    "roles": ["Le tireur d'élite", "La pointeuse précise", "Le mesureur à la ficelle", "Le papi mauvais perdant", "La championne du village", "Le spectateur en marcel", "La débutante chanceuse", "L'arbitre du cochonnet"]
+  },
+  {
+    "lieu": "Accrobranche",
+    "roles": ["Le moniteur des baudriers", "La grimpeuse intrépide", "Le papa qui regrette", "L'enfant écureuil", "La bloquée de la tyrolienne", "Le pro des mousquetons", "La photographe d'en bas", "Le costaud qui tremble"]
+  },
+  {
+    "lieu": "Centre équestre",
+    "roles": ["La monitrice d'équitation", "Le palefrenier", "La cavalière de concours", "Le poney têtu", "L'enfant qui veut galoper", "La maman inquiète", "Le maréchal-ferrant", "La stagiaire aux écuries"]
+  },
+  {
+    "lieu": "Salle de sport",
+    "roles": ["Le coach qui compte", "La marathonienne du tapis", "Le bodybuilder au miroir", "La débutante du 2 janvier", "Le squatteur des machines", "La prof de zumba", "Le papy en survêtement", "L'accro aux selfies"]
+  },
+  {
+    "lieu": "École de danse",
+    "roles": ["La professeure exigeante", "Le pianiste accompagnateur", "La petite étoile", "Le seul garçon du cours", "La maman des costumes", "L'élève qui compte tout haut", "La jalouse du premier rôle", "Le retardataire en tutu"]
+  },
+  {
+    "lieu": "Crèche",
+    "roles": ["La puéricultrice", "Le bébé qui mord", "La directrice de crèche", "Le papa du premier jour", "La cuisinière des purées", "La reine de la sieste", "La stagiaire débordée", "Le champion du toboggan"]
+  },
+  {
+    "lieu": "École primaire",
+    "roles": ["La maîtresse patiente", "Le directeur à la sonnette", "L'élève au premier rang", "Le cancre du fond", "La dame de la cantine", "Le surveillant de récré", "La championne de billes", "L'élève qui lève la main"]
+  },
+  {
+    "lieu": "Salle d'examen du bac",
+    "roles": ["Le surveillant qui arpente", "La première à rendre", "Le stressé aux 12 stylos", "Le tenté par l'antisèche", "Le redoublant fataliste", "La star des fiches bristol", "Le candidat endormi", "La distributrice de sujets"]
+  },
+  {
+    "lieu": "Maison de retraite",
+    "roles": ["L'animatrice des activités", "Le doyen de 104 ans", "La reine du scrabble", "L'infirmier chantant", "Le papi séducteur", "La visiteuse du dimanche", "Le cuisinier de la compote", "La kiné dynamique"]
+  },
+  {
+    "lieu": "Hôpital",
+    "roles": ["Le chirurgien pressé", "L'infirmière de nuit", "Le malade impatient", "Le brancardier au sprint", "L'interne épuisée", "Le visiteur perdu", "La dame des admissions", "Le patient en blouse ouverte"]
+  },
+  {
+    "lieu": "Salle d'attente du dentiste",
+    "roles": ["La secrétaire du cabinet", "Le patient terrorisé", "La dentiste en blouse", "L'enfant à la dent de lait", "Le lecteur de vieux magazines", "La mamie rage de dents", "L'assistante au masque", "Le courageux qui tremble"]
+  },
+  {
+    "lieu": "Cabinet vétérinaire",
+    "roles": ["La vétérinaire calme", "L'assistant griffé", "Le chat furieux en cage", "La maîtresse du hamster", "Le maître du chien peureux", "La stagiaire aux piqûres", "Le perroquet insolent", "La secrétaire des rappels"]
+  },
+  {
+    "lieu": "Salon de coiffure",
+    "roles": ["Le coiffeur bavard", "La cliente du brushing", "L'apprentie au balai", "La coloriste audacieuse", "Le client qui s'endort", "La dame des permanentes", "Le shampouineur", "L'habituée des potins"]
+  },
+  {
+    "lieu": "Cabinet de voyante",
+    "roles": ["La voyante théâtrale", "Le client sceptique", "L'amoureuse inquiète", "Le chat noir du cabinet", "L'apprentie du pendule", "La cliente fidèle du jeudi", "Le curieux qui rigole", "Le patron superstitieux"]
+  },
+  {
+    "lieu": "Commissariat",
+    "roles": ["Le commissaire bougon", "La lieutenante efficace", "Le témoin embrouillé", "La dame au vélo volé", "Le pickpocket menotté", "L'avocat en retard", "Le stagiaire au café", "La brigadière de l'accueil"]
+  },
+  {
+    "lieu": "Caserne de pompiers",
+    "roles": ["Le capitaine moustachu", "La jeune recrue", "Le cuisinier de la caserne", "La conductrice du camion", "Le vétéran des calendriers", "La standardiste du 18", "Le chat sauvé de l'arbre", "L'instructeur de manœuvres"]
+  },
+  {
+    "lieu": "Tribunal",
+    "roles": ["La juge imperturbable", "L'avocat théâtral", "Le procureur sévère", "La greffière rapide", "L'accusé qui jure que non", "Le juré qui somnole", "La témoin qui en dit trop", "L'huissier solennel"]
+  },
+  {
+    "lieu": "Prison",
+    "roles": ["Le gardien-chef", "La directrice stricte", "Le détenu bricoleur", "Le cuistot de la gamelle", "La visiteuse au parloir", "L'avocat plein d'espoir", "Le champion de musculation", "Le surveillant de la cour"]
+  },
+  {
+    "lieu": "Banque",
+    "roles": ["Le directeur d'agence", "La conseillère clientèle", "Le client à découvert", "La guichetière prudente", "Le convoyeur de fonds", "L'étudiant du premier compte", "La mamie du livret A", "Le stagiaire photocopies"]
+  },
+  {
+    "lieu": "Open space",
+    "roles": ["Le chef de projet stressé", "La collègue des potins", "Le stagiaire du café", "La reine des réunions", "Le mangeur de chips bruyant", "Le héros du wifi en panne", "La revenue du télétravail", "Le motivé du lundi matin"]
+  },
+  {
+    "lieu": "Chantier de construction",
+    "roles": ["Le chef de chantier", "La grutière tout là-haut", "Le maçon siffleur", "L'architecte en visite", "Le stagiaire au casque neuf", "La pilote de la pelleteuse", "Le livreur de béton", "Le voisin qui se plaint"]
+  },
+  {
+    "lieu": "Ferme",
+    "roles": ["Le fermier au tracteur", "La fermière aux confitures", "La trayeuse du matin", "Le stagiaire citadin", "Le vétérinaire de campagne", "L'enfant des vacances", "La chèvre fugueuse", "Le coq réveille-matin"]
   }
 ]
