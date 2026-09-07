@@ -1,0 +1,10 @@
+[
+  {
+    "lieu": "Mariage",
+    "roles": ["Le témoin", "La mariée", "Le DJ", "La belle-mère", "Le photographe", "Le cousin éloigné", "L'enfant d'honneur", "Le traiteur"]
+  },
+  {
+    "lieu": "Station de ski",
+    "roles": ["Le moniteur", "La débutante", "Le perchman", "La skieuse pro", "Le vendeur de forfaits", "Le pisteur", "La touriste frileuse", "Le fondeur"]
+  }
+]

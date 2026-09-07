@@ -84,9 +84,13 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
       <div className="bg-scene" />
       <div className="bg-noise" />
 
+      <p className="pt-safe px-6 pt-2.5 text-[0.55rem] tracking-wider text-cream/30" aria-hidden>
+        {version}
+      </p>
+
       <div className="mx-auto max-w-md px-6">
         {/* hero */}
-        <header className="pt-safe pt-12">
+        <header className="pt-6">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -183,6 +187,28 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
         </Link>
       </div>
 
+      <div className="mx-auto max-w-md px-6 pb-4">
+        {/* Tuile masquée le temps que la banque des 80 lieux soit générée */}
+        <Link
+          href="/espion"
+          hidden
+          className="block rounded-3xl border border-line bg-white/[0.03] p-5"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="eyebrow" style={{ color: "#8C52E8" }}>
+                Dès 3 joueurs · interrogatoire
+              </p>
+              <p className="display mt-1.5 text-3xl">L&apos;Espion</p>
+              <p className="mt-1 text-sm text-mist">
+                Tous connaissent le lieu… sauf un
+              </p>
+            </div>
+            <span className="shrink-0 text-4xl">🕶️</span>
+          </div>
+        </Link>
+      </div>
+
       <div className="mx-auto max-w-md space-y-4 px-6 pb-4">
         <Link
           href="/bombe"
@@ -244,13 +270,6 @@ export default function Home({ decks, version }: { decks: Deck[]; version: strin
           <span>→</span>
         </Link>
       </div>
-
-      <p
-        className="pb-safe pointer-events-none fixed bottom-1 left-3 text-[0.55rem] tracking-wider text-cream/25"
-        aria-hidden
-      >
-        {version}
-      </p>
 
       {/* start sheet */}
       <AnimatePresence>
