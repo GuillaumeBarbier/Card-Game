@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import AXES from "@/data/curseur.json";
 import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
+import RulesButton, { Rule } from "./RulesSheet";
 
 const TOTAL_ROUNDS = 7;
 // zone cible : ±5 → 4 pts, ±10 → 3 pts, ±16 → 2 pts
@@ -463,6 +464,31 @@ function Scale({
 
 /* ---------- coquille ---------- */
 
+const RULES = (
+  <>
+    <Rule n={1} title="La cible secrète">
+      À chaque manche, un voyant voit seul une zone cachée sur un axe entre
+      deux extrêmes (Froid ⟷ Chaud, Ringard ⟷ Stylé…).
+    </Rule>
+    <Rule n={2} title="Un seul indice">
+      Le voyant annonce à voix haute un mot ou une expression qui se situe,
+      selon lui, pile dans la zone. Pas de chiffre, pas de « plutôt à
+      gauche » !
+    </Rule>
+    <Rule n={3} title="Placez le curseur">
+      Le reste de l&apos;équipe débat et glisse le curseur ensemble, puis
+      valide. Le voyant garde le silence.
+    </Rule>
+    <Rule n={4} title="Les points">
+      Plein cœur : 4 points. Puis 3, 2, ou 0 selon la distance.
+    </Rule>
+    <Rule n={5} title="Score d'équipe">
+      7 manches en changeant de voyant. Total sur 28 — et verdict sur votre
+      longueur d&apos;onde.
+    </Rule>
+  </>
+);
+
 function Shell({
   children,
   subtitle,
@@ -489,17 +515,18 @@ function Shell({
             <p className="eyebrow text-mist">Le Curseur</p>
             {subtitle && <p className="mt-0.5 text-xs text-mist">{subtitle}</p>}
           </div>
-          {onReset ? (
-            <button
-              onClick={onReset}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
-              aria-label="Recommencer"
-            >
-              ↺
-            </button>
-          ) : (
-            <span className="h-10 w-10" />
-          )}
+          <div className="flex gap-2">
+            <RulesButton title="Le Curseur">{RULES}</RulesButton>
+            {onReset && (
+              <button
+                onClick={onReset}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
+                aria-label="Recommencer"
+              >
+                ↺
+              </button>
+            )}
+          </div>
         </header>
         {children}
       </div>

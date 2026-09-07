@@ -18,8 +18,33 @@ import CardStack from "./CardStack";
 import CountdownOverlay from "./CountdownOverlay";
 import VerdictPanel from "./VerdictPanel";
 import ResultReveal from "./ResultReveal";
+import RulesButton, { Rule } from "./RulesSheet";
 
 type Phase = "idle" | "countdown" | "answer" | "result";
+
+const RULES = (
+  <>
+    <Rule n={1} title="Lisez la carte">
+      À voix haute, tous les deux. Deux réponses possibles, zéro nuance.
+    </Rule>
+    <Rule n={2} title="Votez en secret">
+      « Lancer le verdict » : chacun prend le téléphone à son tour et répond
+      d&apos;un seul tap — la sélection ne s&apos;affiche jamais à l&apos;écran.
+    </Rule>
+    <Rule n={3} title="3, 2, 1…">
+      Une fois les deux verdicts verrouillés, le compte à rebours tombe et les
+      réponses se révèlent en même temps. Accord ou clash — débattez !
+    </Rule>
+    <Rule n={4} title="Carte suivante">
+      Swipe la carte pour continuer (ou pour passer une carte sans y
+      répondre). Le score suit vos accords et vos clashs.
+    </Rule>
+    <Rule n={5} title="Jamais deux fois">
+      Une carte jouée ne revient pas avant d&apos;avoir épuisé tout le paquet,
+      même après « Rejouer ». Le mode à distance se lance depuis l&apos;accueil.
+    </Rule>
+  </>
+);
 
 export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] }) {
   const [game, setGame] = useState<GameState | null>(null);
@@ -136,13 +161,16 @@ export default function GameScreen({ deck, cards }: { deck: Deck; cards: Card[] 
             <span className="text-flame">{clashes} clashs</span>
           </p>
         </div>
-        <button
-          onClick={restart}
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04] text-cream"
-          aria-label="Recommencer"
-        >
-          ↺
-        </button>
+        <div className="flex gap-2">
+          <RulesButton title={deck.name}>{RULES}</RulesButton>
+          <button
+            onClick={restart}
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04] text-cream"
+            aria-label="Recommencer"
+          >
+            ↺
+          </button>
+        </div>
       </header>
 
       {/* progress */}

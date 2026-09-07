@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import QUESTIONS from "@/data/bobard.json";
 import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
+import RulesButton, { Rule } from "./RulesSheet";
 
 const PTS_TRUTH = 2; // trouver la vraie réponse
 const PTS_FOOL = 1; // par joueur piégé sur ton bobard
@@ -562,6 +563,32 @@ function RevealScreen({
 
 /* ---------- coquille ---------- */
 
+const RULES = (
+  <>
+    <Rule n={1} title="Un fait vrai, mais incroyable">
+      Une question s&apos;affiche : sa vraie réponse est surprenante — c&apos;est
+      tout l&apos;intérêt.
+    </Rule>
+    <Rule n={2} title="Inventez vos bobards">
+      Le téléphone circule : chacun écrit en secret une fausse réponse la plus
+      crédible possible.
+    </Rule>
+    <Rule n={3} title="Votez">
+      Deuxième circulation : chacun vote pour la réponse qu&apos;il croit
+      vraie (impossible de voter pour la sienne).
+    </Rule>
+    <Rule n={4} title="Les points">
+      Trouver la vérité : +2. Chaque joueur piégé par TON bobard : +1 pour
+      toi.
+    </Rule>
+    <Rule n={5} title="La révélation">
+      Les bobards tombent un à un avec leurs victimes… la vérité arrive en
+      dernier, anecdote à l&apos;appui. Meilleur score après 5 manches =
+      Mythomane d&apos;or.
+    </Rule>
+  </>
+);
+
 function Shell({
   children,
   subtitle,
@@ -588,17 +615,18 @@ function Shell({
             <p className="eyebrow text-mist">Le Bobard</p>
             {subtitle && <p className="mt-0.5 text-xs text-mist">{subtitle}</p>}
           </div>
-          {onReset ? (
-            <button
-              onClick={onReset}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
-              aria-label="Recommencer"
-            >
-              ↺
-            </button>
-          ) : (
-            <span className="h-10 w-10" />
-          )}
+          <div className="flex gap-2">
+            <RulesButton title="Le Bobard">{RULES}</RulesButton>
+            {onReset && (
+              <button
+                onClick={onReset}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
+                aria-label="Recommencer"
+              >
+                ↺
+              </button>
+            )}
+          </div>
         </header>
         {children}
       </div>

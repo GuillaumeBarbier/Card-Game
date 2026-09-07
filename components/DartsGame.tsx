@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
+import RulesButton, { Rule } from "./RulesSheet";
 
 /* ---------- géométrie de la cible ---------- */
 
@@ -61,6 +62,27 @@ interface DartsState {
 interface Snapshot {
   state: DartsState;
 }
+
+const RULES = (
+  <>
+    <Rule n={1} title="Le principe">
+      Chaque joueur part de 301 ou 501 points et doit descendre à exactement
+      zéro. Trois fléchettes par tour, passage de joueur automatique.
+    </Rule>
+    <Rule n={2} title="Compter un lancer">
+      Après chaque fléchette réelle, tape la zone touchée sur la cible : les
+      anneaux extérieur et intermédiaire valent double et triple, le centre
+      25 et 50. « Raté » = 0, ⌫ corrige une erreur de saisie.
+    </Rule>
+    <Rule n={3} title="Le bust">
+      Si un lancer te fait passer sous zéro (ou tomber à 1), le tour est
+      annulé : retour au score de début de tour.
+    </Rule>
+    <Rule n={4} title="La victoire">
+      Premier joueur à exactement 0 gagne la partie.
+    </Rule>
+  </>
+);
 
 const DARTS_KEY = "entrenous.darts";
 
@@ -288,6 +310,9 @@ export default function DartsGame() {
               ←
             </Link>
             <p className="eyebrow text-mist">Fléchettes</p>
+            <span className="ml-auto">
+              <RulesButton title="Fléchettes">{RULES}</RulesButton>
+            </span>
           </header>
 
           <div className="flex flex-1 flex-col justify-center pb-safe pb-10">
@@ -374,13 +399,16 @@ export default function DartsGame() {
           ←
         </Link>
         <p className="eyebrow text-mist">Fléchettes · {state.target}</p>
-        <button
-          onClick={reset}
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
-          aria-label="Nouvelle partie"
-        >
-          ↺
-        </button>
+        <div className="flex gap-2">
+          <RulesButton title="Fléchettes">{RULES}</RulesButton>
+          <button
+            onClick={reset}
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
+            aria-label="Nouvelle partie"
+          >
+            ↺
+          </button>
+        </div>
       </header>
 
       {/* scores */}

@@ -16,6 +16,7 @@ import {
 } from "@/lib/familles";
 import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
+import RulesButton, { Rule } from "./RulesSheet";
 
 /* ---------- état du jeu ---------- */
 
@@ -728,6 +729,28 @@ export default function SeptFamilles() {
 
 /* ---------- coquille commune ---------- */
 
+const RULES = (
+  <>
+    <Rule n={1} title="Le but">
+      Réunir les 4 chiffres d&apos;une même couleur pour poser la famille.
+      Celui qui pose le plus de familles gagne.
+    </Rule>
+    <Rule n={2} title="Demander une carte">
+      À ton tour : choisis une couleur que tu as déjà en main, le chiffre qui
+      te manque, et le joueur à qui tu le demandes — « le 1 Rose ! ».
+    </Rule>
+    <Rule n={3} title="Il l'a ? Il la donne">
+      S&apos;il a la carte, elle passe dans ta main et tu rejoues. Sinon,
+      pioche automatique : la bonne carte = tu rejoues, sinon c&apos;est au
+      joueur demandé de jouer.
+    </Rule>
+    <Rule n={4} title="Zéro triche">
+      L&apos;app distribue, vérifie les demandes et pose les familles
+      complètes toute seule. On ne voit sa main qu&apos;à son tour.
+    </Rule>
+  </>
+);
+
 function Shell({ children, onReset }: { children: React.ReactNode; onReset?: () => void }) {
   return (
     <div className="flex min-h-dvh flex-col">
@@ -743,17 +766,18 @@ function Shell({ children, onReset }: { children: React.ReactNode; onReset?: () 
             ←
           </Link>
           <p className="eyebrow text-mist">7 Familles</p>
-          {onReset ? (
-            <button
-              onClick={onReset}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
-              aria-label="Nouvelle partie"
-            >
-              ↺
-            </button>
-          ) : (
-            <span className="h-10 w-10" />
-          )}
+          <div className="flex gap-2">
+            <RulesButton title="7 Familles">{RULES}</RulesButton>
+            {onReset && (
+              <button
+                onClick={onReset}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
+                aria-label="Nouvelle partie"
+              >
+                ↺
+              </button>
+            )}
+          </div>
         </header>
         {children}
       </div>

@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import CATEGORIES from "@/data/bombe.json";
 import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
+import RulesButton, { Rule } from "./RulesSheet";
 
 interface BombeCat {
   cat: string;
@@ -366,6 +367,28 @@ export default function LaBombe() {
   );
 }
 
+const RULES = (
+  <>
+    <Rule n={1} title="En cercle">
+      Installez-vous dans l&apos;ordre des prénoms — le téléphone tournera dans
+      ce sens.
+    </Rule>
+    <Rule n={2} title="Un mot, on passe">
+      Une catégorie s&apos;affiche. Dis un mot valide à voix haute, tape
+      « MOT DIT — JE PASSE » et donne le téléphone au suivant. Interdit de
+      répéter un mot déjà dit !
+    </Rule>
+    <Rule n={3} title="BOUM 💥">
+      La bombe explose après un temps aléatoire — impossible de prédire quand.
+      Celui qui la tient a perdu la manche : éliminé, ou pardonné si le groupe
+      est d&apos;humeur clémente.
+    </Rule>
+    <Rule n={4} title="Dernier survivant">
+      Nouvelle catégorie à chaque manche. Le dernier joueur en vie gagne.
+    </Rule>
+  </>
+);
+
 function Shell({
   children,
   subtitle,
@@ -392,17 +415,18 @@ function Shell({
             <p className="eyebrow text-mist">La Bombe</p>
             {subtitle && <p className="mt-0.5 text-xs text-mist">{subtitle}</p>}
           </div>
-          {onReset ? (
-            <button
-              onClick={onReset}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
-              aria-label="Recommencer"
-            >
-              ↺
-            </button>
-          ) : (
-            <span className="h-10 w-10" />
-          )}
+          <div className="flex gap-2">
+            <RulesButton title="La Bombe">{RULES}</RulesButton>
+            {onReset && (
+              <button
+                onClick={onReset}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/[0.04]"
+                aria-label="Recommencer"
+              >
+                ↺
+              </button>
+            )}
+          </div>
         </header>
         {children}
       </div>

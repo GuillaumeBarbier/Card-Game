@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import PAIRS from "@/data/undercover.json";
 import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
+import RulesButton, { Rule } from "./RulesSheet";
 
 /* ---------- règles de points ---------- */
 const PTS_FIRST = 2; // démasqué au premier vote : +2 par joueur (sauf l'intrus)
@@ -634,6 +635,30 @@ export default function Undercover() {
 
 /* ---------- coquille ---------- */
 
+const RULES = (
+  <>
+    <Rule n={1} title="Un mot pour tous… ou presque">
+      Tout le monde reçoit le même mot secret, sauf un joueur qui reçoit un mot
+      presque identique — sans savoir que c&apos;est lui l&apos;intrus.
+    </Rule>
+    <Rule n={2} title="Un indice chacun, à voix haute">
+      Dans l&apos;ordre affiché, chacun dit UN mot qui évoque son mot secret.
+      Trop précis : tu aides l&apos;intrus. Trop flou : tu deviens suspect.
+    </Rule>
+    <Rule n={3} title="Débattez, puis votez">
+      Le groupe désigne un suspect. Intrus démasqué : +2 points chacun
+      (+1 seulement à la seconde chance).
+    </Rule>
+    <Rule n={4} title="L'intrus peut gagner">
+      Deux votes ratés et l&apos;intrus file avec +4 points.
+    </Rule>
+    <Rule n={5} title="Bon à savoir">
+      Le 🏆 montre le classement à tout moment. « Changer de mots » annule le
+      tour sans distribuer de points.
+    </Rule>
+  </>
+);
+
 function Shell({
   children,
   subtitle,
@@ -663,6 +688,7 @@ function Shell({
             {subtitle && <p className="mt-0.5 text-xs text-mist">{subtitle}</p>}
           </div>
           <div className="flex gap-2">
+            <RulesButton title="Sous Couverture">{RULES}</RulesButton>
             {onRanking && (
               <button
                 onClick={onRanking}

@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import LOCATIONS from "@/data/espion.json";
 import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
+import RulesButton, { Rule } from "./RulesSheet";
 
 /* ---------- points ---------- */
 const PTS_FIRST = 2; // espion démasqué au premier vote
@@ -770,6 +771,35 @@ export default function Espion() {
 
 /* ---------- coquille ---------- */
 
+const RULES = (
+  <>
+    <Rule n={1} title="Un lieu, un espion">
+      Tous les joueurs voient le lieu de la manche et un rôle d&apos;ambiance.
+      L&apos;espion, lui, ne sait pas où vous êtes.
+    </Rule>
+    <Rule n={2} title="Interrogatoire">
+      Posez-vous des questions à tour de rôle (« Tu viens souvent ici ? »).
+      Répondez assez précis pour prouver que vous connaissez le lieu, assez
+      flou pour ne pas le souffler à l&apos;espion.
+    </Rule>
+    <Rule n={3} title="Les lieux possibles">
+      La liste des lieux candidats est consultable par tout le monde — c&apos;est
+      dedans que l&apos;espion pioche ses hypothèses.
+    </Rule>
+    <Rule n={4} title="Accusez !">
+      À tout moment : vote du groupe. Espion pris : +2 chacun (+1 à la seconde
+      chance ou au vote de fin de temps). Erreur : +4 pour l&apos;espion.
+    </Rule>
+    <Rule n={5} title="Le coup de théâtre">
+      L&apos;espion peut interrompre la partie et deviner le lieu : correct,
+      +4 pour lui ; raté, +2 pour les agents.
+    </Rule>
+    <Rule n={6} title="Temps écoulé">
+      À la fin du chrono, vote final obligatoire — un seul essai.
+    </Rule>
+  </>
+);
+
 function Shell({
   children,
   subtitle,
@@ -799,6 +829,7 @@ function Shell({
             {subtitle && <p className="mt-0.5 text-xs text-mist">{subtitle}</p>}
           </div>
           <div className="flex gap-2">
+            <RulesButton title="L'Espion">{RULES}</RulesButton>
             {onRanking && (
               <button
                 onClick={onRanking}
