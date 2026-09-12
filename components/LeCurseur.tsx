@@ -8,7 +8,7 @@ import { dismissKeyboard, loadProfile, vibrate } from "@/lib/store";
 import ConfettiRain from "./ConfettiRain";
 import RulesButton, { Rule } from "./RulesSheet";
 
-const TOTAL_ROUNDS = 7;
+const ROUND_CHOICES = [7, 14, 21];
 // zone cible : ±5 → 4 pts, ±10 → 3 pts, ±16 → 2 pts
 const RINGS = [
   { d: 5, pts: 4 },
@@ -20,6 +20,7 @@ type Phase = "setup" | "handoff" | "target" | "clue" | "place" | "reveal" | "end
 
 interface CState {
   players: string[];
+  totalRounds: number;
   round: number;
   score: number;
   seer: number;
@@ -36,8 +37,7 @@ function pointsFor(diff: number): number {
   return 0;
 }
 
-function verdictFor(score: number): string {
-  const max = TOTAL_ROUNDS * 4;
+function verdictFor(score: number, max: number): string {
   const ratio = score / max;
   if (ratio >= 0.85) return "Fusionnels. C'en est presque inquiétant.";
   if (ratio >= 0.65) return "Belle connexion — vous vous devinez.";
@@ -49,6 +49,7 @@ function verdictFor(score: number): string {
 export default function LeCurseur() {
   const [state, setState] = useState<CState | null>(null);
   const [names, setNames] = useState<string[]>(["", ""]);
+  const [totalRounds, setTotalRounds] = useState(7);
   const [cursor, setCursor] = useState(50);
   const [lastPts, setLastPts] = useState<number | null>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -60,7 +61,10 @@ export default function LeCurseur() {
       const saved = localStorage.getItem(KEY);
       if (saved) {
         const s = JSON.parse(saved) as CState;
-        if (s.players?.length >= 2 && s.phase !== "end") setState(s);
+        if (s.players?.length >= 2 && s.phase !== "end") {
+          s.totalRounds = s.totalRounds ?? 7;
+          setState(s);
+        }
       }
     } catch {
       /* ignore */
@@ -98,6 +102,7 @@ export default function LeCurseur() {
     persist(
       newRound({
         players: list,
+        totalRounds,
         round: 1,
         score: 0,
         seer: Math.floor(Math.random() * list.length),
@@ -140,7 +145,7 @@ export default function LeCurseur() {
     setCursor(50);
     setLastPts(null);
     update((s) => {
-      if (s.round >= TOTAL_ROUNDS) {
+      if (s.round >= s.totalRounds) {
         s.phase = "end";
       } else {
         s.round += 1;
@@ -172,7 +177,22 @@ export default function LeCurseur() {
             longueur d&apos;onde ?
           </p>
 
-          <div className="mt-6 space-y-2.5">
+          <p className="eyebrow mt-6 mb-2 text-mist">Nombre de manches</p>
+          <div className="flex rounded-full border border-line bg-white/[0.04] p-1">
+            {ROUND_CHOICES.map((n) => (
+              <button
+                key={n}
+                onClick={() => setTotalRounds(n)}
+                className={`flex-1 rounded-full py-3 text-sm font-medium transition-colors ${
+                  totalRounds === n ? "bg-cream text-ink" : "text-mist"
+                }`}
+              >
+                {n}
+              </button>
+            ))}
+          </div>
+
+          <div className="mt-4 space-y-2.5">
             {names.map((n, i) => (
               <div key={i} className="flex gap-2">
                 <input
@@ -209,7 +229,7 @@ export default function LeCurseur() {
             disabled={validCount < 2}
             className="mt-6 w-full rounded-full bg-flame py-4.5 font-semibold text-ink shadow-[0_10px_40px_-10px_rgba(255,77,46,0.6)] active:scale-[0.98] transition-transform disabled:opacity-30"
           >
-            {validCount < 2 ? "2 joueurs minimum" : `Jouer (${TOTAL_ROUNDS} manches)`}
+            {validCount < 2 ? "2 joueurs minimum" : `Jouer (${totalRounds} manches)`}
           </button>
         </div>
       </Shell>
@@ -221,7 +241,7 @@ export default function LeCurseur() {
 
   /* ---------- fin ---------- */
   if (state.phase === "end") {
-    const max = TOTAL_ROUNDS * 4;
+    const max = state.totalRounds * 4;
     return (
       <Shell onReset={reset}>
         {state.score / max >= 0.65 && <ConfettiRain />}
@@ -232,7 +252,7 @@ export default function LeCurseur() {
             <span className="text-3xl text-mist"> / {max}</span>
           </p>
           <p className="mt-4 max-w-64 text-sm leading-relaxed text-mist">
-            {verdictFor(state.score)}
+            {verdictFor(state.score, max)}
           </p>
           <button
             onClick={() => {
@@ -248,7 +268,7 @@ export default function LeCurseur() {
   }
 
   return (
-    <Shell subtitle={`Manche ${state.round}/${TOTAL_ROUNDS} · ${state.score} pts`} onReset={reset}>
+    <Shell subtitle={`Manche ${state.round}/${state.totalRounds} · ${state.score} pts`} onReset={reset}>
       {/* ---------- passage au voyant ---------- */}
       {state.phase === "handoff" && (
         <div className="flex flex-1 flex-col justify-center pb-safe pb-8 text-center">
@@ -373,7 +393,7 @@ export default function LeCurseur() {
                 onClick={next}
                 className="mt-8 w-full rounded-full bg-cream py-4.5 font-semibold text-ink active:scale-[0.98] transition-transform"
               >
-                {state.round >= TOTAL_ROUNDS ? "Voir le score final" : "Manche suivante"}
+                {state.round >= state.totalRounds ? "Voir le score final" : "Manche suivante"}
               </button>
             </motion.div>
           )}
@@ -483,8 +503,8 @@ const RULES = (
       Plein cœur : 4 points. Puis 3, 2, ou 0 selon la distance.
     </Rule>
     <Rule n={5} title="Score d'équipe">
-      7 manches en changeant de voyant. Total sur 28 — et verdict sur votre
-      longueur d&apos;onde.
+      7, 14 ou 21 manches (au choix au départ) en changeant de voyant à
+      chaque fois. Verdict final sur votre longueur d&apos;onde.
     </Rule>
   </>
 );
