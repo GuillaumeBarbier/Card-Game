@@ -2,12 +2,21 @@ name: Build & publish Docker image
 
 on:
   push:
+    # Pas de build pour un commit qui ne touche que la documentation.
+    paths-ignore:
+      - "docs/**"
+      - "**/*.md"
     branches: [main, claude/couple-card-game-app-mln9kf]
   workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
+
+# Un nouveau push annule la build devenue obsolete au lieu de la laisser finir.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
